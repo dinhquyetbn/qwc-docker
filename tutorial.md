@@ -7,3 +7,6 @@ POSTGRES_PASSWORD=worldbank123
 3. #### Pull submodule ####
 - git submodule init
 - git submodule update
+4. #### Build docker image ####
+# Build image qwc-map-viewer
+- docker build -t sourcepole/qwc-map-viewer-base:latest .

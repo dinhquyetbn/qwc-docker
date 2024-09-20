@@ -24,7 +24,7 @@ services:
     volumes:
      - ./volumes/db:/var/lib/postgresql/docker
      # If you don't want/need the demo data, you can remove this line
-     - ./volumes/demo-data/setup-demo-data.sh:/docker-entrypoint-initdb.d/2_setup-demo-data.sh
+     #  - ./volumes/demo-data/setup-demo-data.sh:/docker-entrypoint-initdb.d/2_setup-demo-data.sh
     ports:
      - "127.0.0.1:5439:5432"
     healthcheck:
@@ -125,7 +125,8 @@ services:
 
   qwc-map-viewer:
     # Pre-built qwc2 app
-    image: sourcepole/qwc-map-viewer-demo:latest-2024-lts
+    # image: sourcepole/qwc-map-viewer-demo:latest-2024-lts
+    image: sourcepole/qwc-map-viewer-base:latest
     # Or with own viewer build placed in volumes/qwc2
     # image: sourcepole/qwc-map-viewer-base:latest-2024-lts
     # Update config.json with:
@@ -145,7 +146,9 @@ services:
       #- ./volumes/qwc2:/qwc2:ro
 
   qwc-admin-gui:
-    image: sourcepole/qwc-admin-gui:latest-2024-lts
+    # image: sourcepole/qwc-admin-gui:latest-2024-lts
+    build:
+      context: ./qwc-services/qwc-admin-gui
     environment:
       <<: *qwc-service-variables
       # Don't enable JWT CSRF protection for admin gui, it conflicts with CSRF protection offered by Flask-WTF
@@ -163,10 +166,10 @@ services:
       - ./pg_service.conf:/srv/pg_service.conf:ro
       - ./volumes/config:/srv/qwc_service/config:ro
       # required by themes plugin:
-      # - ./volumes/config-in:/srv/qwc_service/config-in:rw
-      # - ./volumes/qwc2:/qwc2
-      # - ./volumes/qgs-resources:/qgs-resources
-      # - ./volumes/info-templates:/info_templates
+      - ./volumes/config-in:/srv/qwc_service/config-in:rw
+      - ./volumes/qwc2:/qwc2
+      - ./volumes/qgs-resources:/qgs-resources
+      - ./volumes/info-templates:/info_templates
 
   # qwc-registration-gui:
   #   image: sourcepole/qwc-registration-gui:latest-2024-lts

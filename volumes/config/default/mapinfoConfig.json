@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/qwc-services/qwc-mapinfo-service/raw/master/schemas/qwc-mapinfo-service.json",
+  "$schema": "https://github.com/qwc-services/qwc-mapinfo-service/raw/2024-lts/schemas/qwc-mapinfo-service.json",
   "service": "mapinfo",
   "config": {
     "queries": [
