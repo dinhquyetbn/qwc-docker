@@ -1,3 +1,7 @@
 [submodule "volumes/qgis-server-plugins"]
 	path = volumes/qgis-server-plugins
 	url = https://github.com/qwc-services/qwc-qgis-server-plugins.git
+[submodule "qwc-services/qwc-admin-gui"]
+	path = qwc-services/qwc-admin-gui
+	url = https://github.com/dinhquyetbn/qwc-admin-gui.git
+	branch = develop_dev_2024_lts
