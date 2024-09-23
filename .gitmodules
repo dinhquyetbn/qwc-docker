@@ -5,3 +5,7 @@
 	path = qwc-services/qwc-admin-gui
 	url = https://github.com/dinhquyetbn/qwc-admin-gui.git
 	branch = develop_dev_2024_lts
+[submodule "qwc-services/qwc2-demo-app"]
+	path = qwc-services/qwc2-demo-app
+	url = https://github.com/dinhquyetbn/qwc2-demo-app.git
+	branch = develop_dev_2024_ltsi
