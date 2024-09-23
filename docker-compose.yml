@@ -126,7 +126,9 @@ services:
   qwc-map-viewer:
     # Pre-built qwc2 app
     # image: sourcepole/qwc-map-viewer-demo:latest-2024-lts
-    image: sourcepole/qwc-map-viewer-base:latest
+    # image: sourcepole/qwc-map-viewer-base:latest
+    build:
+      context: ./qwc-services/qwc2-demo-app
     # Or with own viewer build placed in volumes/qwc2
     # image: sourcepole/qwc-map-viewer-base:latest-2024-lts
     # Update config.json with:
