@@ -5,8 +5,10 @@
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=worldbank123
 3. #### Pull submodule ####
+Chạy tại folder qwc-docker & qwc-services/qwc2-demo-app
 - git submodule init
 - git submodule update
 4. #### Build docker image ####
 # Build image qwc-map-viewer
+- cd qwc-services/qwc2-demo-app
 - docker build -t sourcepole/qwc-map-viewer-base:latest .
