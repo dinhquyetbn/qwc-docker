@@ -210,10 +210,13 @@
         "proxy_url_whitelist": [],
         "proxy_timeout": 60,
         "plugins": ["themes"],
-        "input_config_path": "/src/qwc_service/config-in",
+        "input_config_path": "/srv/qwc_service/config-in",
         "qwc2_path": "/qwc2",
         "qgs_resources_path": "/qgs-resources",
-        "ows_service_url": "/ows"
+        "ows_service_url": "/ows",
+        "info_templates_path": "/info_templates",
+        "ows_prefix": "/ows",
+        "default_qgis_server_url": "http://qwc-qgis-server/ows/"
       }
     },
     {

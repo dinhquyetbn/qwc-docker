@@ -145,6 +145,10 @@
               "cfg": {
                 "menuItems": [
                   {
+                    "key": "FeatureSearch",
+                    "icon": "search"
+                  },
+                  {
                     "key": "ThemeSwitcher",
                     "icon": "themes"
                   },
@@ -221,11 +225,13 @@
                   }
                 ],
                 "searchOptions": {
+                  "allowSearchFilters": true,
+                  "showLayerResultsBeforePlaces": true,
                   "minScaleDenom": 1000,
                   "showProviderSelection": true,
                   "providerSelectionAllowAll": true,
-                  "zoomToLayers": false,
-                  "showProvidersInPlaceholder": false
+                  "zoomToLayers": true,
+                  "showProvidersInPlaceholder": true
                 },
                 "appMenuClearsTask": true,
                 "appMenuFilterField": true,
@@ -482,6 +488,10 @@
               "cfg": {
                 "menuItems": [
                   {
+                    "key": "FeatureSearch",
+                    "icon": "search"
+                  },
+                  {
                     "key": "ThemeSwitcher",
                     "icon": "themes"
                   },
@@ -587,11 +597,13 @@
                   }
                 ],
                 "searchOptions": {
+                  "allowSearchFilters": true,
+                  "showLayerResultsBeforePlaces": true,
                   "minScaleDenom": 1000,
                   "showProviderSelection": true,
                   "providerSelectionAllowAll": true,
-                  "zoomToLayers": false,
-                  "showProvidersInPlaceholder": false
+                  "zoomToLayers": true,
+                  "showProvidersInPlaceholder": true
                 },
                 "appMenuClearsTask": true,
                 "appMenuFilterField": true,
@@ -1109,7 +1121,8 @@
               "image/png; mode=16bit",
               "image/png; mode=8bit",
               "image/png; mode=1bit",
-              "application/dxf"
+              "application/dxf",
+              "application/pdf"
             ],
             "infoFormats": [
               "text/plain",
@@ -1122,6 +1135,157 @@
             ],
             "printResolutions": [
               300
+            ]
+          },
+          {
+            "id": "ThuaDat_DacTinhGia_14102024",
+            "name": "ThuaDat_DacTinhGia_14102024",
+            "title": "test 123",
+            "description": "",
+            "wmsOnly": false,
+            "wms_name": "ThuaDat_DacTinhGia_14102024",
+            "url": "/ows/ThuaDat_DacTinhGia_14102024",
+            "attribution": {
+              "Title": "",
+              "OnlineResource": ""
+            },
+            "abstract": "",
+            "keywords": "",
+            "onlineResource": "",
+            "contact": {
+              "person": null,
+              "organization": null,
+              "position": null,
+              "phone": null,
+              "email": null
+            },
+            "mapCrs": "EPSG:3857",
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                105.612703,
+                10.090724,
+                105.653128,
+                10.124267
+              ]
+            },
+            "initialBbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                105.612703,
+                10.090724,
+                105.653128,
+                10.124267
+              ]
+            },
+            "sublayers": [
+              {
+                "name": "ThuaDat_DacTinhGia_25092024_Region",
+                "title": "ThuaDat_DacTinhGia_25092024_Region",
+                "visibility": true,
+                "geometryType": "MultiPolygon",
+                "queryable": true,
+                "styles": {
+                  "default": "default"
+                },
+                "style": "default",
+                "displayField": "GUID",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    105.612703,
+                    10.090724,
+                    105.653128,
+                    10.124267
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              },
+              {
+                "name": "ThuaDat_DacTinhGia_25092024_Region",
+                "title": "ThuaDat_DacTinhGia_25092024_Region",
+                "visibility": true,
+                "geometryType": "MultiPolygon",
+                "queryable": true,
+                "styles": {
+                  "mặc định": "mặc định"
+                },
+                "style": "mặc định",
+                "displayField": "GUID",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    105.612703,
+                    10.090724,
+                    105.653128,
+                    10.124267
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              }
+            ],
+            "expanded": true,
+            "drawingOrder": [
+              "ThuaDat_DacTinhGia_25092024_Region",
+              "ThuaDat_DacTinhGia_25092024_Region"
+            ],
+            "externalLayers": [],
+            "backgroundLayers": [],
+            "skipEmptyFeatureAttributes": false,
+            "searchProviders": [
+              "coordinates",
+              {
+                "provider": "qgis",
+                "params": {
+                  "title": "Search maLoaiDat",
+                  "featureCount": 100,
+                  "resultTitle": null,
+                  "description": "",
+                  "default": true,
+                  "group": "",
+                  "expression": {
+                    "ThuaDat_DacTinhGia_25092024_Region": "\"maLoaiDat\" ILIKE '%maLoaiDat%'"
+                  },
+                  "fields": {
+                    "maLoaiDat": {
+                      "label": "maLoaiDat",
+                      "type": "text"
+                    }
+                  }
+                }
+              }
+            ],
+            "editConfig": {},
+            "mapTips": false,
+            "thumbnail": "img/mapthumbs/default.jpg",
+            "tiled": false,
+            "availableFormats": [
+              "image/jpeg",
+              "image/png",
+              "image/png; mode=16bit",
+              "image/png; mode=8bit",
+              "image/png; mode=1bit",
+              "application/dxf",
+              "application/pdf"
+            ],
+            "infoFormats": [
+              "text/plain",
+              "text/html",
+              "text/xml",
+              "application/vnd.ogc.gml",
+              "application/vnd.ogc.gml/3.1.1",
+              "application/json",
+              "application/geo+json"
             ]
           },
           {
@@ -1313,7 +1477,8 @@
               "image/png; mode=16bit",
               "image/png; mode=8bit",
               "image/png; mode=1bit",
-              "application/dxf"
+              "application/dxf",
+              "application/pdf"
             ],
             "infoFormats": [
               "text/plain",

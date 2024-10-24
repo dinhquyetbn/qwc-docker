@@ -130,6 +130,7 @@
         "name":"TopBar",
         "cfg":{
           "menuItems":[
+            {"key": "FeatureSearch", "icon": "search"},
             {
               "key":"ThemeSwitcher",
               "icon":"themes"
@@ -207,11 +208,13 @@
             }
           ],
           "searchOptions":{
+            "allowSearchFilters": true,
+            "showLayerResultsBeforePlaces": true,
             "minScaleDenom":1000,
             "showProviderSelection":true,
             "providerSelectionAllowAll":true,
-            "zoomToLayers":false,
-            "showProvidersInPlaceholder":false
+            "zoomToLayers":true,
+            "showProvidersInPlaceholder":true
           },
           "appMenuClearsTask":true,
           "appMenuFilterField":true,
@@ -469,6 +472,7 @@
         "name":"TopBar",
         "cfg":{
           "menuItems":[
+            {"key": "FeatureSearch", "icon": "search"},
             {
               "key":"ThemeSwitcher",
               "icon":"themes"
@@ -575,11 +579,13 @@
             }
           ],
           "searchOptions":{
+            "allowSearchFilters": true,
+            "showLayerResultsBeforePlaces": true,
             "minScaleDenom":1000,
             "showProviderSelection":true,
             "providerSelectionAllowAll":true,
-            "zoomToLayers":false,
-            "showProvidersInPlaceholder":false
+            "zoomToLayers":true,
+            "showProvidersInPlaceholder":true
           },
           "appMenuClearsTask":true,
           "appMenuFilterField":true,

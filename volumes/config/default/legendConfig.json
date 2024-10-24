@@ -60,6 +60,26 @@
             }
           ]
         }
+      },
+      {
+        "name": "scan/test",
+        "root_layer": {
+          "name": "qwc_demo",
+          "layers": [
+            {
+              "name": "geographic_lines"
+            },
+            {
+              "name": "country_names"
+            },
+            {
+              "name": "states_provinces"
+            },
+            {
+              "name": "countries"
+            }
+          ]
+        }
       }
     ]
   }

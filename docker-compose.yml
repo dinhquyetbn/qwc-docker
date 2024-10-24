@@ -37,7 +37,7 @@ services:
       - ./pg_service.conf:/tmp/pg_service.conf:ro
 
   qwc-qgis-server:
-    image: sourcepole/qwc-qgis-server:3.34
+    image: sourcepole/qwc-qgis-server:3.38
     # ports:
     #   - "127.0.0.1:8001:80"
     volumes:
@@ -82,7 +82,7 @@ services:
       <<: *qwc-service-variables
       SERVICE_MOUNTPOINT: '/api/v1/data'
       ATTACHMENTS_BASE_DIR: '/attachments'
-      MAX_ATTACHMENT_FILE_SIZE: 1048576
+      MAX_ATTACHMENT_FILE_SIZE: 838860800
     volumes:
       - ./volumes/config:/srv/qwc_service/config:ro
       - ./volumes/attachments:/attachments
@@ -145,7 +145,7 @@ services:
       # When using qwc-map-viewer-demo:
       - ./volumes/qwc2/assets:/qwc2/assets:ro
       # When using own viewer build with qwc-map-viewer-base:
-      #- ./volumes/qwc2:/qwc2:ro
+      # - ./volumes/qwc2:/qwc2:ro
 
   qwc-admin-gui:
     # image: sourcepole/qwc-admin-gui:latest-2024-lts
