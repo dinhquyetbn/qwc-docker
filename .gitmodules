@@ -8,4 +8,8 @@
 [submodule "qwc-services/qwc2-demo-app"]
 	path = qwc-services/qwc2-demo-app
 	url = https://github.com/dinhquyetbn/qwc2-demo-app.git
-	branch = develop_dev_2024_ltsi
+	branch = develop_dev_2024_lts
+[submodule "qwc-services/qwc-db-auth"]
+	path = qwc-services/qwc-db-auth
+	url = https://github.com/dinhquyetbn/qwc-db-auth.git
+	branch = develop_dev_2024_lts
