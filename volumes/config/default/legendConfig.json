@@ -8,6 +8,20 @@
   "resources": {
     "wms_services": [
       {
+        "name": "Demo_ChauVanLiem",
+        "root_layer": {
+          "name": "Demo_ChauVanLiem",
+          "layers": [
+            {
+              "name": "DGT_CVL_Region"
+            },
+            {
+              "name": "ThuaDat_DacTinhGia_20112024_Region"
+            }
+          ]
+        }
+      },
+      {
         "name": "qwc_demo",
         "root_layer": {
           "name": "qwc_demo",
@@ -43,26 +57,6 @@
       },
       {
         "name": "scan/natural-earth-countries",
-        "root_layer": {
-          "name": "qwc_demo",
-          "layers": [
-            {
-              "name": "geographic_lines"
-            },
-            {
-              "name": "country_names"
-            },
-            {
-              "name": "states_provinces"
-            },
-            {
-              "name": "countries"
-            }
-          ]
-        }
-      },
-      {
-        "name": "scan/test",
         "root_layer": {
           "name": "qwc_demo",
           "layers": [

@@ -1138,13 +1138,13 @@
             ]
           },
           {
-            "id": "ThuaDat_DacTinhGia_14102024",
-            "name": "ThuaDat_DacTinhGia_14102024",
-            "title": "test 123",
+            "id": "Demo_ChauVanLiem",
+            "name": "Demo_ChauVanLiem",
+            "title": "Châu Văn Liêm",
             "description": "",
             "wmsOnly": false,
-            "wms_name": "ThuaDat_DacTinhGia_14102024",
-            "url": "/ows/ThuaDat_DacTinhGia_14102024",
+            "wms_name": "Demo_ChauVanLiem",
+            "url": "/ows/Demo_ChauVanLiem",
             "attribution": {
               "Title": "",
               "OnlineResource": ""
@@ -1160,10 +1160,13 @@
               "email": null
             },
             "mapCrs": "EPSG:3857",
+            "additionalMouseCrs": [
+              "EPSG:31983"
+            ],
             "bbox": {
               "crs": "EPSG:4326",
               "bounds": [
-                105.612703,
+                105.612632,
                 10.090724,
                 105.653128,
                 10.124267
@@ -1172,7 +1175,7 @@
             "initialBbox": {
               "crs": "EPSG:4326",
               "bounds": [
-                105.612703,
+                105.612632,
                 10.090724,
                 105.653128,
                 10.124267
@@ -1180,8 +1183,8 @@
             },
             "sublayers": [
               {
-                "name": "ThuaDat_DacTinhGia_25092024_Region",
-                "title": "ThuaDat_DacTinhGia_25092024_Region",
+                "name": "DGT_CVL_Region",
+                "title": "DGT_CVL_Region",
                 "visibility": true,
                 "geometryType": "MultiPolygon",
                 "queryable": true,
@@ -1194,7 +1197,7 @@
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    105.612703,
+                    105.612969,
                     10.090724,
                     105.653128,
                     10.124267
@@ -1207,24 +1210,24 @@
                 }
               },
               {
-                "name": "ThuaDat_DacTinhGia_25092024_Region",
-                "title": "ThuaDat_DacTinhGia_25092024_Region",
+                "name": "ThuaDat_DacTinhGia_20112024_Region",
+                "title": "ThuaDat_DacTinhGia_20112024_Region",
                 "visibility": true,
                 "geometryType": "MultiPolygon",
                 "queryable": true,
                 "styles": {
-                  "mặc định": "mặc định"
+                  "default": "default"
                 },
-                "style": "mặc định",
+                "style": "default",
                 "displayField": "GUID",
                 "opacity": 255,
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    105.612703,
-                    10.090724,
-                    105.653128,
-                    10.124267
+                    105.612632,
+                    10.090789,
+                    105.653102,
+                    10.124187
                   ]
                 },
                 "dimensions": [],
@@ -1236,39 +1239,19 @@
             ],
             "expanded": true,
             "drawingOrder": [
-              "ThuaDat_DacTinhGia_25092024_Region",
-              "ThuaDat_DacTinhGia_25092024_Region"
+              "ThuaDat_DacTinhGia_20112024_Region",
+              "DGT_CVL_Region"
             ],
             "externalLayers": [],
             "backgroundLayers": [],
             "skipEmptyFeatureAttributes": false,
             "searchProviders": [
-              "coordinates",
-              {
-                "provider": "qgis",
-                "params": {
-                  "title": "Search maLoaiDat",
-                  "featureCount": 100,
-                  "resultTitle": null,
-                  "description": "",
-                  "default": true,
-                  "group": "",
-                  "expression": {
-                    "ThuaDat_DacTinhGia_25092024_Region": "\"maLoaiDat\" ILIKE '%maLoaiDat%'"
-                  },
-                  "fields": {
-                    "maLoaiDat": {
-                      "label": "maLoaiDat",
-                      "type": "text"
-                    }
-                  }
-                }
-              }
+              "coordinates"
             ],
             "editConfig": {},
             "mapTips": false,
             "thumbnail": "img/mapthumbs/default.jpg",
-            "tiled": false,
+            "tiled": true,
             "availableFormats": [
               "image/jpeg",
               "image/png",

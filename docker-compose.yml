@@ -31,10 +31,10 @@ services:
       test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 10s
 
-  qwc-config-db-migrate:
-    image: sourcepole/qwc-base-db-migrate:latest-2024-lts
-    volumes:
-      - ./pg_service.conf:/tmp/pg_service.conf:ro
+  # qwc-config-db-migrate:
+  #   image: sourcepole/qwc-base-db-migrate:latest-2024-lts
+  #   volumes:
+  #     - ./pg_service.conf:/tmp/pg_service.conf:ro
 
   qwc-qgis-server:
     image: sourcepole/qwc-qgis-server:3.38
