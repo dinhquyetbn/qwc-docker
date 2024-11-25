@@ -117,6 +117,19 @@
         ],
         "skipEmptyFeatureAttributes": false,
         "backgroundLayers": []
+      },
+      {
+        "url": "/ows/Demo_ChauVanLiem_v2",
+        "title": "Ch\u00e2u V\u0103n Li\u00eam v2",
+        "default": true,
+        "tiled": false,
+        "mapTips": false,
+        "thumbnail": "default.jpg",
+        "attribution": "",
+        "attributionUrl": "",
+        "mapCrs": "EPSG:3857",
+        "skipEmptyFeatureAttributes": false,
+        "backgroundLayers": []
       }
     ],
     "backgroundLayers": [

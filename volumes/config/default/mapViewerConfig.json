@@ -1272,6 +1272,531 @@
             ]
           },
           {
+            "id": "Demo_ChauVanLiem_v2",
+            "name": "Demo_ChauVanLiem_v2",
+            "title": "Châu Văn Liêm v2",
+            "description": "",
+            "wmsOnly": false,
+            "wms_name": "Demo_ChauVanLiem_v2",
+            "url": "/ows/Demo_ChauVanLiem_v2",
+            "attribution": {
+              "Title": "",
+              "OnlineResource": ""
+            },
+            "abstract": "",
+            "keywords": "",
+            "onlineResource": "",
+            "contact": {
+              "person": null,
+              "organization": null,
+              "position": null,
+              "phone": null,
+              "email": null
+            },
+            "mapCrs": "EPSG:3857",
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                -0.001617,
+                -0.000765,
+                105.653128,
+                47.377751
+              ]
+            },
+            "initialBbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                -0.001617,
+                -0.000765,
+                105.653128,
+                47.377751
+              ]
+            },
+            "sublayers": [
+              {
+                "name": "Demo_ChauVanLiem_v2 — DGT_CVL_Region",
+                "title": "Demo_ChauVanLiem_v2 — DGT_CVL_Region",
+                "visibility": true,
+                "geometryType": "MultiPolygon",
+                "queryable": true,
+                "styles": {
+                  "default": "default"
+                },
+                "style": "default",
+                "displayField": "GUID",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    105.612969,
+                    10.090724,
+                    105.653128,
+                    10.124267
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              },
+              {
+                "name": "edit_lines",
+                "title": "edit_lines",
+                "visibility": true,
+                "geometryType": "LineString",
+                "queryable": true,
+                "styles": {
+                  "default": "default"
+                },
+                "style": "default",
+                "displayField": "name",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    8.542115,
+                    47.377069,
+                    8.542278,
+                    47.377544
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              },
+              {
+                "name": "edit_points",
+                "title": "edit_points",
+                "visibility": true,
+                "geometryType": "Point",
+                "queryable": true,
+                "styles": {
+                  "default": "default"
+                },
+                "style": "default",
+                "displayField": "name",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    -0.001617,
+                    -0.000765,
+                    0.001617,
+                    0.000765
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              },
+              {
+                "name": "edit_polygons",
+                "title": "edit_polygons",
+                "visibility": true,
+                "geometryType": "Polygon",
+                "queryable": true,
+                "styles": {
+                  "default": "default"
+                },
+                "style": "default",
+                "displayField": "name",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    8.541217,
+                    47.377464,
+                    8.541461,
+                    47.377751
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              },
+              {
+                "name": "Demo_ChauVanLiem_v2 — ThuaDat_DacTinhGia_20112024_Region",
+                "title": "Demo_ChauVanLiem_v2 — ThuaDat_DacTinhGia_20112024_Region",
+                "visibility": true,
+                "geometryType": "MultiPolygon",
+                "queryable": true,
+                "styles": {
+                  "default": "default"
+                },
+                "style": "default",
+                "displayField": "GUID",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    105.612632,
+                    10.090789,
+                    105.653102,
+                    10.124187
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              }
+            ],
+            "expanded": true,
+            "drawingOrder": [
+              "Demo_ChauVanLiem_v2 — ThuaDat_DacTinhGia_20112024_Region",
+              "edit_polygons",
+              "edit_points",
+              "edit_lines",
+              "Demo_ChauVanLiem_v2 — DGT_CVL_Region"
+            ],
+            "externalLayers": [],
+            "backgroundLayers": [],
+            "skipEmptyFeatureAttributes": false,
+            "searchProviders": [
+              "coordinates"
+            ],
+            "editConfig": {
+              "edit_lines": {
+                "layerName": "edit_lines",
+                "displayField": null,
+                "editDataset": "Demo_ChauVanLiem_v2.edit_lines",
+                "geomType": "LineString",
+                "form": ":/forms/autogen/Demo_ChauVanLiem_v2_edit_lines.ui?v=1732518010",
+                "fields": [
+                  {
+                    "id": "id",
+                    "name": "id",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -2147483648,
+                      "max": 2147483647,
+                      "required": true
+                    }
+                  },
+                  {
+                    "id": "name",
+                    "name": "name",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "maxlength": 32,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "description",
+                    "name": "description",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "num",
+                    "name": "num",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -2147483648,
+                      "max": 2147483647,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "value",
+                    "name": "value",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "pattern": "[0-9]+([\\.,][0-9]+)?",
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "type",
+                    "name": "type",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -32768,
+                      "max": 32767,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "amount",
+                    "name": "amount",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "numeric_precision": 5,
+                      "numeric_scale": 2,
+                      "min": -999.99,
+                      "max": 999.99,
+                      "step": 0.01,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "validated",
+                    "name": "validated",
+                    "type": "boolean",
+                    "data_type": "boolean",
+                    "constraints": {
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "datetime",
+                    "name": "datetime",
+                    "type": "date",
+                    "data_type": "date",
+                    "constraints": {
+                      "required": false
+                    }
+                  }
+                ]
+              },
+              "edit_points": {
+                "layerName": "edit_points",
+                "displayField": null,
+                "editDataset": "Demo_ChauVanLiem_v2.edit_points",
+                "geomType": "Point",
+                "form": ":/forms/autogen/Demo_ChauVanLiem_v2_edit_points.ui?v=1732518010",
+                "fields": [
+                  {
+                    "id": "id",
+                    "name": "id",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -2147483648,
+                      "max": 2147483647,
+                      "required": true
+                    }
+                  },
+                  {
+                    "id": "name",
+                    "name": "name",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "maxlength": 32,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "description",
+                    "name": "description",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "num",
+                    "name": "num",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -2147483648,
+                      "max": 2147483647,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "value",
+                    "name": "value",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "pattern": "[0-9]+([\\.,][0-9]+)?",
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "type",
+                    "name": "type",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -32768,
+                      "max": 32767,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "amount",
+                    "name": "amount",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "numeric_precision": 5,
+                      "numeric_scale": 2,
+                      "min": -999.99,
+                      "max": 999.99,
+                      "step": 0.01,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "validated",
+                    "name": "validated",
+                    "type": "boolean",
+                    "data_type": "boolean",
+                    "constraints": {
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "datetime",
+                    "name": "datetime",
+                    "type": "date",
+                    "data_type": "date",
+                    "constraints": {
+                      "required": false
+                    }
+                  }
+                ]
+              },
+              "edit_polygons": {
+                "layerName": "edit_polygons",
+                "displayField": null,
+                "editDataset": "Demo_ChauVanLiem_v2.edit_polygons",
+                "geomType": "Polygon",
+                "form": ":/forms/autogen/Demo_ChauVanLiem_v2_edit_polygons.ui?v=1732518010",
+                "fields": [
+                  {
+                    "id": "id",
+                    "name": "id",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -2147483648,
+                      "max": 2147483647,
+                      "required": true
+                    }
+                  },
+                  {
+                    "id": "name",
+                    "name": "name",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "maxlength": 32,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "description",
+                    "name": "description",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "num",
+                    "name": "num",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -2147483648,
+                      "max": 2147483647,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "value",
+                    "name": "value",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "pattern": "[0-9]+([\\.,][0-9]+)?",
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "type",
+                    "name": "type",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "min": -32768,
+                      "max": 32767,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "amount",
+                    "name": "amount",
+                    "type": "number",
+                    "data_type": "number",
+                    "constraints": {
+                      "numeric_precision": 5,
+                      "numeric_scale": 2,
+                      "min": -999.99,
+                      "max": 999.99,
+                      "step": 0.01,
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "validated",
+                    "name": "validated",
+                    "type": "boolean",
+                    "data_type": "boolean",
+                    "constraints": {
+                      "required": false
+                    }
+                  },
+                  {
+                    "id": "datetime",
+                    "name": "datetime",
+                    "type": "date",
+                    "data_type": "date",
+                    "constraints": {
+                      "required": false
+                    }
+                  }
+                ]
+              }
+            },
+            "mapTips": false,
+            "thumbnail": "img/mapthumbs/default.jpg",
+            "tiled": false,
+            "availableFormats": [
+              "image/jpeg",
+              "image/png",
+              "image/png; mode=16bit",
+              "image/png; mode=8bit",
+              "image/png; mode=1bit",
+              "application/dxf",
+              "application/pdf"
+            ],
+            "infoFormats": [
+              "text/plain",
+              "text/html",
+              "text/xml",
+              "application/vnd.ogc.gml",
+              "application/vnd.ogc.gml/3.1.1",
+              "application/json",
+              "application/geo+json"
+            ]
+          },
+          {
             "id": "scan/natural-earth-countries",
             "name": "scan/natural-earth-countries",
             "title": "QWC Services Demo WMS",

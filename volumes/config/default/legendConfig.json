@@ -22,6 +22,29 @@
         }
       },
       {
+        "name": "Demo_ChauVanLiem_v2",
+        "root_layer": {
+          "name": "Demo_ChauVanLiem_v2",
+          "layers": [
+            {
+              "name": "Demo_ChauVanLiem_v2 — DGT_CVL_Region"
+            },
+            {
+              "name": "edit_lines"
+            },
+            {
+              "name": "edit_points"
+            },
+            {
+              "name": "edit_polygons"
+            },
+            {
+              "name": "Demo_ChauVanLiem_v2 — ThuaDat_DacTinhGia_20112024_Region"
+            }
+          ]
+        }
+      },
+      {
         "name": "qwc_demo",
         "root_layer": {
           "name": "qwc_demo",
