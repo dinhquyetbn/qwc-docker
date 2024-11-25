@@ -64,6 +64,22 @@
   "themes": {
     "items": [
       {
+        "url": "/ows/DaNang_PBM_Shpfile",
+        "title": "TP \u0110\u00e0 N\u1eb5ng",
+        "default": false,
+        "tiled": false,
+        "mapTips": false,
+        "thumbnail": "default.jpg",
+        "attribution": "",
+        "attributionUrl": "",
+        "mapCrs": "EPSG:3857",
+        "additionalMouseCrs": [
+          "EPSG:31983"
+        ],
+        "skipEmptyFeatureAttributes": false,
+        "backgroundLayers": []
+      },
+      {
         "id": "Demo",
         "title": "Demo",
         "url": "/ows/qwc_demo",
@@ -101,35 +117,6 @@
           300
         ],
         "thumbnail": "default.jpg"
-      },
-      {
-        "url": "/ows/Demo_ChauVanLiem",
-        "title": "Ch\u00e2u V\u0103n Li\u00eam",
-        "default": true,
-        "tiled": true,
-        "mapTips": false,
-        "thumbnail": "default.jpg",
-        "attribution": "",
-        "attributionUrl": "",
-        "mapCrs": "EPSG:3857",
-        "additionalMouseCrs": [
-          "EPSG:31983"
-        ],
-        "skipEmptyFeatureAttributes": false,
-        "backgroundLayers": []
-      },
-      {
-        "url": "/ows/Demo_ChauVanLiem_v2",
-        "title": "Ch\u00e2u V\u0103n Li\u00eam v2",
-        "default": true,
-        "tiled": false,
-        "mapTips": false,
-        "thumbnail": "default.jpg",
-        "attribution": "",
-        "attributionUrl": "",
-        "mapCrs": "EPSG:3857",
-        "skipEmptyFeatureAttributes": false,
-        "backgroundLayers": []
       }
     ],
     "backgroundLayers": [

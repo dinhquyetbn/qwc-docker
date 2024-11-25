@@ -7,7 +7,7 @@
   "resources": {
     "datasets": [
       {
-        "name": "Demo_ChauVanLiem_v2.edit_lines",
+        "name": "DaNang_PBM_Shpfile.edit_lines",
         "db_url": "postgresql:///?service=qwc_geodb",
         "schema": "qwc_geodb",
         "table_name": "edit_lines",
@@ -107,7 +107,7 @@
         }
       },
       {
-        "name": "Demo_ChauVanLiem_v2.edit_points",
+        "name": "DaNang_PBM_Shpfile.edit_points",
         "db_url": "postgresql:///?service=qwc_geodb",
         "schema": "qwc_geodb",
         "table_name": "edit_points",
@@ -207,7 +207,7 @@
         }
       },
       {
-        "name": "Demo_ChauVanLiem_v2.edit_polygons",
+        "name": "DaNang_PBM_Shpfile.edit_polygons",
         "db_url": "postgresql:///?service=qwc_geodb",
         "schema": "qwc_geodb",
         "table_name": "edit_polygons",

@@ -8,38 +8,27 @@
   "resources": {
     "wms_services": [
       {
-        "name": "Demo_ChauVanLiem",
+        "name": "DaNang_PBM_Shpfile",
         "root_layer": {
-          "name": "Demo_ChauVanLiem",
+          "name": "DaNang_PBM_Shpfile",
           "layers": [
             {
-              "name": "DGT_CVL_Region"
-            },
-            {
-              "name": "ThuaDat_DacTinhGia_20112024_Region"
-            }
-          ]
-        }
-      },
-      {
-        "name": "Demo_ChauVanLiem_v2",
-        "root_layer": {
-          "name": "Demo_ChauVanLiem_v2",
-          "layers": [
-            {
-              "name": "Demo_ChauVanLiem_v2 — DGT_CVL_Region"
-            },
-            {
-              "name": "edit_lines"
+              "name": "edit_polygons"
             },
             {
               "name": "edit_points"
             },
             {
-              "name": "edit_polygons"
+              "name": "edit_lines"
             },
             {
-              "name": "Demo_ChauVanLiem_v2 — ThuaDat_DacTinhGia_20112024_Region"
+              "name": "NHA_CS_METADATA"
+            },
+            {
+              "name": "DAT_CS_METADATA"
+            },
+            {
+              "name": "OpenStreetMap"
             }
           ]
         }

@@ -8,548 +8,14 @@
   "resources": {
     "wms_services": [
       {
-        "name": "Demo_ChauVanLiem",
+        "name": "DaNang_PBM_Shpfile",
         "root_layer": {
-          "name": "Demo_ChauVanLiem",
+          "name": "DaNang_PBM_Shpfile",
           "title": "Untitled",
           "layers": [
             {
-              "name": "DGT_CVL_Region",
-              "title": "DGT_CVL_Region",
-              "attributes": [
-                {
-                  "name": "FeatureId"
-                },
-                {
-                  "name": "GUID"
-                },
-                {
-                  "name": "ParentGUID"
-                },
-                {
-                  "name": "soHieuToBa"
-                },
-                {
-                  "name": "soThuTuThu"
-                },
-                {
-                  "name": "trangThaiD"
-                },
-                {
-                  "name": "dienTich"
-                },
-                {
-                  "name": "dienTichPL"
-                },
-                {
-                  "name": "maLoaiDat"
-                },
-                {
-                  "name": "tenDuong"
-                },
-                {
-                  "name": "tuDoan"
-                },
-                {
-                  "name": "viTriThua"
-                },
-                {
-                  "name": "denDoan"
-                },
-                {
-                  "name": "quyenSuDun"
-                },
-                {
-                  "name": "quyenSoHuu"
-                },
-                {
-                  "name": "tranhChap"
-                },
-                {
-                  "name": "thoiHanSDD"
-                },
-                {
-                  "name": "hangDuong"
-                },
-                {
-                  "name": "beRongDuon"
-                },
-                {
-                  "name": "ketCauMatD"
-                },
-                {
-                  "name": "beRongViaH"
-                },
-                {
-                  "name": "doRongMatT"
-                },
-                {
-                  "name": "soMatTiepG"
-                },
-                {
-                  "name": "chieuSauTh"
-                },
-                {
-                  "name": "hinhThe"
-                },
-                {
-                  "name": "kichThuoc"
-                },
-                {
-                  "name": "kc_DuongBo"
-                },
-                {
-                  "name": "kc_BenXe"
-                },
-                {
-                  "name": "kc_CongVie"
-                },
-                {
-                  "name": "kc_Cho"
-                },
-                {
-                  "name": "kc_TruongH"
-                },
-                {
-                  "name": "kc_BenhVie"
-                },
-                {
-                  "name": "kc_TTHC"
-                },
-                {
-                  "name": "kc_BuuDien"
-                },
-                {
-                  "name": "kc_TTVHXH"
-                },
-                {
-                  "name": "kc_SVD"
-                },
-                {
-                  "name": "kc_TonGiao"
-                },
-                {
-                  "name": "kc_NghiaTr"
-                },
-                {
-                  "name": "huongDat"
-                },
-                {
-                  "name": "giaChuyenN"
-                },
-                {
-                  "name": "giaCuThe"
-                },
-                {
-                  "name": "thoiDiemCh"
-                },
-                {
-                  "name": "thoiDiemGi"
-                },
-                {
-                  "name": "donGia_Ban"
-                },
-                {
-                  "name": "LienKet"
-                },
-                {
-                  "name": "vungGT"
-                },
-                {
-                  "name": "colorVGT"
-                },
-                {
-                  "name": "thuaChuan"
-                },
-                {
-                  "name": "donGiaM2"
-                },
-                {
-                  "name": "heSo"
-                },
-                {
-                  "name": "maDoanDuon"
-                },
-                {
-                  "name": "daMucDich"
-                },
-                {
-                  "name": "donGiaP2M2"
-                },
-                {
-                  "name": "tongGiaTri"
-                },
-                {
-                  "name": "geometry"
-                },
-                {
-                  "name": "maptip"
-                }
-              ],
-              "display_field": "GUID"
-            },
-            {
-              "name": "ThuaDat_DacTinhGia_20112024_Region",
-              "title": "ThuaDat_DacTinhGia_20112024_Region",
-              "attributes": [
-                {
-                  "name": "FeatureId"
-                },
-                {
-                  "name": "GUID"
-                },
-                {
-                  "name": "ParentGUID"
-                },
-                {
-                  "name": "soHieuToBa"
-                },
-                {
-                  "name": "soThuTuThu"
-                },
-                {
-                  "name": "soMatTiepG"
-                },
-                {
-                  "name": "maLoaiDat"
-                },
-                {
-                  "name": "tenDuong"
-                },
-                {
-                  "name": "tuDoan"
-                },
-                {
-                  "name": "denDoan"
-                },
-                {
-                  "name": "viTriThua"
-                },
-                {
-                  "name": "trangThaiD"
-                },
-                {
-                  "name": "dienTich"
-                },
-                {
-                  "name": "dienTichPL"
-                },
-                {
-                  "name": "quyenSuDun"
-                },
-                {
-                  "name": "quyenSoHuu"
-                },
-                {
-                  "name": "tranhChap"
-                },
-                {
-                  "name": "thoiHanSDD"
-                },
-                {
-                  "name": "hangDuong"
-                },
-                {
-                  "name": "beRongDuon"
-                },
-                {
-                  "name": "ketCauMatD"
-                },
-                {
-                  "name": "beRongViaH"
-                },
-                {
-                  "name": "doRongMatT"
-                },
-                {
-                  "name": "chieuSauTh"
-                },
-                {
-                  "name": "hinhThe"
-                },
-                {
-                  "name": "kichThuoc"
-                },
-                {
-                  "name": "kc_DuongBo"
-                },
-                {
-                  "name": "kc_BenXe"
-                },
-                {
-                  "name": "kc_CongVie"
-                },
-                {
-                  "name": "kc_Cho"
-                },
-                {
-                  "name": "kc_TruongH"
-                },
-                {
-                  "name": "kc_BenhVie"
-                },
-                {
-                  "name": "kc_TTHC"
-                },
-                {
-                  "name": "kc_BuuDien"
-                },
-                {
-                  "name": "kc_TTVHXH"
-                },
-                {
-                  "name": "kc_SVD"
-                },
-                {
-                  "name": "kc_TonGiao"
-                },
-                {
-                  "name": "kc_NghiaTr"
-                },
-                {
-                  "name": "huongDat"
-                },
-                {
-                  "name": "giaChuyenN"
-                },
-                {
-                  "name": "giaCuThe"
-                },
-                {
-                  "name": "thoiDiemCh"
-                },
-                {
-                  "name": "thoiDiemGi"
-                },
-                {
-                  "name": "donGia_Ban"
-                },
-                {
-                  "name": "LienKet"
-                },
-                {
-                  "name": "vungGT"
-                },
-                {
-                  "name": "colorVGT"
-                },
-                {
-                  "name": "thuaChuan"
-                },
-                {
-                  "name": "donGiaM2"
-                },
-                {
-                  "name": "heSo"
-                },
-                {
-                  "name": "daMucDich"
-                },
-                {
-                  "name": "chuaDuDKDi"
-                },
-                {
-                  "name": "donGiaP2M2"
-                },
-                {
-                  "name": "tongGiaTri"
-                },
-                {
-                  "name": "geometry"
-                },
-                {
-                  "name": "maptip"
-                }
-              ],
-              "display_field": "GUID"
-            }
-          ]
-        }
-      },
-      {
-        "name": "Demo_ChauVanLiem_v2",
-        "root_layer": {
-          "name": "Demo_ChauVanLiem_v2",
-          "title": "Untitled",
-          "layers": [
-            {
-              "name": "Demo_ChauVanLiem_v2 — DGT_CVL_Region",
-              "title": "Demo_ChauVanLiem_v2 — DGT_CVL_Region",
-              "attributes": [
-                {
-                  "name": "FeatureId"
-                },
-                {
-                  "name": "GUID"
-                },
-                {
-                  "name": "ParentGUID"
-                },
-                {
-                  "name": "soHieuToBa"
-                },
-                {
-                  "name": "soThuTuThu"
-                },
-                {
-                  "name": "trangThaiD"
-                },
-                {
-                  "name": "dienTich"
-                },
-                {
-                  "name": "dienTichPL"
-                },
-                {
-                  "name": "maLoaiDat"
-                },
-                {
-                  "name": "tenDuong"
-                },
-                {
-                  "name": "tuDoan"
-                },
-                {
-                  "name": "viTriThua"
-                },
-                {
-                  "name": "denDoan"
-                },
-                {
-                  "name": "quyenSuDun"
-                },
-                {
-                  "name": "quyenSoHuu"
-                },
-                {
-                  "name": "tranhChap"
-                },
-                {
-                  "name": "thoiHanSDD"
-                },
-                {
-                  "name": "hangDuong"
-                },
-                {
-                  "name": "beRongDuon"
-                },
-                {
-                  "name": "ketCauMatD"
-                },
-                {
-                  "name": "beRongViaH"
-                },
-                {
-                  "name": "doRongMatT"
-                },
-                {
-                  "name": "soMatTiepG"
-                },
-                {
-                  "name": "chieuSauTh"
-                },
-                {
-                  "name": "hinhThe"
-                },
-                {
-                  "name": "kichThuoc"
-                },
-                {
-                  "name": "kc_DuongBo"
-                },
-                {
-                  "name": "kc_BenXe"
-                },
-                {
-                  "name": "kc_CongVie"
-                },
-                {
-                  "name": "kc_Cho"
-                },
-                {
-                  "name": "kc_TruongH"
-                },
-                {
-                  "name": "kc_BenhVie"
-                },
-                {
-                  "name": "kc_TTHC"
-                },
-                {
-                  "name": "kc_BuuDien"
-                },
-                {
-                  "name": "kc_TTVHXH"
-                },
-                {
-                  "name": "kc_SVD"
-                },
-                {
-                  "name": "kc_TonGiao"
-                },
-                {
-                  "name": "kc_NghiaTr"
-                },
-                {
-                  "name": "huongDat"
-                },
-                {
-                  "name": "giaChuyenN"
-                },
-                {
-                  "name": "giaCuThe"
-                },
-                {
-                  "name": "thoiDiemCh"
-                },
-                {
-                  "name": "thoiDiemGi"
-                },
-                {
-                  "name": "donGia_Ban"
-                },
-                {
-                  "name": "LienKet"
-                },
-                {
-                  "name": "vungGT"
-                },
-                {
-                  "name": "colorVGT"
-                },
-                {
-                  "name": "thuaChuan"
-                },
-                {
-                  "name": "donGiaM2"
-                },
-                {
-                  "name": "heSo"
-                },
-                {
-                  "name": "maDoanDuon"
-                },
-                {
-                  "name": "daMucDich"
-                },
-                {
-                  "name": "donGiaP2M2"
-                },
-                {
-                  "name": "tongGiaTri"
-                },
-                {
-                  "name": "geometry"
-                },
-                {
-                  "name": "maptip"
-                }
-              ],
-              "display_field": "GUID"
-            },
-            {
-              "name": "edit_lines",
-              "title": "edit_lines",
+              "name": "edit_polygons",
+              "title": "edit_polygons",
               "attributes": [
                 {
                   "name": "id"
@@ -628,8 +94,8 @@
               "display_field": "name"
             },
             {
-              "name": "edit_polygons",
-              "title": "edit_polygons",
+              "name": "edit_lines",
+              "title": "edit_lines",
               "attributes": [
                 {
                   "name": "id"
@@ -668,170 +134,140 @@
               "display_field": "name"
             },
             {
-              "name": "Demo_ChauVanLiem_v2 — ThuaDat_DacTinhGia_20112024_Region",
-              "title": "Demo_ChauVanLiem_v2 — ThuaDat_DacTinhGia_20112024_Region",
+              "name": "NHA_CS_METADATA",
+              "title": "NHA_CS_METADATA",
               "attributes": [
                 {
-                  "name": "FeatureId"
+                  "name": "OBJECTID_1"
                 },
                 {
-                  "name": "GUID"
+                  "name": "maTaiSan"
                 },
                 {
-                  "name": "ParentGUID"
+                  "name": "tenTaiSan"
                 },
                 {
-                  "name": "soHieuToBa"
+                  "name": "tenCoQuan"
                 },
                 {
-                  "name": "soThuTuThu"
+                  "name": "loaiCoQuan"
                 },
                 {
-                  "name": "soMatTiepG"
+                  "name": "maToThua"
                 },
                 {
-                  "name": "maLoaiDat"
+                  "name": "maThuaDat"
+                },
+                {
+                  "name": "soNha"
                 },
                 {
                   "name": "tenDuong"
                 },
                 {
-                  "name": "tuDoan"
+                  "name": "tenXa"
                 },
                 {
-                  "name": "denDoan"
+                  "name": "maXa"
                 },
                 {
-                  "name": "viTriThua"
+                  "name": "tenHuyen"
                 },
                 {
-                  "name": "trangThaiD"
+                  "name": "maHuyen"
                 },
                 {
-                  "name": "dienTich"
+                  "name": "tenTinh"
                 },
                 {
-                  "name": "dienTichPL"
+                  "name": "loaiNha"
                 },
                 {
-                  "name": "quyenSuDun"
+                  "name": "dienTichDa"
                 },
                 {
-                  "name": "quyenSoHuu"
+                  "name": "dienTichNh"
                 },
                 {
-                  "name": "tranhChap"
+                  "name": "dienTichKK"
                 },
                 {
-                  "name": "thoiHanSDD"
+                  "name": "tongSoNha"
                 },
                 {
-                  "name": "hangDuong"
+                  "name": "dienTichSa"
                 },
                 {
-                  "name": "beRongDuon"
+                  "name": "dienTichCh"
                 },
                 {
-                  "name": "ketCauMatD"
+                  "name": "dienTichMu"
                 },
                 {
-                  "name": "beRongViaH"
+                  "name": "dienTichTh"
                 },
                 {
-                  "name": "doRongMatT"
+                  "name": "dienTichO"
                 },
                 {
-                  "name": "chieuSauTh"
+                  "name": "dienTichLa"
                 },
                 {
-                  "name": "hinhThe"
+                  "name": "dienTichKh"
                 },
                 {
-                  "name": "kichThuoc"
+                  "name": "soCoSoNha"
                 },
                 {
-                  "name": "kc_DuongBo"
+                  "name": "nguyenGia"
                 },
                 {
-                  "name": "kc_BenXe"
+                  "name": "giaHienTai"
                 },
                 {
-                  "name": "kc_CongVie"
+                  "name": "hosoPhapLy"
                 },
                 {
-                  "name": "kc_Cho"
+                  "name": "lienketHS"
                 },
                 {
-                  "name": "kc_TruongH"
+                  "name": "giaoHS"
                 },
                 {
-                  "name": "kc_BenhVie"
+                  "name": "anhTSC"
                 },
                 {
-                  "name": "kc_TTHC"
+                  "name": "mucDichSD"
                 },
                 {
-                  "name": "kc_BuuDien"
+                  "name": "tinhtrangH"
                 },
                 {
-                  "name": "kc_TTVHXH"
+                  "name": "tinhTrangS"
                 },
                 {
-                  "name": "kc_SVD"
+                  "name": "soCoSoCXDN"
                 },
                 {
-                  "name": "kc_TonGiao"
+                  "name": "phanLoai"
                 },
                 {
-                  "name": "kc_NghiaTr"
+                  "name": "ngayThuNha"
                 },
                 {
-                  "name": "huongDat"
+                  "name": "ngayCapNha"
                 },
                 {
-                  "name": "giaChuyenN"
+                  "name": "ghiChu"
                 },
                 {
-                  "name": "giaCuThe"
+                  "name": "ObjectID"
                 },
                 {
-                  "name": "thoiDiemCh"
+                  "name": "Shape_Leng"
                 },
                 {
-                  "name": "thoiDiemGi"
-                },
-                {
-                  "name": "donGia_Ban"
-                },
-                {
-                  "name": "LienKet"
-                },
-                {
-                  "name": "vungGT"
-                },
-                {
-                  "name": "colorVGT"
-                },
-                {
-                  "name": "thuaChuan"
-                },
-                {
-                  "name": "donGiaM2"
-                },
-                {
-                  "name": "heSo"
-                },
-                {
-                  "name": "daMucDich"
-                },
-                {
-                  "name": "chuaDuDKDi"
-                },
-                {
-                  "name": "donGiaP2M2"
-                },
-                {
-                  "name": "tongGiaTri"
+                  "name": "Shape_Area"
                 },
                 {
                   "name": "geometry"
@@ -840,7 +276,138 @@
                   "name": "maptip"
                 }
               ],
-              "display_field": "GUID"
+              "display_field": "maTaiSan"
+            },
+            {
+              "name": "DAT_CS_METADATA",
+              "title": "DAT_CS_METADATA",
+              "attributes": [
+                {
+                  "name": "OBJECTID_1"
+                },
+                {
+                  "name": "maTaiSan"
+                },
+                {
+                  "name": "tenTaiSan"
+                },
+                {
+                  "name": "tenCoQuan"
+                },
+                {
+                  "name": "loaiCoQuan"
+                },
+                {
+                  "name": "maToThua"
+                },
+                {
+                  "name": "maThuaDat"
+                },
+                {
+                  "name": "soNha"
+                },
+                {
+                  "name": "tenDuong"
+                },
+                {
+                  "name": "tenXa"
+                },
+                {
+                  "name": "maXa"
+                },
+                {
+                  "name": "tenHuyen"
+                },
+                {
+                  "name": "maHuyen"
+                },
+                {
+                  "name": "tenTinh"
+                },
+                {
+                  "name": "dienTichDa"
+                },
+                {
+                  "name": "dienTichKK"
+                },
+                {
+                  "name": "dienTichMu"
+                },
+                {
+                  "name": "dienTichTh"
+                },
+                {
+                  "name": "dienTichO"
+                },
+                {
+                  "name": "dienTichLa"
+                },
+                {
+                  "name": "dienTichKh"
+                },
+                {
+                  "name": "soCoSo"
+                },
+                {
+                  "name": "giaDat"
+                },
+                {
+                  "name": "tinhTrangG"
+                },
+                {
+                  "name": "hosoPhapLy"
+                },
+                {
+                  "name": "lienketHS"
+                },
+                {
+                  "name": "giaoHS"
+                },
+                {
+                  "name": "anhTSC"
+                },
+                {
+                  "name": "mucDichSD"
+                },
+                {
+                  "name": "tinhtrangH"
+                },
+                {
+                  "name": "tinhTrangS"
+                },
+                {
+                  "name": "phanLoai"
+                },
+                {
+                  "name": "ngayThuNha"
+                },
+                {
+                  "name": "ngayCapNha"
+                },
+                {
+                  "name": "ghiChu"
+                },
+                {
+                  "name": "ObjectID"
+                },
+                {
+                  "name": "Shape_Leng"
+                },
+                {
+                  "name": "Shape_Area"
+                },
+                {
+                  "name": "geometry"
+                },
+                {
+                  "name": "maptip"
+                }
+              ],
+              "display_field": "maTaiSan"
+            },
+            {
+              "name": "OpenStreetMap",
+              "title": "OpenStreetMap"
             }
           ]
         }
