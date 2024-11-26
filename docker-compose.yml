@@ -136,7 +136,7 @@ services:
     # and generate service configuration
     environment:
       <<: *qwc-service-variables
-      SERVICE_MOUNTPOINT: '/'
+      SERVICE_MOUNTPOINT: '/map_viewer'
     # ports:
     #   - "127.0.0.1:5030:9090"
     volumes:
