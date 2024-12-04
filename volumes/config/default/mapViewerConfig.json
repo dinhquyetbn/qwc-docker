@@ -881,63 +881,9 @@
                   "crs": "EPSG:4326",
                   "bounds": [
                     8.541217,
-                    47.377464,
-                    8.541461,
+                    16.051698,
+                    108.188234,
                     47.377751
-                  ]
-                },
-                "dimensions": [],
-                "attribution": {
-                  "Title": null,
-                  "OnlineResource": null
-                }
-              },
-              {
-                "name": "edit_points",
-                "title": "edit_points",
-                "visibility": true,
-                "geometryType": "Point",
-                "queryable": true,
-                "styles": {
-                  "default": "default"
-                },
-                "style": "default",
-                "displayField": "name",
-                "opacity": 255,
-                "bbox": {
-                  "crs": "EPSG:4326",
-                  "bounds": [
-                    -0.001617,
-                    -0.000765,
-                    0.001617,
-                    0.000765
-                  ]
-                },
-                "dimensions": [],
-                "attribution": {
-                  "Title": null,
-                  "OnlineResource": null
-                }
-              },
-              {
-                "name": "edit_lines",
-                "title": "edit_lines",
-                "visibility": true,
-                "geometryType": "LineString",
-                "queryable": true,
-                "styles": {
-                  "default": "default"
-                },
-                "style": "default",
-                "displayField": "name",
-                "opacity": 255,
-                "bbox": {
-                  "crs": "EPSG:4326",
-                  "bounds": [
-                    8.542115,
-                    47.377069,
-                    8.542278,
-                    47.377544
                   ]
                 },
                 "dimensions": [],
@@ -1032,8 +978,6 @@
               "OpenStreetMap",
               "DAT_CS_METADATA",
               "NHA_CS_METADATA",
-              "edit_lines",
-              "edit_points",
               "edit_polygons"
             ],
             "externalLayers": [],
@@ -1043,236 +987,12 @@
               "coordinates"
             ],
             "editConfig": {
-              "edit_lines": {
-                "layerName": "edit_lines",
-                "displayField": "name",
-                "editDataset": "DaNang_PBM_Shpfile.edit_lines",
-                "geomType": "LineString",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_edit_lines.ui?v=1732546977",
-                "fields": [
-                  {
-                    "id": "id",
-                    "name": "id",
-                    "type": "number",
-                    "data_type": "number",
-                    "constraints": {
-                      "min": -2147483648,
-                      "max": 2147483647,
-                      "required": true,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "name",
-                    "name": "name",
-                    "type": "text",
-                    "data_type": "text",
-                    "constraints": {
-                      "maxlength": 32,
-                      "required": false,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "description",
-                    "name": "description",
-                    "type": "text",
-                    "data_type": "text",
-                    "constraints": {
-                      "required": false,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "num",
-                    "name": "num",
-                    "type": "number",
-                    "data_type": "number",
-                    "constraints": {
-                      "min": -2147483648,
-                      "max": 2147483647,
-                      "required": false,
-                      "step": 1,
-                      "prec": 0
-                    }
-                  },
-                  {
-                    "id": "value",
-                    "name": "value",
-                    "type": "text",
-                    "data_type": "text",
-                    "constraints": {
-                      "pattern": "[0-9]+([\\.,][0-9]+)?",
-                      "required": false,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "type",
-                    "name": "type",
-                    "type": "number",
-                    "data_type": "number",
-                    "constraints": {
-                      "min": -2147483648,
-                      "max": 2147483647,
-                      "required": false,
-                      "step": 1,
-                      "prec": 0
-                    }
-                  },
-                  {
-                    "id": "amount",
-                    "name": "amount",
-                    "type": "number",
-                    "data_type": "number",
-                    "constraints": {
-                      "numeric_precision": 5,
-                      "numeric_scale": 2,
-                      "min": -999.99,
-                      "max": 999.99,
-                      "step": 0.01,
-                      "required": false,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "validated",
-                    "name": "validated",
-                    "type": "boolean",
-                    "data_type": "boolean",
-                    "constraints": {
-                      "required": false
-                    }
-                  },
-                  {
-                    "id": "datetime",
-                    "name": "datetime",
-                    "type": "date",
-                    "data_type": "date",
-                    "constraints": {
-                      "required": false
-                    }
-                  }
-                ]
-              },
-              "edit_points": {
-                "layerName": "edit_points",
-                "displayField": "name",
-                "editDataset": "DaNang_PBM_Shpfile.edit_points",
-                "geomType": "Point",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_edit_points.ui?v=1732546977",
-                "fields": [
-                  {
-                    "id": "id",
-                    "name": "id",
-                    "type": "number",
-                    "data_type": "number",
-                    "constraints": {
-                      "min": -2147483648,
-                      "max": 2147483647,
-                      "required": true,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "name",
-                    "name": "name",
-                    "type": "text",
-                    "data_type": "text",
-                    "constraints": {
-                      "maxlength": 32,
-                      "required": false,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "description",
-                    "name": "description",
-                    "type": "text",
-                    "data_type": "text",
-                    "constraints": {
-                      "required": false,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "num",
-                    "name": "num",
-                    "type": "number",
-                    "data_type": "number",
-                    "constraints": {
-                      "min": -2147483648,
-                      "max": 2147483647,
-                      "required": false,
-                      "step": 1,
-                      "prec": 0
-                    }
-                  },
-                  {
-                    "id": "value",
-                    "name": "value",
-                    "type": "text",
-                    "data_type": "text",
-                    "constraints": {
-                      "pattern": "[0-9]+([\\.,][0-9]+)?",
-                      "required": false,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "type",
-                    "name": "type",
-                    "type": "number",
-                    "data_type": "number",
-                    "constraints": {
-                      "min": -2147483648,
-                      "max": 2147483647,
-                      "required": false,
-                      "step": 1,
-                      "prec": 0
-                    }
-                  },
-                  {
-                    "id": "amount",
-                    "name": "amount",
-                    "type": "number",
-                    "data_type": "number",
-                    "constraints": {
-                      "numeric_precision": 5,
-                      "numeric_scale": 2,
-                      "min": -999.99,
-                      "max": 999.99,
-                      "step": 0.01,
-                      "required": false,
-                      "multiline": false
-                    }
-                  },
-                  {
-                    "id": "validated",
-                    "name": "validated",
-                    "type": "boolean",
-                    "data_type": "boolean",
-                    "constraints": {
-                      "required": false
-                    }
-                  },
-                  {
-                    "id": "datetime",
-                    "name": "datetime",
-                    "type": "date",
-                    "data_type": "date",
-                    "constraints": {
-                      "required": false
-                    }
-                  }
-                ]
-              },
               "edit_polygons": {
                 "layerName": "edit_polygons",
                 "displayField": "name",
                 "editDataset": "DaNang_PBM_Shpfile.edit_polygons",
                 "geomType": "Polygon",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_edit_polygons.ui?v=1732546977",
+                "form": ":/forms/autogen/DaNang_PBM_Shpfile_edit_polygons.ui?v=1733297243",
                 "fields": [
                   {
                     "id": "id",
@@ -1519,8 +1239,8 @@
                       "crs": "EPSG:4326",
                       "bounds": [
                         8.541217,
-                        47.377464,
-                        8.541461,
+                        16.051698,
+                        108.188234,
                         47.377751
                       ]
                     },

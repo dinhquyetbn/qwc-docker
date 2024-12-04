@@ -40,42 +40,6 @@
                 "info_template": true
               },
               {
-                "name": "edit_points",
-                "attributes": [
-                  "id",
-                  "name",
-                  "description",
-                  "num",
-                  "value",
-                  "type",
-                  "amount",
-                  "validated",
-                  "datetime",
-                  "geometry",
-                  "maptip"
-                ],
-                "queryable": true,
-                "info_template": true
-              },
-              {
-                "name": "edit_lines",
-                "attributes": [
-                  "id",
-                  "name",
-                  "description",
-                  "num",
-                  "value",
-                  "type",
-                  "amount",
-                  "validated",
-                  "datetime",
-                  "geometry",
-                  "maptip"
-                ],
-                "queryable": true,
-                "info_template": true
-              },
-              {
                 "name": "NHA_CS_METADATA",
                 "attributes": [
                   "OBJECTID_1",
@@ -674,44 +638,6 @@
           "bluemarble"
         ],
         "data_datasets": [
-          {
-            "name": "DaNang_PBM_Shpfile.edit_lines",
-            "attributes": [
-              "id",
-              "name",
-              "description",
-              "num",
-              "value",
-              "type",
-              "amount",
-              "validated",
-              "datetime"
-            ],
-            "writable": true,
-            "creatable": true,
-            "readable": true,
-            "updatable": true,
-            "deletable": true
-          },
-          {
-            "name": "DaNang_PBM_Shpfile.edit_points",
-            "attributes": [
-              "id",
-              "name",
-              "description",
-              "num",
-              "value",
-              "type",
-              "amount",
-              "validated",
-              "datetime"
-            ],
-            "writable": true,
-            "creatable": true,
-            "readable": true,
-            "updatable": true,
-            "deletable": true
-          },
           {
             "name": "DaNang_PBM_Shpfile.edit_polygons",
             "attributes": [

@@ -36,42 +36,6 @@
               "queryable": true
             },
             {
-              "name": "edit_points",
-              "title": "edit_points",
-              "attributes": [
-                "id",
-                "name",
-                "description",
-                "num",
-                "value",
-                "type",
-                "amount",
-                "validated",
-                "datetime",
-                "geometry",
-                "maptip"
-              ],
-              "queryable": true
-            },
-            {
-              "name": "edit_lines",
-              "title": "edit_lines",
-              "attributes": [
-                "id",
-                "name",
-                "description",
-                "num",
-                "value",
-                "type",
-                "amount",
-                "validated",
-                "datetime",
-                "geometry",
-                "maptip"
-              ],
-              "queryable": true
-            },
-            {
               "name": "NHA_CS_METADATA",
               "title": "NHA_CS_METADATA",
               "attributes": [
