@@ -61,7 +61,7 @@ services:
     #   - "127.0.0.1:5010:9090"
     volumes:
       - ./volumes/config-in:/srv/qwc_service/config-in:ro
-      - ./volumes/config:/srv/qwc_service/config-out
+      - ./volumes/config:/srv/qwc_service/config-out:rw
       - ./volumes/qwc2:/qwc2
       - ./volumes/qgs-resources:/data
       - ./pg_service.conf:/srv/pg_service.conf:ro
