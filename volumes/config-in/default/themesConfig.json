@@ -64,7 +64,7 @@
   "themes": {
     "items": [
       {
-        "url": "/ows/DaNang_PBM_Shpfile",
+        "url": "/ows/DaNang_PBM_Shpfile_v2",
         "title": "TP \u0110\u00e0 N\u1eb5ng",
         "default": false,
         "tiled": false,
@@ -73,9 +73,6 @@
         "attribution": "",
         "attributionUrl": "",
         "mapCrs": "EPSG:3857",
-        "additionalMouseCrs": [
-          "EPSG:31983"
-        ],
         "skipEmptyFeatureAttributes": false,
         "backgroundLayers": []
       },

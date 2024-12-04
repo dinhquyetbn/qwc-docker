@@ -821,13 +821,13 @@
         "title": "root",
         "items": [
           {
-            "id": "DaNang_PBM_Shpfile",
-            "name": "DaNang_PBM_Shpfile",
+            "id": "DaNang_PBM_Shpfile_v2",
+            "name": "DaNang_PBM_Shpfile_v2",
             "title": "TP Đà Nẵng",
             "description": "",
             "wmsOnly": false,
-            "wms_name": "DaNang_PBM_Shpfile",
-            "url": "/ows/DaNang_PBM_Shpfile",
+            "wms_name": "DaNang_PBM_Shpfile_v2",
+            "url": "/ows/DaNang_PBM_Shpfile_v2",
             "attribution": {
               "Title": "",
               "OnlineResource": ""
@@ -843,9 +843,6 @@
               "email": null
             },
             "mapCrs": "EPSG:3857",
-            "additionalMouseCrs": [
-              "EPSG:31983"
-            ],
             "bbox": {
               "crs": "EPSG:4326",
               "bounds": [
@@ -880,10 +877,10 @@
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    8.541217,
-                    16.051698,
-                    108.188234,
-                    47.377751
+                    -0.001617,
+                    -0.000765,
+                    0.001617,
+                    0.000765
                   ]
                 },
                 "dimensions": [],
@@ -893,8 +890,8 @@
                 }
               },
               {
-                "name": "NHA_CS_METADATA",
-                "title": "NHA_CS_METADATA",
+                "name": "DaNang_PBM_Shpfile — DAT_CS_METADATA",
+                "title": "DaNang_PBM_Shpfile — DAT_CS_METADATA",
                 "visibility": true,
                 "geometryType": "MultiPolygon",
                 "queryable": true,
@@ -907,37 +904,37 @@
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    107.875466,
-                    15.940039,
-                    108.274326,
-                    16.165272
-                  ]
-                },
-                "dimensions": [],
-                "attribution": {
-                  "Title": null,
-                  "OnlineResource": null
-                }
-              },
-              {
-                "name": "DAT_CS_METADATA",
-                "title": "DAT_CS_METADATA",
-                "visibility": true,
-                "geometryType": "MultiPolygon",
-                "queryable": true,
-                "styles": {
-                  "default": "default"
-                },
-                "style": "default",
-                "displayField": "maTaiSan",
-                "opacity": 255,
-                "bbox": {
-                  "crs": "EPSG:4326",
-                  "bounds": [
-                    108.012156,
+                    108.012162,
                     15.945713,
-                    108.264271,
+                    108.264278,
                     16.130104
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              },
+              {
+                "name": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
+                "title": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
+                "visibility": true,
+                "geometryType": "MultiPolygon",
+                "queryable": true,
+                "styles": {
+                  "default": "default"
+                },
+                "style": "default",
+                "displayField": "maTaiSan",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    107.875473,
+                    15.940039,
+                    108.274333,
+                    16.165273
                   ]
                 },
                 "dimensions": [],
@@ -976,8 +973,8 @@
             "expanded": true,
             "drawingOrder": [
               "OpenStreetMap",
-              "DAT_CS_METADATA",
-              "NHA_CS_METADATA",
+              "DaNang_PBM_Shpfile — NHA_CS_METADATA",
+              "DaNang_PBM_Shpfile — DAT_CS_METADATA",
               "edit_polygons"
             ],
             "externalLayers": [],
@@ -990,9 +987,9 @@
               "edit_polygons": {
                 "layerName": "edit_polygons",
                 "displayField": "name",
-                "editDataset": "DaNang_PBM_Shpfile.edit_polygons",
+                "editDataset": "DaNang_PBM_Shpfile_v2.edit_polygons",
                 "geomType": "Polygon",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_edit_polygons.ui?v=1733297243",
+                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733331269",
                 "fields": [
                   {
                     "id": "id",
@@ -1095,6 +1092,17 @@
                     "data_type": "date",
                     "constraints": {
                       "required": false
+                    }
+                  },
+                  {
+                    "id": "mataisan",
+                    "name": "Mã tài sản",
+                    "type": "text",
+                    "data_type": "text",
+                    "constraints": {
+                      "maxlength": 50,
+                      "required": true,
+                      "multiline": false
                     }
                   }
                 ]
@@ -1238,10 +1246,10 @@
                     "bbox": {
                       "crs": "EPSG:4326",
                       "bounds": [
-                        8.541217,
-                        16.051698,
-                        108.188234,
-                        47.377751
+                        -179.999996,
+                        -89.0,
+                        179.999996,
+                        89.0
                       ]
                     },
                     "dimensions": [],

@@ -7,7 +7,7 @@
   "resources": {
     "datasets": [
       {
-        "name": "DaNang_PBM_Shpfile.edit_polygons",
+        "name": "DaNang_PBM_Shpfile_v2.edit_polygons",
         "db_url": "postgresql:///?service=qwc_geodb",
         "schema": "qwc_geodb",
         "table_name": "edit_polygons",
@@ -104,6 +104,16 @@
             "data_type": "timestamp without time zone",
             "constraints": {
               "required": false
+            },
+            "joinfield": null
+          },
+          {
+            "name": "mataisan",
+            "data_type": "character varying",
+            "constraints": {
+              "maxlength": 50,
+              "required": true,
+              "multiline": false
             },
             "joinfield": null
           }

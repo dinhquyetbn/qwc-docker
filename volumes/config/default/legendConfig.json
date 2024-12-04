@@ -8,18 +8,18 @@
   "resources": {
     "wms_services": [
       {
-        "name": "DaNang_PBM_Shpfile",
+        "name": "DaNang_PBM_Shpfile_v2",
         "root_layer": {
-          "name": "DaNang_PBM_Shpfile",
+          "name": "DaNang_PBM_Shpfile_v2",
           "layers": [
             {
               "name": "edit_polygons"
             },
             {
-              "name": "NHA_CS_METADATA"
+              "name": "DaNang_PBM_Shpfile — DAT_CS_METADATA"
             },
             {
-              "name": "DAT_CS_METADATA"
+              "name": "DaNang_PBM_Shpfile — NHA_CS_METADATA"
             },
             {
               "name": "OpenStreetMap"

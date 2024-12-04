@@ -16,10 +16,10 @@
       "permissions": {
         "wms_services": [
           {
-            "name": "DaNang_PBM_Shpfile",
+            "name": "DaNang_PBM_Shpfile_v2",
             "layers": [
               {
-                "name": "DaNang_PBM_Shpfile"
+                "name": "DaNang_PBM_Shpfile_v2"
               },
               {
                 "name": "edit_polygons",
@@ -33,6 +33,7 @@
                   "amount",
                   "validated",
                   "datetime",
+                  "Mã tài sản",
                   "geometry",
                   "maptip"
                 ],
@@ -40,7 +41,54 @@
                 "info_template": true
               },
               {
-                "name": "NHA_CS_METADATA",
+                "name": "DaNang_PBM_Shpfile — DAT_CS_METADATA",
+                "attributes": [
+                  "OBJECTID_1",
+                  "maTaiSan",
+                  "tenTaiSan",
+                  "tenCoQuan",
+                  "loaiCoQuan",
+                  "maToThua",
+                  "maThuaDat",
+                  "soNha",
+                  "tenDuong",
+                  "tenXa",
+                  "maXa",
+                  "tenHuyen",
+                  "maHuyen",
+                  "tenTinh",
+                  "dienTichDa",
+                  "dienTichKK",
+                  "dienTichMu",
+                  "dienTichTh",
+                  "dienTichO",
+                  "dienTichLa",
+                  "dienTichKh",
+                  "soCoSo",
+                  "giaDat",
+                  "tinhTrangG",
+                  "hosoPhapLy",
+                  "lienketHS",
+                  "giaoHS",
+                  "anhTSC",
+                  "mucDichSD",
+                  "tinhtrangH",
+                  "tinhTrangS",
+                  "phanLoai",
+                  "ngayThuNha",
+                  "ngayCapNha",
+                  "ghiChu",
+                  "ObjectID",
+                  "Shape_Leng",
+                  "Shape_Area",
+                  "geometry",
+                  "maptip"
+                ],
+                "queryable": true,
+                "info_template": true
+              },
+              {
+                "name": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
                 "attributes": [
                   "OBJECTID_1",
                   "maTaiSan",
@@ -79,53 +127,6 @@
                   "tinhtrangH",
                   "tinhTrangS",
                   "soCoSoCXDN",
-                  "phanLoai",
-                  "ngayThuNha",
-                  "ngayCapNha",
-                  "ghiChu",
-                  "ObjectID",
-                  "Shape_Leng",
-                  "Shape_Area",
-                  "geometry",
-                  "maptip"
-                ],
-                "queryable": true,
-                "info_template": true
-              },
-              {
-                "name": "DAT_CS_METADATA",
-                "attributes": [
-                  "OBJECTID_1",
-                  "maTaiSan",
-                  "tenTaiSan",
-                  "tenCoQuan",
-                  "loaiCoQuan",
-                  "maToThua",
-                  "maThuaDat",
-                  "soNha",
-                  "tenDuong",
-                  "tenXa",
-                  "maXa",
-                  "tenHuyen",
-                  "maHuyen",
-                  "tenTinh",
-                  "dienTichDa",
-                  "dienTichKK",
-                  "dienTichMu",
-                  "dienTichTh",
-                  "dienTichO",
-                  "dienTichLa",
-                  "dienTichKh",
-                  "soCoSo",
-                  "giaDat",
-                  "tinhTrangG",
-                  "hosoPhapLy",
-                  "lienketHS",
-                  "giaoHS",
-                  "anhTSC",
-                  "mucDichSD",
-                  "tinhtrangH",
-                  "tinhTrangS",
                   "phanLoai",
                   "ngayThuNha",
                   "ngayCapNha",
@@ -203,6 +204,7 @@
                   "amount",
                   "validated",
                   "datetime",
+                  "mataisan",
                   "geometry",
                   "maptip"
                 ],
@@ -639,7 +641,7 @@
         ],
         "data_datasets": [
           {
-            "name": "DaNang_PBM_Shpfile.edit_polygons",
+            "name": "DaNang_PBM_Shpfile_v2.edit_polygons",
             "attributes": [
               "id",
               "name",
@@ -649,7 +651,8 @@
               "type",
               "amount",
               "validated",
-              "datetime"
+              "datetime",
+              "mataisan"
             ],
             "writable": true,
             "creatable": true,

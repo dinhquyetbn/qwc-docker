@@ -8,9 +8,9 @@
   "resources": {
     "wms_services": [
       {
-        "name": "DaNang_PBM_Shpfile",
+        "name": "DaNang_PBM_Shpfile_v2",
         "root_layer": {
-          "name": "DaNang_PBM_Shpfile",
+          "name": "DaNang_PBM_Shpfile_v2",
           "title": "Untitled",
           "layers": [
             {
@@ -45,6 +45,9 @@
                   "name": "datetime"
                 },
                 {
+                  "name": "Mã tài sản"
+                },
+                {
                   "name": "geometry"
                 },
                 {
@@ -54,8 +57,135 @@
               "display_field": "name"
             },
             {
-              "name": "NHA_CS_METADATA",
-              "title": "NHA_CS_METADATA",
+              "name": "DaNang_PBM_Shpfile — DAT_CS_METADATA",
+              "title": "DaNang_PBM_Shpfile — DAT_CS_METADATA",
+              "attributes": [
+                {
+                  "name": "OBJECTID_1"
+                },
+                {
+                  "name": "maTaiSan"
+                },
+                {
+                  "name": "tenTaiSan"
+                },
+                {
+                  "name": "tenCoQuan"
+                },
+                {
+                  "name": "loaiCoQuan"
+                },
+                {
+                  "name": "maToThua"
+                },
+                {
+                  "name": "maThuaDat"
+                },
+                {
+                  "name": "soNha"
+                },
+                {
+                  "name": "tenDuong"
+                },
+                {
+                  "name": "tenXa"
+                },
+                {
+                  "name": "maXa"
+                },
+                {
+                  "name": "tenHuyen"
+                },
+                {
+                  "name": "maHuyen"
+                },
+                {
+                  "name": "tenTinh"
+                },
+                {
+                  "name": "dienTichDa"
+                },
+                {
+                  "name": "dienTichKK"
+                },
+                {
+                  "name": "dienTichMu"
+                },
+                {
+                  "name": "dienTichTh"
+                },
+                {
+                  "name": "dienTichO"
+                },
+                {
+                  "name": "dienTichLa"
+                },
+                {
+                  "name": "dienTichKh"
+                },
+                {
+                  "name": "soCoSo"
+                },
+                {
+                  "name": "giaDat"
+                },
+                {
+                  "name": "tinhTrangG"
+                },
+                {
+                  "name": "hosoPhapLy"
+                },
+                {
+                  "name": "lienketHS"
+                },
+                {
+                  "name": "giaoHS"
+                },
+                {
+                  "name": "anhTSC"
+                },
+                {
+                  "name": "mucDichSD"
+                },
+                {
+                  "name": "tinhtrangH"
+                },
+                {
+                  "name": "tinhTrangS"
+                },
+                {
+                  "name": "phanLoai"
+                },
+                {
+                  "name": "ngayThuNha"
+                },
+                {
+                  "name": "ngayCapNha"
+                },
+                {
+                  "name": "ghiChu"
+                },
+                {
+                  "name": "ObjectID"
+                },
+                {
+                  "name": "Shape_Leng"
+                },
+                {
+                  "name": "Shape_Area"
+                },
+                {
+                  "name": "geometry"
+                },
+                {
+                  "name": "maptip"
+                }
+              ],
+              "display_field": "maTaiSan"
+            },
+            {
+              "name": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
+              "title": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
               "attributes": [
                 {
                   "name": "OBJECTID_1"
@@ -167,133 +297,6 @@
                 },
                 {
                   "name": "soCoSoCXDN"
-                },
-                {
-                  "name": "phanLoai"
-                },
-                {
-                  "name": "ngayThuNha"
-                },
-                {
-                  "name": "ngayCapNha"
-                },
-                {
-                  "name": "ghiChu"
-                },
-                {
-                  "name": "ObjectID"
-                },
-                {
-                  "name": "Shape_Leng"
-                },
-                {
-                  "name": "Shape_Area"
-                },
-                {
-                  "name": "geometry"
-                },
-                {
-                  "name": "maptip"
-                }
-              ],
-              "display_field": "maTaiSan"
-            },
-            {
-              "name": "DAT_CS_METADATA",
-              "title": "DAT_CS_METADATA",
-              "attributes": [
-                {
-                  "name": "OBJECTID_1"
-                },
-                {
-                  "name": "maTaiSan"
-                },
-                {
-                  "name": "tenTaiSan"
-                },
-                {
-                  "name": "tenCoQuan"
-                },
-                {
-                  "name": "loaiCoQuan"
-                },
-                {
-                  "name": "maToThua"
-                },
-                {
-                  "name": "maThuaDat"
-                },
-                {
-                  "name": "soNha"
-                },
-                {
-                  "name": "tenDuong"
-                },
-                {
-                  "name": "tenXa"
-                },
-                {
-                  "name": "maXa"
-                },
-                {
-                  "name": "tenHuyen"
-                },
-                {
-                  "name": "maHuyen"
-                },
-                {
-                  "name": "tenTinh"
-                },
-                {
-                  "name": "dienTichDa"
-                },
-                {
-                  "name": "dienTichKK"
-                },
-                {
-                  "name": "dienTichMu"
-                },
-                {
-                  "name": "dienTichTh"
-                },
-                {
-                  "name": "dienTichO"
-                },
-                {
-                  "name": "dienTichLa"
-                },
-                {
-                  "name": "dienTichKh"
-                },
-                {
-                  "name": "soCoSo"
-                },
-                {
-                  "name": "giaDat"
-                },
-                {
-                  "name": "tinhTrangG"
-                },
-                {
-                  "name": "hosoPhapLy"
-                },
-                {
-                  "name": "lienketHS"
-                },
-                {
-                  "name": "giaoHS"
-                },
-                {
-                  "name": "anhTSC"
-                },
-                {
-                  "name": "mucDichSD"
-                },
-                {
-                  "name": "tinhtrangH"
-                },
-                {
-                  "name": "tinhTrangS"
                 },
                 {
                   "name": "phanLoai"
@@ -453,6 +456,9 @@
                     },
                     {
                       "name": "datetime"
+                    },
+                    {
+                      "name": "mataisan"
                     },
                     {
                       "name": "geometry"
