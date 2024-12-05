@@ -24,7 +24,7 @@
               {
                 "name": "edit_polygons",
                 "attributes": [
-                  "id",
+                  "ID",
                   "name",
                   "description",
                   "num",

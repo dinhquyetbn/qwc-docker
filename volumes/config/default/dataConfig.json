@@ -19,7 +19,7 @@
             "constraints": {
               "min": -2147483648,
               "max": 2147483647,
-              "required": true,
+              "readOnly": true,
               "multiline": false
             },
             "joinfield": null
