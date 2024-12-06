@@ -2,3 +2,4 @@
 #api-gateway/nginx.conf
 .env
 #qwc-services
+uploads/

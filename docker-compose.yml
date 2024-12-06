@@ -47,6 +47,7 @@ services:
       # If can avoid issues where served capabilities do not reflect the state of a changed project,
       # with the downside that the serving capabilities will take longer.
       # - ./volumes/qgis-server-plugins/clear_capabilities:/usr/share/qgis/python/plugins/clear_capabilities:ro
+      - ./volumes/qgis-server-plugins/filter_geom:/usr/share/qgis/python/plugins/filter_geom:ro
 
   qwc-config-service:
     # image: sourcepole/qwc-config-generator:latest-2024-lts
@@ -173,6 +174,7 @@ services:
       - ./volumes/qwc2:/qwc2
       - ./volumes/qgs-resources:/qgs-resources
       - ./volumes/info-templates:/info_templates
+      - ./volumes/upload_files:/srv/qwc_service/static/uploads
 
   # qwc-registration-gui:
   #   image: sourcepole/qwc-registration-gui:latest-2024-lts
