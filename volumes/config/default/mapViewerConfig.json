@@ -877,10 +877,10 @@
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    -0.001617,
-                    -0.000765,
-                    0.001617,
-                    0.000765
+                    108.184925,
+                    16.050049,
+                    108.188347,
+                    16.052827
                   ]
                 },
                 "dimensions": [],
@@ -904,9 +904,9 @@
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    108.012156,
+                    108.012162,
                     15.945713,
-                    108.264271,
+                    108.264278,
                     16.130104
                   ]
                 },
@@ -931,10 +931,10 @@
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    107.875466,
+                    107.875473,
                     15.940039,
-                    108.274326,
-                    16.165272
+                    108.274333,
+                    16.165273
                   ]
                 },
                 "dimensions": [],
@@ -987,13 +987,14 @@
                 "params": {
                   "title": "Search layer maTaiSan",
                   "featureCount": null,
-                  "resultTitle": null,
+                  "resultTitle": "TS: {maTaiSan}",
                   "description": "",
                   "default": true,
                   "group": "",
                   "expression": {
                     "DaNang_PBM_Shpfile — NHA_CS_METADATA": "\"maTaiSan\" = '$TEXT$'",
-                    "DaNang_PBM_Shpfile — DAT_CS_METADATA": "\"maTaiSan\" = '$TEXT$'"
+                    "DaNang_PBM_Shpfile — DAT_CS_METADATA": "\"maTaiSan\" = '$TEXT$'",
+                    "edit_polygons": "\"maTaiSan\" = '$TEXT$'"
                   },
                   "fields": null
                 }
@@ -1005,7 +1006,7 @@
                 "displayField": "name",
                 "editDataset": "DaNang_PBM_Shpfile_v2.edit_polygons",
                 "geomType": "Polygon",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733832026",
+                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733849450",
                 "fields": [
                   {
                     "id": "id",
@@ -1111,7 +1112,7 @@
                     }
                   },
                   {
-                    "id": "mataisan",
+                    "id": "maTaiSan",
                     "name": "Mã tài sản",
                     "type": "text",
                     "data_type": "text",
@@ -1272,10 +1273,10 @@
                     "bbox": {
                       "crs": "EPSG:4326",
                       "bounds": [
-                        -179.999996,
-                        -89.0,
-                        179.999996,
-                        89.0
+                        108.184925,
+                        16.050049,
+                        108.188347,
+                        16.052827
                       ]
                     },
                     "dimensions": [],

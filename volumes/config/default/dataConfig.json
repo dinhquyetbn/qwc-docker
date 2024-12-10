@@ -108,7 +108,7 @@
             "joinfield": null
           },
           {
-            "name": "mataisan",
+            "name": "maTaiSan",
             "data_type": "character varying",
             "constraints": {
               "maxlength": 50,

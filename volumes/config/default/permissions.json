@@ -652,7 +652,7 @@
               "amount",
               "validated",
               "datetime",
-              "mataisan"
+              "maTaiSan"
             ],
             "writable": true,
             "creatable": true,

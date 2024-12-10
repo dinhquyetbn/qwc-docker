@@ -80,14 +80,13 @@
             "params": {
               "title": "Search layer maTaiSan",
               "featureCount": null,
-              "resultTitle": "TS: {maTaiSan}",
+              "resultTitle": null,
               "description": "",
               "default": true,
               "group": "",
               "expression": {
                 "DaNang_PBM_Shpfile \u2014 NHA_CS_METADATA": "\"maTaiSan\" = '$TEXT$'",
-                "DaNang_PBM_Shpfile \u2014 DAT_CS_METADATA": "\"maTaiSan\" = '$TEXT$'",
-                "edit_polygons": "\"maTaiSan\" = '$TEXT$'"
+                "DaNang_PBM_Shpfile \u2014 DAT_CS_METADATA": "\"maTaiSan\" = '$TEXT$'"
               },
               "fields": null
             }
