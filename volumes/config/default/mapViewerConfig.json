@@ -992,8 +992,8 @@
                   "default": true,
                   "group": "",
                   "expression": {
-                    "DaNang_PBM_Shpfile — NHA_CS_METADATA": "\"maTaiSan\" ILIKE '%$TEXT$%'",
-                    "DaNang_PBM_Shpfile — DAT_CS_METADATA": "\"maTaiSan\" ILIKE '%$TEXT$%'"
+                    "DaNang_PBM_Shpfile — NHA_CS_METADATA": "\"maTaiSan\" = '$TEXT$'",
+                    "DaNang_PBM_Shpfile — DAT_CS_METADATA": "\"maTaiSan\" = '$TEXT$'"
                   },
                   "fields": null
                 }
@@ -1005,7 +1005,7 @@
                 "displayField": "name",
                 "editDataset": "DaNang_PBM_Shpfile_v2.edit_polygons",
                 "geomType": "Polygon",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733808771",
+                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733832026",
                 "fields": [
                   {
                     "id": "id",
