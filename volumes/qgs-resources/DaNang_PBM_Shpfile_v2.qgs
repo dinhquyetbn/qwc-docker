@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Lê Ðình Quy?t" saveUser="dinhq" projectname="" saveDateTime="2024-12-05T09:33:53" version="3.38.2-Grenoble">
+<qgis version="3.38.2-Grenoble" projectname="" saveDateTime="2024-12-09T17:09:35" saveUser="dinhq" saveUserFull="Lê Ðình Quy?t">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -30,27 +30,27 @@
       <geographicflag>false</geographicflag>
     </spatialrefsys>
   </verticalCrs>
-  <elevation-shading-renderer edl-distance="0.5" hillshading-is-multidirectional="0" is-active="0" hillshading-is-active="0" edl-is-active="1" edl-strength="1000" light-altitude="45" light-azimuth="315" combined-method="0" hillshading-z-factor="1" edl-distance-unit="0"/>
+  <elevation-shading-renderer is-active="0" light-altitude="45" hillshading-is-active="0" light-azimuth="315" edl-is-active="1" hillshading-z-factor="1" combined-method="0" edl-distance-unit="0" hillshading-is-multidirectional="0" edl-distance="0.5" edl-strength="1000"/>
   <layer-tree-group>
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer name="edit_polygons" expanded="1" legend_exp="" source="service='qwc_geodb' sslmode=disable key='id' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;qwc_geodb&quot;.&quot;edit_polygons&quot; (geom)" providerKey="postgres" id="edit_polygons_9db01458_e15b_4ce3_b4ae_ede7310194c6" legend_split_behavior="0" checked="Qt::Checked" patch_size="-1,-1">
+    <layer-tree-layer patch_size="-1,-1" checked="Qt::Checked" id="edit_polygons_9db01458_e15b_4ce3_b4ae_ede7310194c6" name="edit_polygons" expanded="1" providerKey="postgres" legend_exp="" legend_split_behavior="0" source="service='qwc_geodb' sslmode=disable key='id' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;qwc_geodb&quot;.&quot;edit_polygons&quot; (geom)">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="DaNang_PBM_Shpfile — DAT_CS_METADATA" expanded="1" legend_exp="" source="./DaNang_PBM_Shpfile|layername=DAT_CS_METADATA" providerKey="ogr" id="DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9" legend_split_behavior="0" checked="Qt::Checked" patch_size="-1,-1">
+    <layer-tree-layer patch_size="-1,-1" checked="Qt::Checked" id="DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9" name="DaNang_PBM_Shpfile — DAT_CS_METADATA" expanded="1" providerKey="ogr" legend_exp="" legend_split_behavior="0" source="./DaNang_PBM_Shpfile/DAT_CS_METADATA.shp|layername=DAT_CS_METADATA">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="DaNang_PBM_Shpfile — NHA_CS_METADATA" expanded="1" legend_exp="" source="./DaNang_PBM_Shpfile|layername=NHA_CS_METADATA" providerKey="ogr" id="NHA_CS_METADATA_0a4663dc_2137_48a1_bce8_2fac4f9597ca" legend_split_behavior="0" checked="Qt::Checked" patch_size="-1,-1">
+    <layer-tree-layer patch_size="-1,-1" checked="Qt::Checked" id="NHA_CS_METADATA_0a4663dc_2137_48a1_bce8_2fac4f9597ca" name="DaNang_PBM_Shpfile — NHA_CS_METADATA" expanded="1" providerKey="ogr" legend_exp="" legend_split_behavior="0" source="./DaNang_PBM_Shpfile/NHA_CS_METADATA.shp|layername=NHA_CS_METADATA">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="OpenStreetMap" expanded="0" legend_exp="" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" providerKey="wms" id="_73a1464c_1829_4183_9cee_3627a03b9723" legend_split_behavior="0" checked="Qt::Checked" patch_size="-1,-1">
+    <layer-tree-layer patch_size="-1,-1" checked="Qt::Checked" id="_73a1464c_1829_4183_9cee_3627a03b9723" name="OpenStreetMap" expanded="0" providerKey="wms" legend_exp="" legend_split_behavior="0" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0">
       <customproperties>
         <Option/>
       </customproperties>
@@ -62,22 +62,22 @@
       <item>DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings mode="2" self-snapping="0" unit="1" maxScale="0" enabled="0" tolerance="12" scaleDependencyMode="0" minScale="0" type="1" intersection-snapping="0">
+  <snapping-settings maxScale="0" self-snapping="0" enabled="0" unit="1" tolerance="12" intersection-snapping="0" scaleDependencyMode="0" type="1" mode="2" minScale="0">
     <individual-layer-settings>
-      <layer-setting maxScale="0" enabled="0" tolerance="12" minScale="0" type="1" id="edit_polygons_9db01458_e15b_4ce3_b4ae_ede7310194c6" units="1"/>
-      <layer-setting maxScale="0" enabled="0" tolerance="12" minScale="0" type="1" id="NHA_CS_METADATA_0a4663dc_2137_48a1_bce8_2fac4f9597ca" units="1"/>
-      <layer-setting maxScale="0" enabled="0" tolerance="12" minScale="0" type="1" id="DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9" units="1"/>
+      <layer-setting maxScale="0" units="1" id="NHA_CS_METADATA_0a4663dc_2137_48a1_bce8_2fac4f9597ca" enabled="0" tolerance="12" type="1" minScale="0"/>
+      <layer-setting maxScale="0" units="1" id="edit_polygons_9db01458_e15b_4ce3_b4ae_ede7310194c6" enabled="0" tolerance="12" type="1" minScale="0"/>
+      <layer-setting maxScale="0" units="1" id="DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9" enabled="0" tolerance="12" type="1" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <polymorphicRelations/>
-  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>545390.7710186738986522</xmin>
-      <ymin>1768881.07689228700473905</ymin>
-      <xmax>547929.62077273544855416</xmax>
-      <ymax>1770392.12648935662582517</ymax>
+      <xmin>548181.71914829686284065</xmin>
+      <ymin>1771574.41879833093844354</ymin>
+      <xmax>551676.35776564106345177</xmax>
+      <ymax>1773654.3261525200214237</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -98,29 +98,29 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer name="edit_polygons" open="true" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" layerid="edit_polygons_9db01458_e15b_4ce3_b4ae_ede7310194c6" isInOverview="0"/>
+    <legendlayer checked="Qt::Checked" open="true" name="edit_polygons" showFeatureCount="0" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="edit_polygons_9db01458_e15b_4ce3_b4ae_ede7310194c6" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="DaNang_PBM_Shpfile — DAT_CS_METADATA" open="true" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" layerid="DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9" isInOverview="0"/>
+    <legendlayer checked="Qt::Checked" open="true" name="DaNang_PBM_Shpfile — DAT_CS_METADATA" showFeatureCount="0" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="DaNang_PBM_Shpfile — NHA_CS_METADATA" open="true" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" layerid="NHA_CS_METADATA_0a4663dc_2137_48a1_bce8_2fac4f9597ca" isInOverview="0"/>
+    <legendlayer checked="Qt::Checked" open="true" name="DaNang_PBM_Shpfile — NHA_CS_METADATA" showFeatureCount="0" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="NHA_CS_METADATA_0a4663dc_2137_48a1_bce8_2fac4f9597ca" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="OpenStreetMap" open="false" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
-      <filegroup hidden="false" open="false">
-        <legendlayerfile visible="1" layerid="_73a1464c_1829_4183_9cee_3627a03b9723" isInOverview="0"/>
+    <legendlayer checked="Qt::Checked" open="false" name="OpenStreetMap" showFeatureCount="0" drawingOrder="-1">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile layerid="_73a1464c_1829_4183_9cee_3627a03b9723" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
-  <main-annotation-layer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" refreshOnNotifyMessage="" maxScale="0" minScale="1e+08" legendPlaceholderImage="" type="annotation" autoRefreshTime="0" styleCategories="AllStyleCategories">
+  <main-annotation-layer refreshOnNotifyMessage="" maxScale="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" legendPlaceholderImage="" autoRefreshMode="Disabled" hasScaleBasedVisibilityFlag="0" type="annotation" styleCategories="AllStyleCategories" minScale="1e+08">
     <id>Annotations_c1ac1cc6_8caa_473e_b4ea_822a36082599</id>
     <datasource></datasource>
     <keywordList>
@@ -181,9 +181,21 @@
     <paintEffect/>
   </main-annotation-layer>
   <projectlayers>
-    <maplayer wkbType="MultiPolygon" simplifyDrawingHints="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" symbologyReferenceScale="-1" autoRefreshMode="Disabled" legendPlaceholderImage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" type="vector" labelsEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" minScale="100000000" readOnly="0">
+    <maplayer geometry="Polygon" simplifyLocal="1" symbologyReferenceScale="-1" legendPlaceholderImage="" type="vector" minScale="100000000" simplifyAlgorithm="0" autoRefreshMode="Disabled" maxScale="0" autoRefreshTime="0" simplifyMaxScale="1" wkbType="MultiPolygon" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" refreshOnNotifyMessage="" labelsEnabled="0" simplifyDrawingTol="1" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>527869.41199999954551458</xmin>
+        <ymin>1763640.21499999985098839</ymin>
+        <xmax>554808.98900000005960464</xmax>
+        <ymax>1783992.65000000037252903</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>108.01215613918405722</xmin>
+        <ymin>15.94571334462012047</ymin>
+        <xmax>108.26427053337664574</xmax>
+        <ymax>16.13010324599896705</ymax>
+      </wgs84extent>
       <id>DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9</id>
-      <datasource>./DaNang_PBM_Shpfile|layername=DAT_CS_METADATA</datasource>
+      <datasource>./DaNang_PBM_Shpfile/DAT_CS_METADATA.shp|layername=DAT_CS_METADATA</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -208,6 +220,15 @@
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <dates/>
         <fees></fees>
@@ -225,7 +246,15 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" dimensions="2" minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" minz="0" maxz="0" crs="" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
@@ -243,13 +272,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" startExpression="" limitMode="0" durationUnit="min" accumulate="0" endField="" enabled="0" startField="" fixedDuration="0" durationField="" endExpression="">
+      <temporal durationField="OBJECTID_1" endExpression="" fixedDuration="0" enabled="0" endField="" startExpression="" startField="" accumulate="0" limitMode="0" durationUnit="min" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation zoffset="0" extrusionEnabled="0" zscale="1" extrusion="0" respectLayerSymbol="1" binding="Centroid" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" clamping="Terrain" symbology="Line">
+      <elevation extrusionEnabled="0" extrusion="0" binding="Centroid" zscale="1" clamping="Terrain" symbology="Line" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" type="IndividualFeatures" zoffset="0">
         <data-defined-properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -258,7 +287,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="line" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="line">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -266,7 +295,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{8951ebf6-16f1-43bb-a008-8703fd854dcf}" class="SimpleLine" pass="0">
+            <layer locked="0" enabled="1" id="{8951ebf6-16f1-43bb-a008-8703fd854dcf}" pass="0" class="SimpleLine">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -307,7 +336,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="fill" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -315,7 +344,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{97d5027c-0f42-408c-b316-025567e148a6}" class="SimpleFill" pass="0">
+            <layer locked="0" enabled="1" id="{97d5027c-0f42-408c-b316-025567e148a6}" pass="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 <Option name="color" value="125,139,143,255,rgb:0.49019607843137253,0.54509803921568623,0.5607843137254902,1" type="QString"/>
@@ -340,7 +369,7 @@
           </symbol>
         </profileFillSymbol>
         <profileMarkerSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="marker" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="marker">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -348,7 +377,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{eb94db31-fca3-459d-a3de-688582e4ada3}" class="SimpleMarker" pass="0">
+            <layer locked="0" enabled="1" id="{eb94db31-fca3-459d-a3de-688582e4ada3}" pass="0" class="SimpleMarker">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -381,9 +410,9 @@
           </symbol>
         </profileMarkerSymbol>
       </elevation>
-      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0" referencescale="-1">
+      <renderer-v2 referencescale="-1" symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
         <symbols>
-          <symbol name="0" alpha="1" frame_rate="10" type="fill" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="0" is_animated="0" frame_rate="10" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -391,7 +420,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{07678b4a-c5f6-470b-928c-cc570c72a78b}" class="SimpleFill" pass="0">
+            <layer locked="0" enabled="1" id="{07678b4a-c5f6-470b-928c-cc570c72a78b}" pass="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 <Option name="color" value="145,82,45,255,rgb:0.56862745098039214,0.32156862745098042,0.17647058823529413,1" type="QString"/>
@@ -427,283 +456,390 @@
       </renderer-v2>
       <selection mode="Default">
         <selectionColor invalid="1"/>
+        <selectionSymbol>
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" enabled="1" id="{95b5f731-6126-4219-b74d-45aed1b258aa}" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="0,0,255,255,rgb:0,0,1,1" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </selectionSymbol>
       </selection>
       <customproperties>
-        <Option/>
+        <Option type="Map">
+          <Option name="dualview/previewExpressions" type="List">
+            <Option value="&quot;maTaiSan&quot;" type="QString"/>
+          </Option>
+          <Option name="embeddedWidgets/count" value="0" type="int"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory spacingUnitScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" minScaleDenominator="0" width="15" spacing="5" direction="0" labelPlacementMethod="XHeight" enabled="0" scaleBasedVisibility="0" height="15" rotationOffset="270" backgroundColor="#ffffff" penColor="#000000" spacingUnit="MM" opacity="1" penAlpha="255" penWidth="0" sizeType="MM" barWidth="5" backgroundAlpha="255" showAxis="1">
+          <fontProperties bold="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style="" italic="0" underline="0"/>
+          <axisSymbol>
+            <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="line">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <layer locked="0" enabled="1" id="{583bf3df-3b80-44a0-b152-2a80f09a94bf}" pass="0" class="SimpleLine">
+                <Option type="Map">
+                  <Option name="align_dash_pattern" value="0" type="QString"/>
+                  <Option name="capstyle" value="square" type="QString"/>
+                  <Option name="customdash" value="5;2" type="QString"/>
+                  <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="customdash_unit" value="MM" type="QString"/>
+                  <Option name="dash_pattern_offset" value="0" type="QString"/>
+                  <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                  <Option name="draw_inside_polygon" value="0" type="QString"/>
+                  <Option name="joinstyle" value="bevel" type="QString"/>
+                  <Option name="line_color" value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" type="QString"/>
+                  <Option name="line_style" value="solid" type="QString"/>
+                  <Option name="line_width" value="0.26" type="QString"/>
+                  <Option name="line_width_unit" value="MM" type="QString"/>
+                  <Option name="offset" value="0" type="QString"/>
+                  <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="offset_unit" value="MM" type="QString"/>
+                  <Option name="ring_filter" value="0" type="QString"/>
+                  <Option name="trim_distance_end" value="0" type="QString"/>
+                  <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                  <Option name="trim_distance_start" value="0" type="QString"/>
+                  <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                  <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                  <Option name="use_custom_dash" value="0" type="QString"/>
+                  <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                </Option>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" value="" type="QString"/>
+                    <Option name="properties"/>
+                    <Option name="type" value="collection" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" priority="0" obstacle="0" linePlacementFlags="18" placement="1" zIndex="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" value="0" type="double"/>
+            <Option name="allowedGapsEnabled" value="false" type="bool"/>
+            <Option name="allowedGapsLayer" value="" type="QString"/>
+          </Option>
+        </checkConfiguration>
       </geometryOptions>
       <legend showLabelLegend="0" type="default-vector"/>
       <referencedLayers/>
       <fieldConfiguration>
         <field name="OBJECTID_1" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maTaiSan" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenTaiSan" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenCoQuan" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="loaiCoQuan" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maToThua" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maThuaDat" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="soNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenDuong" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenXa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maXa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenHuyen" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maHuyen" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenTinh" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichDa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichKK" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichMu" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichTh" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichO" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichLa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichKh" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="soCoSo" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="giaDat" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tinhTrangG" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="hosoPhapLy" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="lienketHS" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="giaoHS" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="anhTSC" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="mucDichSD" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tinhtrangH" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tinhTrangS" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="phanLoai" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="ngayThuNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="ngayCapNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="ghiChu" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="ObjectID" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="Shape_Leng" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="Shape_Area" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -711,251 +847,291 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="OBJECTID_1"/>
-        <alias name="" index="1" field="maTaiSan"/>
-        <alias name="" index="2" field="tenTaiSan"/>
-        <alias name="" index="3" field="tenCoQuan"/>
-        <alias name="" index="4" field="loaiCoQuan"/>
-        <alias name="" index="5" field="maToThua"/>
-        <alias name="" index="6" field="maThuaDat"/>
-        <alias name="" index="7" field="soNha"/>
-        <alias name="" index="8" field="tenDuong"/>
-        <alias name="" index="9" field="tenXa"/>
-        <alias name="" index="10" field="maXa"/>
-        <alias name="" index="11" field="tenHuyen"/>
-        <alias name="" index="12" field="maHuyen"/>
-        <alias name="" index="13" field="tenTinh"/>
-        <alias name="" index="14" field="dienTichDa"/>
-        <alias name="" index="15" field="dienTichKK"/>
-        <alias name="" index="16" field="dienTichMu"/>
-        <alias name="" index="17" field="dienTichTh"/>
-        <alias name="" index="18" field="dienTichO"/>
-        <alias name="" index="19" field="dienTichLa"/>
-        <alias name="" index="20" field="dienTichKh"/>
-        <alias name="" index="21" field="soCoSo"/>
-        <alias name="" index="22" field="giaDat"/>
-        <alias name="" index="23" field="tinhTrangG"/>
-        <alias name="" index="24" field="hosoPhapLy"/>
-        <alias name="" index="25" field="lienketHS"/>
-        <alias name="" index="26" field="giaoHS"/>
-        <alias name="" index="27" field="anhTSC"/>
-        <alias name="" index="28" field="mucDichSD"/>
-        <alias name="" index="29" field="tinhtrangH"/>
-        <alias name="" index="30" field="tinhTrangS"/>
-        <alias name="" index="31" field="phanLoai"/>
-        <alias name="" index="32" field="ngayThuNha"/>
-        <alias name="" index="33" field="ngayCapNha"/>
-        <alias name="" index="34" field="ghiChu"/>
-        <alias name="" index="35" field="ObjectID"/>
-        <alias name="" index="36" field="Shape_Leng"/>
-        <alias name="" index="37" field="Shape_Area"/>
+        <alias index="0" field="OBJECTID_1" name=""/>
+        <alias index="1" field="maTaiSan" name=""/>
+        <alias index="2" field="tenTaiSan" name=""/>
+        <alias index="3" field="tenCoQuan" name=""/>
+        <alias index="4" field="loaiCoQuan" name=""/>
+        <alias index="5" field="maToThua" name=""/>
+        <alias index="6" field="maThuaDat" name=""/>
+        <alias index="7" field="soNha" name=""/>
+        <alias index="8" field="tenDuong" name=""/>
+        <alias index="9" field="tenXa" name=""/>
+        <alias index="10" field="maXa" name=""/>
+        <alias index="11" field="tenHuyen" name=""/>
+        <alias index="12" field="maHuyen" name=""/>
+        <alias index="13" field="tenTinh" name=""/>
+        <alias index="14" field="dienTichDa" name=""/>
+        <alias index="15" field="dienTichKK" name=""/>
+        <alias index="16" field="dienTichMu" name=""/>
+        <alias index="17" field="dienTichTh" name=""/>
+        <alias index="18" field="dienTichO" name=""/>
+        <alias index="19" field="dienTichLa" name=""/>
+        <alias index="20" field="dienTichKh" name=""/>
+        <alias index="21" field="soCoSo" name=""/>
+        <alias index="22" field="giaDat" name=""/>
+        <alias index="23" field="tinhTrangG" name=""/>
+        <alias index="24" field="hosoPhapLy" name=""/>
+        <alias index="25" field="lienketHS" name=""/>
+        <alias index="26" field="giaoHS" name=""/>
+        <alias index="27" field="anhTSC" name=""/>
+        <alias index="28" field="mucDichSD" name=""/>
+        <alias index="29" field="tinhtrangH" name=""/>
+        <alias index="30" field="tinhTrangS" name=""/>
+        <alias index="31" field="phanLoai" name=""/>
+        <alias index="32" field="ngayThuNha" name=""/>
+        <alias index="33" field="ngayCapNha" name=""/>
+        <alias index="34" field="ghiChu" name=""/>
+        <alias index="35" field="ObjectID" name=""/>
+        <alias index="36" field="Shape_Leng" name=""/>
+        <alias index="37" field="Shape_Area" name=""/>
       </aliases>
       <splitPolicies>
-        <policy policy="Duplicate" field="OBJECTID_1"/>
-        <policy policy="Duplicate" field="maTaiSan"/>
-        <policy policy="Duplicate" field="tenTaiSan"/>
-        <policy policy="Duplicate" field="tenCoQuan"/>
-        <policy policy="Duplicate" field="loaiCoQuan"/>
-        <policy policy="Duplicate" field="maToThua"/>
-        <policy policy="Duplicate" field="maThuaDat"/>
-        <policy policy="Duplicate" field="soNha"/>
-        <policy policy="Duplicate" field="tenDuong"/>
-        <policy policy="Duplicate" field="tenXa"/>
-        <policy policy="Duplicate" field="maXa"/>
-        <policy policy="Duplicate" field="tenHuyen"/>
-        <policy policy="Duplicate" field="maHuyen"/>
-        <policy policy="Duplicate" field="tenTinh"/>
-        <policy policy="Duplicate" field="dienTichDa"/>
-        <policy policy="Duplicate" field="dienTichKK"/>
-        <policy policy="Duplicate" field="dienTichMu"/>
-        <policy policy="Duplicate" field="dienTichTh"/>
-        <policy policy="Duplicate" field="dienTichO"/>
-        <policy policy="Duplicate" field="dienTichLa"/>
-        <policy policy="Duplicate" field="dienTichKh"/>
-        <policy policy="Duplicate" field="soCoSo"/>
-        <policy policy="Duplicate" field="giaDat"/>
-        <policy policy="Duplicate" field="tinhTrangG"/>
-        <policy policy="Duplicate" field="hosoPhapLy"/>
-        <policy policy="Duplicate" field="lienketHS"/>
-        <policy policy="Duplicate" field="giaoHS"/>
-        <policy policy="Duplicate" field="anhTSC"/>
-        <policy policy="Duplicate" field="mucDichSD"/>
-        <policy policy="Duplicate" field="tinhtrangH"/>
-        <policy policy="Duplicate" field="tinhTrangS"/>
-        <policy policy="Duplicate" field="phanLoai"/>
-        <policy policy="Duplicate" field="ngayThuNha"/>
-        <policy policy="Duplicate" field="ngayCapNha"/>
-        <policy policy="Duplicate" field="ghiChu"/>
-        <policy policy="Duplicate" field="ObjectID"/>
-        <policy policy="Duplicate" field="Shape_Leng"/>
-        <policy policy="Duplicate" field="Shape_Area"/>
+        <policy field="OBJECTID_1" policy="Duplicate"/>
+        <policy field="maTaiSan" policy="Duplicate"/>
+        <policy field="tenTaiSan" policy="Duplicate"/>
+        <policy field="tenCoQuan" policy="Duplicate"/>
+        <policy field="loaiCoQuan" policy="Duplicate"/>
+        <policy field="maToThua" policy="Duplicate"/>
+        <policy field="maThuaDat" policy="Duplicate"/>
+        <policy field="soNha" policy="Duplicate"/>
+        <policy field="tenDuong" policy="Duplicate"/>
+        <policy field="tenXa" policy="Duplicate"/>
+        <policy field="maXa" policy="Duplicate"/>
+        <policy field="tenHuyen" policy="Duplicate"/>
+        <policy field="maHuyen" policy="Duplicate"/>
+        <policy field="tenTinh" policy="Duplicate"/>
+        <policy field="dienTichDa" policy="Duplicate"/>
+        <policy field="dienTichKK" policy="Duplicate"/>
+        <policy field="dienTichMu" policy="Duplicate"/>
+        <policy field="dienTichTh" policy="Duplicate"/>
+        <policy field="dienTichO" policy="Duplicate"/>
+        <policy field="dienTichLa" policy="Duplicate"/>
+        <policy field="dienTichKh" policy="Duplicate"/>
+        <policy field="soCoSo" policy="Duplicate"/>
+        <policy field="giaDat" policy="Duplicate"/>
+        <policy field="tinhTrangG" policy="Duplicate"/>
+        <policy field="hosoPhapLy" policy="Duplicate"/>
+        <policy field="lienketHS" policy="Duplicate"/>
+        <policy field="giaoHS" policy="Duplicate"/>
+        <policy field="anhTSC" policy="Duplicate"/>
+        <policy field="mucDichSD" policy="Duplicate"/>
+        <policy field="tinhtrangH" policy="Duplicate"/>
+        <policy field="tinhTrangS" policy="Duplicate"/>
+        <policy field="phanLoai" policy="Duplicate"/>
+        <policy field="ngayThuNha" policy="Duplicate"/>
+        <policy field="ngayCapNha" policy="Duplicate"/>
+        <policy field="ghiChu" policy="Duplicate"/>
+        <policy field="ObjectID" policy="Duplicate"/>
+        <policy field="Shape_Leng" policy="Duplicate"/>
+        <policy field="Shape_Area" policy="Duplicate"/>
       </splitPolicies>
       <duplicatePolicies>
-        <policy policy="Duplicate" field="OBJECTID_1"/>
-        <policy policy="Duplicate" field="maTaiSan"/>
-        <policy policy="Duplicate" field="tenTaiSan"/>
-        <policy policy="Duplicate" field="tenCoQuan"/>
-        <policy policy="Duplicate" field="loaiCoQuan"/>
-        <policy policy="Duplicate" field="maToThua"/>
-        <policy policy="Duplicate" field="maThuaDat"/>
-        <policy policy="Duplicate" field="soNha"/>
-        <policy policy="Duplicate" field="tenDuong"/>
-        <policy policy="Duplicate" field="tenXa"/>
-        <policy policy="Duplicate" field="maXa"/>
-        <policy policy="Duplicate" field="tenHuyen"/>
-        <policy policy="Duplicate" field="maHuyen"/>
-        <policy policy="Duplicate" field="tenTinh"/>
-        <policy policy="Duplicate" field="dienTichDa"/>
-        <policy policy="Duplicate" field="dienTichKK"/>
-        <policy policy="Duplicate" field="dienTichMu"/>
-        <policy policy="Duplicate" field="dienTichTh"/>
-        <policy policy="Duplicate" field="dienTichO"/>
-        <policy policy="Duplicate" field="dienTichLa"/>
-        <policy policy="Duplicate" field="dienTichKh"/>
-        <policy policy="Duplicate" field="soCoSo"/>
-        <policy policy="Duplicate" field="giaDat"/>
-        <policy policy="Duplicate" field="tinhTrangG"/>
-        <policy policy="Duplicate" field="hosoPhapLy"/>
-        <policy policy="Duplicate" field="lienketHS"/>
-        <policy policy="Duplicate" field="giaoHS"/>
-        <policy policy="Duplicate" field="anhTSC"/>
-        <policy policy="Duplicate" field="mucDichSD"/>
-        <policy policy="Duplicate" field="tinhtrangH"/>
-        <policy policy="Duplicate" field="tinhTrangS"/>
-        <policy policy="Duplicate" field="phanLoai"/>
-        <policy policy="Duplicate" field="ngayThuNha"/>
-        <policy policy="Duplicate" field="ngayCapNha"/>
-        <policy policy="Duplicate" field="ghiChu"/>
-        <policy policy="Duplicate" field="ObjectID"/>
-        <policy policy="Duplicate" field="Shape_Leng"/>
-        <policy policy="Duplicate" field="Shape_Area"/>
+        <policy field="OBJECTID_1" policy="Duplicate"/>
+        <policy field="maTaiSan" policy="Duplicate"/>
+        <policy field="tenTaiSan" policy="Duplicate"/>
+        <policy field="tenCoQuan" policy="Duplicate"/>
+        <policy field="loaiCoQuan" policy="Duplicate"/>
+        <policy field="maToThua" policy="Duplicate"/>
+        <policy field="maThuaDat" policy="Duplicate"/>
+        <policy field="soNha" policy="Duplicate"/>
+        <policy field="tenDuong" policy="Duplicate"/>
+        <policy field="tenXa" policy="Duplicate"/>
+        <policy field="maXa" policy="Duplicate"/>
+        <policy field="tenHuyen" policy="Duplicate"/>
+        <policy field="maHuyen" policy="Duplicate"/>
+        <policy field="tenTinh" policy="Duplicate"/>
+        <policy field="dienTichDa" policy="Duplicate"/>
+        <policy field="dienTichKK" policy="Duplicate"/>
+        <policy field="dienTichMu" policy="Duplicate"/>
+        <policy field="dienTichTh" policy="Duplicate"/>
+        <policy field="dienTichO" policy="Duplicate"/>
+        <policy field="dienTichLa" policy="Duplicate"/>
+        <policy field="dienTichKh" policy="Duplicate"/>
+        <policy field="soCoSo" policy="Duplicate"/>
+        <policy field="giaDat" policy="Duplicate"/>
+        <policy field="tinhTrangG" policy="Duplicate"/>
+        <policy field="hosoPhapLy" policy="Duplicate"/>
+        <policy field="lienketHS" policy="Duplicate"/>
+        <policy field="giaoHS" policy="Duplicate"/>
+        <policy field="anhTSC" policy="Duplicate"/>
+        <policy field="mucDichSD" policy="Duplicate"/>
+        <policy field="tinhtrangH" policy="Duplicate"/>
+        <policy field="tinhTrangS" policy="Duplicate"/>
+        <policy field="phanLoai" policy="Duplicate"/>
+        <policy field="ngayThuNha" policy="Duplicate"/>
+        <policy field="ngayCapNha" policy="Duplicate"/>
+        <policy field="ghiChu" policy="Duplicate"/>
+        <policy field="ObjectID" policy="Duplicate"/>
+        <policy field="Shape_Leng" policy="Duplicate"/>
+        <policy field="Shape_Area" policy="Duplicate"/>
       </duplicatePolicies>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="OBJECTID_1"/>
-        <default expression="" applyOnUpdate="0" field="maTaiSan"/>
-        <default expression="" applyOnUpdate="0" field="tenTaiSan"/>
-        <default expression="" applyOnUpdate="0" field="tenCoQuan"/>
-        <default expression="" applyOnUpdate="0" field="loaiCoQuan"/>
-        <default expression="" applyOnUpdate="0" field="maToThua"/>
-        <default expression="" applyOnUpdate="0" field="maThuaDat"/>
-        <default expression="" applyOnUpdate="0" field="soNha"/>
-        <default expression="" applyOnUpdate="0" field="tenDuong"/>
-        <default expression="" applyOnUpdate="0" field="tenXa"/>
-        <default expression="" applyOnUpdate="0" field="maXa"/>
-        <default expression="" applyOnUpdate="0" field="tenHuyen"/>
-        <default expression="" applyOnUpdate="0" field="maHuyen"/>
-        <default expression="" applyOnUpdate="0" field="tenTinh"/>
-        <default expression="" applyOnUpdate="0" field="dienTichDa"/>
-        <default expression="" applyOnUpdate="0" field="dienTichKK"/>
-        <default expression="" applyOnUpdate="0" field="dienTichMu"/>
-        <default expression="" applyOnUpdate="0" field="dienTichTh"/>
-        <default expression="" applyOnUpdate="0" field="dienTichO"/>
-        <default expression="" applyOnUpdate="0" field="dienTichLa"/>
-        <default expression="" applyOnUpdate="0" field="dienTichKh"/>
-        <default expression="" applyOnUpdate="0" field="soCoSo"/>
-        <default expression="" applyOnUpdate="0" field="giaDat"/>
-        <default expression="" applyOnUpdate="0" field="tinhTrangG"/>
-        <default expression="" applyOnUpdate="0" field="hosoPhapLy"/>
-        <default expression="" applyOnUpdate="0" field="lienketHS"/>
-        <default expression="" applyOnUpdate="0" field="giaoHS"/>
-        <default expression="" applyOnUpdate="0" field="anhTSC"/>
-        <default expression="" applyOnUpdate="0" field="mucDichSD"/>
-        <default expression="" applyOnUpdate="0" field="tinhtrangH"/>
-        <default expression="" applyOnUpdate="0" field="tinhTrangS"/>
-        <default expression="" applyOnUpdate="0" field="phanLoai"/>
-        <default expression="" applyOnUpdate="0" field="ngayThuNha"/>
-        <default expression="" applyOnUpdate="0" field="ngayCapNha"/>
-        <default expression="" applyOnUpdate="0" field="ghiChu"/>
-        <default expression="" applyOnUpdate="0" field="ObjectID"/>
-        <default expression="" applyOnUpdate="0" field="Shape_Leng"/>
-        <default expression="" applyOnUpdate="0" field="Shape_Area"/>
+        <default expression="" field="OBJECTID_1" applyOnUpdate="0"/>
+        <default expression="" field="maTaiSan" applyOnUpdate="0"/>
+        <default expression="" field="tenTaiSan" applyOnUpdate="0"/>
+        <default expression="" field="tenCoQuan" applyOnUpdate="0"/>
+        <default expression="" field="loaiCoQuan" applyOnUpdate="0"/>
+        <default expression="" field="maToThua" applyOnUpdate="0"/>
+        <default expression="" field="maThuaDat" applyOnUpdate="0"/>
+        <default expression="" field="soNha" applyOnUpdate="0"/>
+        <default expression="" field="tenDuong" applyOnUpdate="0"/>
+        <default expression="" field="tenXa" applyOnUpdate="0"/>
+        <default expression="" field="maXa" applyOnUpdate="0"/>
+        <default expression="" field="tenHuyen" applyOnUpdate="0"/>
+        <default expression="" field="maHuyen" applyOnUpdate="0"/>
+        <default expression="" field="tenTinh" applyOnUpdate="0"/>
+        <default expression="" field="dienTichDa" applyOnUpdate="0"/>
+        <default expression="" field="dienTichKK" applyOnUpdate="0"/>
+        <default expression="" field="dienTichMu" applyOnUpdate="0"/>
+        <default expression="" field="dienTichTh" applyOnUpdate="0"/>
+        <default expression="" field="dienTichO" applyOnUpdate="0"/>
+        <default expression="" field="dienTichLa" applyOnUpdate="0"/>
+        <default expression="" field="dienTichKh" applyOnUpdate="0"/>
+        <default expression="" field="soCoSo" applyOnUpdate="0"/>
+        <default expression="" field="giaDat" applyOnUpdate="0"/>
+        <default expression="" field="tinhTrangG" applyOnUpdate="0"/>
+        <default expression="" field="hosoPhapLy" applyOnUpdate="0"/>
+        <default expression="" field="lienketHS" applyOnUpdate="0"/>
+        <default expression="" field="giaoHS" applyOnUpdate="0"/>
+        <default expression="" field="anhTSC" applyOnUpdate="0"/>
+        <default expression="" field="mucDichSD" applyOnUpdate="0"/>
+        <default expression="" field="tinhtrangH" applyOnUpdate="0"/>
+        <default expression="" field="tinhTrangS" applyOnUpdate="0"/>
+        <default expression="" field="phanLoai" applyOnUpdate="0"/>
+        <default expression="" field="ngayThuNha" applyOnUpdate="0"/>
+        <default expression="" field="ngayCapNha" applyOnUpdate="0"/>
+        <default expression="" field="ghiChu" applyOnUpdate="0"/>
+        <default expression="" field="ObjectID" applyOnUpdate="0"/>
+        <default expression="" field="Shape_Leng" applyOnUpdate="0"/>
+        <default expression="" field="Shape_Area" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="OBJECTID_1"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maTaiSan"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenTaiSan"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenCoQuan"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="loaiCoQuan"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maToThua"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maThuaDat"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="soNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenDuong"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenXa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maXa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenHuyen"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maHuyen"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenTinh"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichDa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichKK"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichMu"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichTh"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichO"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichLa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichKh"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="soCoSo"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="giaDat"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tinhTrangG"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="hosoPhapLy"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="lienketHS"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="giaoHS"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="anhTSC"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="mucDichSD"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tinhtrangH"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tinhTrangS"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="phanLoai"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ngayThuNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ngayCapNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ghiChu"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ObjectID"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="Shape_Leng"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="Shape_Area"/>
+        <constraint notnull_strength="0" constraints="0" field="OBJECTID_1" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maTaiSan" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenTaiSan" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenCoQuan" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="loaiCoQuan" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maToThua" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maThuaDat" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="soNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenDuong" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenXa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maXa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenHuyen" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maHuyen" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenTinh" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichDa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichKK" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichMu" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichTh" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichO" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichLa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichKh" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="soCoSo" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="giaDat" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tinhTrangG" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="hosoPhapLy" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="lienketHS" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="giaoHS" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="anhTSC" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="mucDichSD" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tinhtrangH" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tinhTrangS" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="phanLoai" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ngayThuNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ngayCapNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ghiChu" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ObjectID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="Shape_Leng" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="Shape_Area" exp_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="OBJECTID_1"/>
-        <constraint exp="" desc="" field="maTaiSan"/>
-        <constraint exp="" desc="" field="tenTaiSan"/>
-        <constraint exp="" desc="" field="tenCoQuan"/>
-        <constraint exp="" desc="" field="loaiCoQuan"/>
-        <constraint exp="" desc="" field="maToThua"/>
-        <constraint exp="" desc="" field="maThuaDat"/>
-        <constraint exp="" desc="" field="soNha"/>
-        <constraint exp="" desc="" field="tenDuong"/>
-        <constraint exp="" desc="" field="tenXa"/>
-        <constraint exp="" desc="" field="maXa"/>
-        <constraint exp="" desc="" field="tenHuyen"/>
-        <constraint exp="" desc="" field="maHuyen"/>
-        <constraint exp="" desc="" field="tenTinh"/>
-        <constraint exp="" desc="" field="dienTichDa"/>
-        <constraint exp="" desc="" field="dienTichKK"/>
-        <constraint exp="" desc="" field="dienTichMu"/>
-        <constraint exp="" desc="" field="dienTichTh"/>
-        <constraint exp="" desc="" field="dienTichO"/>
-        <constraint exp="" desc="" field="dienTichLa"/>
-        <constraint exp="" desc="" field="dienTichKh"/>
-        <constraint exp="" desc="" field="soCoSo"/>
-        <constraint exp="" desc="" field="giaDat"/>
-        <constraint exp="" desc="" field="tinhTrangG"/>
-        <constraint exp="" desc="" field="hosoPhapLy"/>
-        <constraint exp="" desc="" field="lienketHS"/>
-        <constraint exp="" desc="" field="giaoHS"/>
-        <constraint exp="" desc="" field="anhTSC"/>
-        <constraint exp="" desc="" field="mucDichSD"/>
-        <constraint exp="" desc="" field="tinhtrangH"/>
-        <constraint exp="" desc="" field="tinhTrangS"/>
-        <constraint exp="" desc="" field="phanLoai"/>
-        <constraint exp="" desc="" field="ngayThuNha"/>
-        <constraint exp="" desc="" field="ngayCapNha"/>
-        <constraint exp="" desc="" field="ghiChu"/>
-        <constraint exp="" desc="" field="ObjectID"/>
-        <constraint exp="" desc="" field="Shape_Leng"/>
-        <constraint exp="" desc="" field="Shape_Area"/>
+        <constraint field="OBJECTID_1" exp="" desc=""/>
+        <constraint field="maTaiSan" exp="" desc=""/>
+        <constraint field="tenTaiSan" exp="" desc=""/>
+        <constraint field="tenCoQuan" exp="" desc=""/>
+        <constraint field="loaiCoQuan" exp="" desc=""/>
+        <constraint field="maToThua" exp="" desc=""/>
+        <constraint field="maThuaDat" exp="" desc=""/>
+        <constraint field="soNha" exp="" desc=""/>
+        <constraint field="tenDuong" exp="" desc=""/>
+        <constraint field="tenXa" exp="" desc=""/>
+        <constraint field="maXa" exp="" desc=""/>
+        <constraint field="tenHuyen" exp="" desc=""/>
+        <constraint field="maHuyen" exp="" desc=""/>
+        <constraint field="tenTinh" exp="" desc=""/>
+        <constraint field="dienTichDa" exp="" desc=""/>
+        <constraint field="dienTichKK" exp="" desc=""/>
+        <constraint field="dienTichMu" exp="" desc=""/>
+        <constraint field="dienTichTh" exp="" desc=""/>
+        <constraint field="dienTichO" exp="" desc=""/>
+        <constraint field="dienTichLa" exp="" desc=""/>
+        <constraint field="dienTichKh" exp="" desc=""/>
+        <constraint field="soCoSo" exp="" desc=""/>
+        <constraint field="giaDat" exp="" desc=""/>
+        <constraint field="tinhTrangG" exp="" desc=""/>
+        <constraint field="hosoPhapLy" exp="" desc=""/>
+        <constraint field="lienketHS" exp="" desc=""/>
+        <constraint field="giaoHS" exp="" desc=""/>
+        <constraint field="anhTSC" exp="" desc=""/>
+        <constraint field="mucDichSD" exp="" desc=""/>
+        <constraint field="tinhtrangH" exp="" desc=""/>
+        <constraint field="tinhTrangS" exp="" desc=""/>
+        <constraint field="phanLoai" exp="" desc=""/>
+        <constraint field="ngayThuNha" exp="" desc=""/>
+        <constraint field="ngayCapNha" exp="" desc=""/>
+        <constraint field="ghiChu" exp="" desc=""/>
+        <constraint field="ObjectID" exp="" desc=""/>
+        <constraint field="Shape_Leng" exp="" desc=""/>
+        <constraint field="Shape_Area" exp="" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-        <columns/>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column width="-1" hidden="0" name="OBJECTID_1" type="field"/>
+          <column width="-1" hidden="0" name="maTaiSan" type="field"/>
+          <column width="-1" hidden="0" name="tenTaiSan" type="field"/>
+          <column width="-1" hidden="0" name="tenCoQuan" type="field"/>
+          <column width="-1" hidden="0" name="loaiCoQuan" type="field"/>
+          <column width="-1" hidden="0" name="maToThua" type="field"/>
+          <column width="-1" hidden="0" name="maThuaDat" type="field"/>
+          <column width="-1" hidden="0" name="soNha" type="field"/>
+          <column width="-1" hidden="0" name="tenDuong" type="field"/>
+          <column width="-1" hidden="0" name="tenXa" type="field"/>
+          <column width="-1" hidden="0" name="maXa" type="field"/>
+          <column width="-1" hidden="0" name="tenHuyen" type="field"/>
+          <column width="-1" hidden="0" name="maHuyen" type="field"/>
+          <column width="-1" hidden="0" name="tenTinh" type="field"/>
+          <column width="-1" hidden="0" name="dienTichDa" type="field"/>
+          <column width="-1" hidden="0" name="dienTichKK" type="field"/>
+          <column width="-1" hidden="0" name="dienTichMu" type="field"/>
+          <column width="-1" hidden="0" name="dienTichTh" type="field"/>
+          <column width="-1" hidden="0" name="dienTichO" type="field"/>
+          <column width="-1" hidden="0" name="dienTichLa" type="field"/>
+          <column width="-1" hidden="0" name="dienTichKh" type="field"/>
+          <column width="-1" hidden="0" name="soCoSo" type="field"/>
+          <column width="-1" hidden="0" name="giaDat" type="field"/>
+          <column width="-1" hidden="0" name="tinhTrangG" type="field"/>
+          <column width="-1" hidden="0" name="hosoPhapLy" type="field"/>
+          <column width="-1" hidden="0" name="lienketHS" type="field"/>
+          <column width="-1" hidden="0" name="giaoHS" type="field"/>
+          <column width="-1" hidden="0" name="anhTSC" type="field"/>
+          <column width="-1" hidden="0" name="mucDichSD" type="field"/>
+          <column width="-1" hidden="0" name="tinhtrangH" type="field"/>
+          <column width="-1" hidden="0" name="tinhTrangS" type="field"/>
+          <column width="-1" hidden="0" name="phanLoai" type="field"/>
+          <column width="-1" hidden="0" name="ngayThuNha" type="field"/>
+          <column width="-1" hidden="0" name="ngayCapNha" type="field"/>
+          <column width="-1" hidden="0" name="ghiChu" type="field"/>
+          <column width="-1" hidden="0" name="ObjectID" type="field"/>
+          <column width="-1" hidden="0" name="Shape_Leng" type="field"/>
+          <column width="-1" hidden="0" name="Shape_Area" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -966,20 +1142,165 @@
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <reuseLastValue/>
+      <editable>
+        <field editable="1" name="OBJECTID_1"/>
+        <field editable="1" name="ObjectID"/>
+        <field editable="1" name="Shape_Area"/>
+        <field editable="1" name="Shape_Leng"/>
+        <field editable="1" name="anhTSC"/>
+        <field editable="1" name="dienTichDa"/>
+        <field editable="1" name="dienTichKK"/>
+        <field editable="1" name="dienTichKh"/>
+        <field editable="1" name="dienTichLa"/>
+        <field editable="1" name="dienTichMu"/>
+        <field editable="1" name="dienTichO"/>
+        <field editable="1" name="dienTichTh"/>
+        <field editable="1" name="ghiChu"/>
+        <field editable="1" name="giaDat"/>
+        <field editable="1" name="giaoHS"/>
+        <field editable="1" name="hosoPhapLy"/>
+        <field editable="1" name="lienketHS"/>
+        <field editable="1" name="loaiCoQuan"/>
+        <field editable="1" name="maHuyen"/>
+        <field editable="1" name="maTaiSan"/>
+        <field editable="1" name="maThuaDat"/>
+        <field editable="1" name="maToThua"/>
+        <field editable="1" name="maXa"/>
+        <field editable="1" name="mucDichSD"/>
+        <field editable="1" name="ngayCapNha"/>
+        <field editable="1" name="ngayThuNha"/>
+        <field editable="1" name="phanLoai"/>
+        <field editable="1" name="soCoSo"/>
+        <field editable="1" name="soNha"/>
+        <field editable="1" name="tenCoQuan"/>
+        <field editable="1" name="tenDuong"/>
+        <field editable="1" name="tenHuyen"/>
+        <field editable="1" name="tenTaiSan"/>
+        <field editable="1" name="tenTinh"/>
+        <field editable="1" name="tenXa"/>
+        <field editable="1" name="tinhTrangG"/>
+        <field editable="1" name="tinhTrangS"/>
+        <field editable="1" name="tinhtrangH"/>
+      </editable>
+      <labelOnTop>
+        <field name="OBJECTID_1" labelOnTop="0"/>
+        <field name="ObjectID" labelOnTop="0"/>
+        <field name="Shape_Area" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+        <field name="anhTSC" labelOnTop="0"/>
+        <field name="dienTichDa" labelOnTop="0"/>
+        <field name="dienTichKK" labelOnTop="0"/>
+        <field name="dienTichKh" labelOnTop="0"/>
+        <field name="dienTichLa" labelOnTop="0"/>
+        <field name="dienTichMu" labelOnTop="0"/>
+        <field name="dienTichO" labelOnTop="0"/>
+        <field name="dienTichTh" labelOnTop="0"/>
+        <field name="ghiChu" labelOnTop="0"/>
+        <field name="giaDat" labelOnTop="0"/>
+        <field name="giaoHS" labelOnTop="0"/>
+        <field name="hosoPhapLy" labelOnTop="0"/>
+        <field name="lienketHS" labelOnTop="0"/>
+        <field name="loaiCoQuan" labelOnTop="0"/>
+        <field name="maHuyen" labelOnTop="0"/>
+        <field name="maTaiSan" labelOnTop="0"/>
+        <field name="maThuaDat" labelOnTop="0"/>
+        <field name="maToThua" labelOnTop="0"/>
+        <field name="maXa" labelOnTop="0"/>
+        <field name="mucDichSD" labelOnTop="0"/>
+        <field name="ngayCapNha" labelOnTop="0"/>
+        <field name="ngayThuNha" labelOnTop="0"/>
+        <field name="phanLoai" labelOnTop="0"/>
+        <field name="soCoSo" labelOnTop="0"/>
+        <field name="soNha" labelOnTop="0"/>
+        <field name="tenCoQuan" labelOnTop="0"/>
+        <field name="tenDuong" labelOnTop="0"/>
+        <field name="tenHuyen" labelOnTop="0"/>
+        <field name="tenTaiSan" labelOnTop="0"/>
+        <field name="tenTinh" labelOnTop="0"/>
+        <field name="tenXa" labelOnTop="0"/>
+        <field name="tinhTrangG" labelOnTop="0"/>
+        <field name="tinhTrangS" labelOnTop="0"/>
+        <field name="tinhtrangH" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="OBJECTID_1" reuseLastValue="0"/>
+        <field name="ObjectID" reuseLastValue="0"/>
+        <field name="Shape_Area" reuseLastValue="0"/>
+        <field name="Shape_Leng" reuseLastValue="0"/>
+        <field name="anhTSC" reuseLastValue="0"/>
+        <field name="dienTichDa" reuseLastValue="0"/>
+        <field name="dienTichKK" reuseLastValue="0"/>
+        <field name="dienTichKh" reuseLastValue="0"/>
+        <field name="dienTichLa" reuseLastValue="0"/>
+        <field name="dienTichMu" reuseLastValue="0"/>
+        <field name="dienTichO" reuseLastValue="0"/>
+        <field name="dienTichTh" reuseLastValue="0"/>
+        <field name="ghiChu" reuseLastValue="0"/>
+        <field name="giaDat" reuseLastValue="0"/>
+        <field name="giaoHS" reuseLastValue="0"/>
+        <field name="hosoPhapLy" reuseLastValue="0"/>
+        <field name="lienketHS" reuseLastValue="0"/>
+        <field name="loaiCoQuan" reuseLastValue="0"/>
+        <field name="maHuyen" reuseLastValue="0"/>
+        <field name="maTaiSan" reuseLastValue="0"/>
+        <field name="maThuaDat" reuseLastValue="0"/>
+        <field name="maToThua" reuseLastValue="0"/>
+        <field name="maXa" reuseLastValue="0"/>
+        <field name="mucDichSD" reuseLastValue="0"/>
+        <field name="ngayCapNha" reuseLastValue="0"/>
+        <field name="ngayThuNha" reuseLastValue="0"/>
+        <field name="phanLoai" reuseLastValue="0"/>
+        <field name="soCoSo" reuseLastValue="0"/>
+        <field name="soNha" reuseLastValue="0"/>
+        <field name="tenCoQuan" reuseLastValue="0"/>
+        <field name="tenDuong" reuseLastValue="0"/>
+        <field name="tenHuyen" reuseLastValue="0"/>
+        <field name="tenTaiSan" reuseLastValue="0"/>
+        <field name="tenTinh" reuseLastValue="0"/>
+        <field name="tenXa" reuseLastValue="0"/>
+        <field name="tinhTrangG" reuseLastValue="0"/>
+        <field name="tinhTrangS" reuseLastValue="0"/>
+        <field name="tinhtrangH" reuseLastValue="0"/>
+      </reuseLastValue>
       <dataDefinedFieldProperties/>
       <widgets/>
-      <previewExpression></previewExpression>
+      <previewExpression>"maTaiSan"</previewExpression>
       <mapTip enabled="1"></mapTip>
     </maplayer>
-    <maplayer wkbType="MultiPolygon" simplifyDrawingHints="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" symbologyReferenceScale="-1" autoRefreshMode="Disabled" legendPlaceholderImage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" type="vector" labelsEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" minScale="100000000" readOnly="0">
+    <maplayer geometry="Polygon" simplifyLocal="1" symbologyReferenceScale="-1" legendPlaceholderImage="" type="vector" minScale="100000000" simplifyAlgorithm="0" autoRefreshMode="Disabled" maxScale="0" autoRefreshTime="0" simplifyMaxScale="1" wkbType="MultiPolygon" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" refreshOnNotifyMessage="" labelsEnabled="0" simplifyDrawingTol="1" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>513236.82500000018626451</xmin>
+        <ymin>1763015.05599999986588955</ymin>
+        <xmax>555874.57600000035017729</xmax>
+        <ymax>1787870.27199999988079071</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>107.87546682517918839</xmin>
+        <ymin>15.9400395858092665</ymin>
+        <xmax>108.27432541763286622</xmax>
+        <ymax>16.16527193476983726</ymax>
+      </wgs84extent>
       <id>NHA_CS_METADATA_0a4663dc_2137_48a1_bce8_2fac4f9597ca</id>
-      <datasource>./DaNang_PBM_Shpfile|layername=NHA_CS_METADATA</datasource>
+      <datasource>./DaNang_PBM_Shpfile/NHA_CS_METADATA.shp|layername=NHA_CS_METADATA</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1004,6 +1325,15 @@
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <dates/>
         <fees></fees>
@@ -1021,7 +1351,15 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" dimensions="2" minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" minz="0" maxz="0" crs="" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
@@ -1039,13 +1377,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" startExpression="" limitMode="0" durationUnit="min" accumulate="0" endField="" enabled="0" startField="" fixedDuration="0" durationField="" endExpression="">
+      <temporal durationField="OBJECTID_1" endExpression="" fixedDuration="0" enabled="0" endField="" startExpression="" startField="" accumulate="0" limitMode="0" durationUnit="min" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation zoffset="0" extrusionEnabled="0" zscale="1" extrusion="0" respectLayerSymbol="1" binding="Centroid" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" clamping="Terrain" symbology="Line">
+      <elevation extrusionEnabled="0" extrusion="0" binding="Centroid" zscale="1" clamping="Terrain" symbology="Line" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" type="IndividualFeatures" zoffset="0">
         <data-defined-properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1054,7 +1392,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="line" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="line">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1062,7 +1400,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{cc8ada24-5a93-4e34-8f03-8d2f7a4656cf}" class="SimpleLine" pass="0">
+            <layer locked="0" enabled="1" id="{cc8ada24-5a93-4e34-8f03-8d2f7a4656cf}" pass="0" class="SimpleLine">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -1103,7 +1441,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="fill" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1111,7 +1449,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{14c9890c-cf3c-46a1-a178-a4c035d523fc}" class="SimpleFill" pass="0">
+            <layer locked="0" enabled="1" id="{14c9890c-cf3c-46a1-a178-a4c035d523fc}" pass="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 <Option name="color" value="164,113,88,255,rgb:0.64313725490196083,0.44313725490196076,0.34509803921568627,1" type="QString"/>
@@ -1136,7 +1474,7 @@
           </symbol>
         </profileFillSymbol>
         <profileMarkerSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="marker" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="marker">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1144,7 +1482,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{aa9f7999-5a2f-4188-8b02-ea4cf58fd31b}" class="SimpleMarker" pass="0">
+            <layer locked="0" enabled="1" id="{aa9f7999-5a2f-4188-8b02-ea4cf58fd31b}" pass="0" class="SimpleMarker">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1177,9 +1515,9 @@
           </symbol>
         </profileMarkerSymbol>
       </elevation>
-      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0" referencescale="-1">
+      <renderer-v2 referencescale="-1" symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
         <symbols>
-          <symbol name="0" alpha="1" frame_rate="10" type="fill" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="0" is_animated="0" frame_rate="10" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1187,7 +1525,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{71d38bf7-7762-42c8-a423-07b2769474ef}" class="SimpleFill" pass="0">
+            <layer locked="0" enabled="1" id="{71d38bf7-7762-42c8-a423-07b2769474ef}" pass="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 <Option name="color" value="133,182,111,255,rgb:0.52156862745098043,0.71372549019607845,0.43529411764705883,1" type="QString"/>
@@ -1223,325 +1561,432 @@
       </renderer-v2>
       <selection mode="Default">
         <selectionColor invalid="1"/>
+        <selectionSymbol>
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" enabled="1" id="{f31a4ecb-2b40-4943-8fb7-2cbddb39af27}" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="0,0,255,255,rgb:0,0,1,1" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </selectionSymbol>
       </selection>
       <customproperties>
-        <Option/>
+        <Option type="Map">
+          <Option name="dualview/previewExpressions" type="List">
+            <Option value="&quot;maTaiSan&quot;" type="QString"/>
+          </Option>
+          <Option name="embeddedWidgets/count" value="0" type="int"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory spacingUnitScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" minScaleDenominator="0" width="15" spacing="5" direction="0" labelPlacementMethod="XHeight" enabled="0" scaleBasedVisibility="0" height="15" rotationOffset="270" backgroundColor="#ffffff" penColor="#000000" spacingUnit="MM" opacity="1" penAlpha="255" penWidth="0" sizeType="MM" barWidth="5" backgroundAlpha="255" showAxis="1">
+          <fontProperties bold="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style="" italic="0" underline="0"/>
+          <axisSymbol>
+            <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="line">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <layer locked="0" enabled="1" id="{84437449-71a8-41d3-a7cb-c4b3e8f5f422}" pass="0" class="SimpleLine">
+                <Option type="Map">
+                  <Option name="align_dash_pattern" value="0" type="QString"/>
+                  <Option name="capstyle" value="square" type="QString"/>
+                  <Option name="customdash" value="5;2" type="QString"/>
+                  <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="customdash_unit" value="MM" type="QString"/>
+                  <Option name="dash_pattern_offset" value="0" type="QString"/>
+                  <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                  <Option name="draw_inside_polygon" value="0" type="QString"/>
+                  <Option name="joinstyle" value="bevel" type="QString"/>
+                  <Option name="line_color" value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" type="QString"/>
+                  <Option name="line_style" value="solid" type="QString"/>
+                  <Option name="line_width" value="0.26" type="QString"/>
+                  <Option name="line_width_unit" value="MM" type="QString"/>
+                  <Option name="offset" value="0" type="QString"/>
+                  <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="offset_unit" value="MM" type="QString"/>
+                  <Option name="ring_filter" value="0" type="QString"/>
+                  <Option name="trim_distance_end" value="0" type="QString"/>
+                  <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                  <Option name="trim_distance_start" value="0" type="QString"/>
+                  <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                  <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                  <Option name="use_custom_dash" value="0" type="QString"/>
+                  <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                </Option>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" value="" type="QString"/>
+                    <Option name="properties"/>
+                    <Option name="type" value="collection" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" priority="0" obstacle="0" linePlacementFlags="18" placement="1" zIndex="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" value="0" type="double"/>
+            <Option name="allowedGapsEnabled" value="false" type="bool"/>
+            <Option name="allowedGapsLayer" value="" type="QString"/>
+          </Option>
+        </checkConfiguration>
       </geometryOptions>
       <legend showLabelLegend="0" type="default-vector"/>
       <referencedLayers/>
       <fieldConfiguration>
         <field name="OBJECTID_1" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maTaiSan" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenTaiSan" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenCoQuan" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="loaiCoQuan" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maToThua" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maThuaDat" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="soNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenDuong" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenXa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maXa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenHuyen" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="maHuyen" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tenTinh" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="loaiNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichDa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichNh" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichKK" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tongSoNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichSa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichCh" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichMu" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichTh" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichO" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichLa" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="dienTichKh" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="soCoSoNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="nguyenGia" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="giaHienTai" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="hosoPhapLy" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="lienketHS" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="giaoHS" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="anhTSC" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="mucDichSD" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tinhtrangH" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="tinhTrangS" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="soCoSoCXDN" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="phanLoai" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="ngayThuNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="ngayCapNha" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="ghiChu" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="ObjectID" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="Shape_Leng" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="Shape_Area" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -1549,287 +1994,333 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="OBJECTID_1"/>
-        <alias name="" index="1" field="maTaiSan"/>
-        <alias name="" index="2" field="tenTaiSan"/>
-        <alias name="" index="3" field="tenCoQuan"/>
-        <alias name="" index="4" field="loaiCoQuan"/>
-        <alias name="" index="5" field="maToThua"/>
-        <alias name="" index="6" field="maThuaDat"/>
-        <alias name="" index="7" field="soNha"/>
-        <alias name="" index="8" field="tenDuong"/>
-        <alias name="" index="9" field="tenXa"/>
-        <alias name="" index="10" field="maXa"/>
-        <alias name="" index="11" field="tenHuyen"/>
-        <alias name="" index="12" field="maHuyen"/>
-        <alias name="" index="13" field="tenTinh"/>
-        <alias name="" index="14" field="loaiNha"/>
-        <alias name="" index="15" field="dienTichDa"/>
-        <alias name="" index="16" field="dienTichNh"/>
-        <alias name="" index="17" field="dienTichKK"/>
-        <alias name="" index="18" field="tongSoNha"/>
-        <alias name="" index="19" field="dienTichSa"/>
-        <alias name="" index="20" field="dienTichCh"/>
-        <alias name="" index="21" field="dienTichMu"/>
-        <alias name="" index="22" field="dienTichTh"/>
-        <alias name="" index="23" field="dienTichO"/>
-        <alias name="" index="24" field="dienTichLa"/>
-        <alias name="" index="25" field="dienTichKh"/>
-        <alias name="" index="26" field="soCoSoNha"/>
-        <alias name="" index="27" field="nguyenGia"/>
-        <alias name="" index="28" field="giaHienTai"/>
-        <alias name="" index="29" field="hosoPhapLy"/>
-        <alias name="" index="30" field="lienketHS"/>
-        <alias name="" index="31" field="giaoHS"/>
-        <alias name="" index="32" field="anhTSC"/>
-        <alias name="" index="33" field="mucDichSD"/>
-        <alias name="" index="34" field="tinhtrangH"/>
-        <alias name="" index="35" field="tinhTrangS"/>
-        <alias name="" index="36" field="soCoSoCXDN"/>
-        <alias name="" index="37" field="phanLoai"/>
-        <alias name="" index="38" field="ngayThuNha"/>
-        <alias name="" index="39" field="ngayCapNha"/>
-        <alias name="" index="40" field="ghiChu"/>
-        <alias name="" index="41" field="ObjectID"/>
-        <alias name="" index="42" field="Shape_Leng"/>
-        <alias name="" index="43" field="Shape_Area"/>
+        <alias index="0" field="OBJECTID_1" name=""/>
+        <alias index="1" field="maTaiSan" name=""/>
+        <alias index="2" field="tenTaiSan" name=""/>
+        <alias index="3" field="tenCoQuan" name=""/>
+        <alias index="4" field="loaiCoQuan" name=""/>
+        <alias index="5" field="maToThua" name=""/>
+        <alias index="6" field="maThuaDat" name=""/>
+        <alias index="7" field="soNha" name=""/>
+        <alias index="8" field="tenDuong" name=""/>
+        <alias index="9" field="tenXa" name=""/>
+        <alias index="10" field="maXa" name=""/>
+        <alias index="11" field="tenHuyen" name=""/>
+        <alias index="12" field="maHuyen" name=""/>
+        <alias index="13" field="tenTinh" name=""/>
+        <alias index="14" field="loaiNha" name=""/>
+        <alias index="15" field="dienTichDa" name=""/>
+        <alias index="16" field="dienTichNh" name=""/>
+        <alias index="17" field="dienTichKK" name=""/>
+        <alias index="18" field="tongSoNha" name=""/>
+        <alias index="19" field="dienTichSa" name=""/>
+        <alias index="20" field="dienTichCh" name=""/>
+        <alias index="21" field="dienTichMu" name=""/>
+        <alias index="22" field="dienTichTh" name=""/>
+        <alias index="23" field="dienTichO" name=""/>
+        <alias index="24" field="dienTichLa" name=""/>
+        <alias index="25" field="dienTichKh" name=""/>
+        <alias index="26" field="soCoSoNha" name=""/>
+        <alias index="27" field="nguyenGia" name=""/>
+        <alias index="28" field="giaHienTai" name=""/>
+        <alias index="29" field="hosoPhapLy" name=""/>
+        <alias index="30" field="lienketHS" name=""/>
+        <alias index="31" field="giaoHS" name=""/>
+        <alias index="32" field="anhTSC" name=""/>
+        <alias index="33" field="mucDichSD" name=""/>
+        <alias index="34" field="tinhtrangH" name=""/>
+        <alias index="35" field="tinhTrangS" name=""/>
+        <alias index="36" field="soCoSoCXDN" name=""/>
+        <alias index="37" field="phanLoai" name=""/>
+        <alias index="38" field="ngayThuNha" name=""/>
+        <alias index="39" field="ngayCapNha" name=""/>
+        <alias index="40" field="ghiChu" name=""/>
+        <alias index="41" field="ObjectID" name=""/>
+        <alias index="42" field="Shape_Leng" name=""/>
+        <alias index="43" field="Shape_Area" name=""/>
       </aliases>
       <splitPolicies>
-        <policy policy="Duplicate" field="OBJECTID_1"/>
-        <policy policy="Duplicate" field="maTaiSan"/>
-        <policy policy="Duplicate" field="tenTaiSan"/>
-        <policy policy="Duplicate" field="tenCoQuan"/>
-        <policy policy="Duplicate" field="loaiCoQuan"/>
-        <policy policy="Duplicate" field="maToThua"/>
-        <policy policy="Duplicate" field="maThuaDat"/>
-        <policy policy="Duplicate" field="soNha"/>
-        <policy policy="Duplicate" field="tenDuong"/>
-        <policy policy="Duplicate" field="tenXa"/>
-        <policy policy="Duplicate" field="maXa"/>
-        <policy policy="Duplicate" field="tenHuyen"/>
-        <policy policy="Duplicate" field="maHuyen"/>
-        <policy policy="Duplicate" field="tenTinh"/>
-        <policy policy="Duplicate" field="loaiNha"/>
-        <policy policy="Duplicate" field="dienTichDa"/>
-        <policy policy="Duplicate" field="dienTichNh"/>
-        <policy policy="Duplicate" field="dienTichKK"/>
-        <policy policy="Duplicate" field="tongSoNha"/>
-        <policy policy="Duplicate" field="dienTichSa"/>
-        <policy policy="Duplicate" field="dienTichCh"/>
-        <policy policy="Duplicate" field="dienTichMu"/>
-        <policy policy="Duplicate" field="dienTichTh"/>
-        <policy policy="Duplicate" field="dienTichO"/>
-        <policy policy="Duplicate" field="dienTichLa"/>
-        <policy policy="Duplicate" field="dienTichKh"/>
-        <policy policy="Duplicate" field="soCoSoNha"/>
-        <policy policy="Duplicate" field="nguyenGia"/>
-        <policy policy="Duplicate" field="giaHienTai"/>
-        <policy policy="Duplicate" field="hosoPhapLy"/>
-        <policy policy="Duplicate" field="lienketHS"/>
-        <policy policy="Duplicate" field="giaoHS"/>
-        <policy policy="Duplicate" field="anhTSC"/>
-        <policy policy="Duplicate" field="mucDichSD"/>
-        <policy policy="Duplicate" field="tinhtrangH"/>
-        <policy policy="Duplicate" field="tinhTrangS"/>
-        <policy policy="Duplicate" field="soCoSoCXDN"/>
-        <policy policy="Duplicate" field="phanLoai"/>
-        <policy policy="Duplicate" field="ngayThuNha"/>
-        <policy policy="Duplicate" field="ngayCapNha"/>
-        <policy policy="Duplicate" field="ghiChu"/>
-        <policy policy="Duplicate" field="ObjectID"/>
-        <policy policy="Duplicate" field="Shape_Leng"/>
-        <policy policy="Duplicate" field="Shape_Area"/>
+        <policy field="OBJECTID_1" policy="Duplicate"/>
+        <policy field="maTaiSan" policy="Duplicate"/>
+        <policy field="tenTaiSan" policy="Duplicate"/>
+        <policy field="tenCoQuan" policy="Duplicate"/>
+        <policy field="loaiCoQuan" policy="Duplicate"/>
+        <policy field="maToThua" policy="Duplicate"/>
+        <policy field="maThuaDat" policy="Duplicate"/>
+        <policy field="soNha" policy="Duplicate"/>
+        <policy field="tenDuong" policy="Duplicate"/>
+        <policy field="tenXa" policy="Duplicate"/>
+        <policy field="maXa" policy="Duplicate"/>
+        <policy field="tenHuyen" policy="Duplicate"/>
+        <policy field="maHuyen" policy="Duplicate"/>
+        <policy field="tenTinh" policy="Duplicate"/>
+        <policy field="loaiNha" policy="Duplicate"/>
+        <policy field="dienTichDa" policy="Duplicate"/>
+        <policy field="dienTichNh" policy="Duplicate"/>
+        <policy field="dienTichKK" policy="Duplicate"/>
+        <policy field="tongSoNha" policy="Duplicate"/>
+        <policy field="dienTichSa" policy="Duplicate"/>
+        <policy field="dienTichCh" policy="Duplicate"/>
+        <policy field="dienTichMu" policy="Duplicate"/>
+        <policy field="dienTichTh" policy="Duplicate"/>
+        <policy field="dienTichO" policy="Duplicate"/>
+        <policy field="dienTichLa" policy="Duplicate"/>
+        <policy field="dienTichKh" policy="Duplicate"/>
+        <policy field="soCoSoNha" policy="Duplicate"/>
+        <policy field="nguyenGia" policy="Duplicate"/>
+        <policy field="giaHienTai" policy="Duplicate"/>
+        <policy field="hosoPhapLy" policy="Duplicate"/>
+        <policy field="lienketHS" policy="Duplicate"/>
+        <policy field="giaoHS" policy="Duplicate"/>
+        <policy field="anhTSC" policy="Duplicate"/>
+        <policy field="mucDichSD" policy="Duplicate"/>
+        <policy field="tinhtrangH" policy="Duplicate"/>
+        <policy field="tinhTrangS" policy="Duplicate"/>
+        <policy field="soCoSoCXDN" policy="Duplicate"/>
+        <policy field="phanLoai" policy="Duplicate"/>
+        <policy field="ngayThuNha" policy="Duplicate"/>
+        <policy field="ngayCapNha" policy="Duplicate"/>
+        <policy field="ghiChu" policy="Duplicate"/>
+        <policy field="ObjectID" policy="Duplicate"/>
+        <policy field="Shape_Leng" policy="Duplicate"/>
+        <policy field="Shape_Area" policy="Duplicate"/>
       </splitPolicies>
       <duplicatePolicies>
-        <policy policy="Duplicate" field="OBJECTID_1"/>
-        <policy policy="Duplicate" field="maTaiSan"/>
-        <policy policy="Duplicate" field="tenTaiSan"/>
-        <policy policy="Duplicate" field="tenCoQuan"/>
-        <policy policy="Duplicate" field="loaiCoQuan"/>
-        <policy policy="Duplicate" field="maToThua"/>
-        <policy policy="Duplicate" field="maThuaDat"/>
-        <policy policy="Duplicate" field="soNha"/>
-        <policy policy="Duplicate" field="tenDuong"/>
-        <policy policy="Duplicate" field="tenXa"/>
-        <policy policy="Duplicate" field="maXa"/>
-        <policy policy="Duplicate" field="tenHuyen"/>
-        <policy policy="Duplicate" field="maHuyen"/>
-        <policy policy="Duplicate" field="tenTinh"/>
-        <policy policy="Duplicate" field="loaiNha"/>
-        <policy policy="Duplicate" field="dienTichDa"/>
-        <policy policy="Duplicate" field="dienTichNh"/>
-        <policy policy="Duplicate" field="dienTichKK"/>
-        <policy policy="Duplicate" field="tongSoNha"/>
-        <policy policy="Duplicate" field="dienTichSa"/>
-        <policy policy="Duplicate" field="dienTichCh"/>
-        <policy policy="Duplicate" field="dienTichMu"/>
-        <policy policy="Duplicate" field="dienTichTh"/>
-        <policy policy="Duplicate" field="dienTichO"/>
-        <policy policy="Duplicate" field="dienTichLa"/>
-        <policy policy="Duplicate" field="dienTichKh"/>
-        <policy policy="Duplicate" field="soCoSoNha"/>
-        <policy policy="Duplicate" field="nguyenGia"/>
-        <policy policy="Duplicate" field="giaHienTai"/>
-        <policy policy="Duplicate" field="hosoPhapLy"/>
-        <policy policy="Duplicate" field="lienketHS"/>
-        <policy policy="Duplicate" field="giaoHS"/>
-        <policy policy="Duplicate" field="anhTSC"/>
-        <policy policy="Duplicate" field="mucDichSD"/>
-        <policy policy="Duplicate" field="tinhtrangH"/>
-        <policy policy="Duplicate" field="tinhTrangS"/>
-        <policy policy="Duplicate" field="soCoSoCXDN"/>
-        <policy policy="Duplicate" field="phanLoai"/>
-        <policy policy="Duplicate" field="ngayThuNha"/>
-        <policy policy="Duplicate" field="ngayCapNha"/>
-        <policy policy="Duplicate" field="ghiChu"/>
-        <policy policy="Duplicate" field="ObjectID"/>
-        <policy policy="Duplicate" field="Shape_Leng"/>
-        <policy policy="Duplicate" field="Shape_Area"/>
+        <policy field="OBJECTID_1" policy="Duplicate"/>
+        <policy field="maTaiSan" policy="Duplicate"/>
+        <policy field="tenTaiSan" policy="Duplicate"/>
+        <policy field="tenCoQuan" policy="Duplicate"/>
+        <policy field="loaiCoQuan" policy="Duplicate"/>
+        <policy field="maToThua" policy="Duplicate"/>
+        <policy field="maThuaDat" policy="Duplicate"/>
+        <policy field="soNha" policy="Duplicate"/>
+        <policy field="tenDuong" policy="Duplicate"/>
+        <policy field="tenXa" policy="Duplicate"/>
+        <policy field="maXa" policy="Duplicate"/>
+        <policy field="tenHuyen" policy="Duplicate"/>
+        <policy field="maHuyen" policy="Duplicate"/>
+        <policy field="tenTinh" policy="Duplicate"/>
+        <policy field="loaiNha" policy="Duplicate"/>
+        <policy field="dienTichDa" policy="Duplicate"/>
+        <policy field="dienTichNh" policy="Duplicate"/>
+        <policy field="dienTichKK" policy="Duplicate"/>
+        <policy field="tongSoNha" policy="Duplicate"/>
+        <policy field="dienTichSa" policy="Duplicate"/>
+        <policy field="dienTichCh" policy="Duplicate"/>
+        <policy field="dienTichMu" policy="Duplicate"/>
+        <policy field="dienTichTh" policy="Duplicate"/>
+        <policy field="dienTichO" policy="Duplicate"/>
+        <policy field="dienTichLa" policy="Duplicate"/>
+        <policy field="dienTichKh" policy="Duplicate"/>
+        <policy field="soCoSoNha" policy="Duplicate"/>
+        <policy field="nguyenGia" policy="Duplicate"/>
+        <policy field="giaHienTai" policy="Duplicate"/>
+        <policy field="hosoPhapLy" policy="Duplicate"/>
+        <policy field="lienketHS" policy="Duplicate"/>
+        <policy field="giaoHS" policy="Duplicate"/>
+        <policy field="anhTSC" policy="Duplicate"/>
+        <policy field="mucDichSD" policy="Duplicate"/>
+        <policy field="tinhtrangH" policy="Duplicate"/>
+        <policy field="tinhTrangS" policy="Duplicate"/>
+        <policy field="soCoSoCXDN" policy="Duplicate"/>
+        <policy field="phanLoai" policy="Duplicate"/>
+        <policy field="ngayThuNha" policy="Duplicate"/>
+        <policy field="ngayCapNha" policy="Duplicate"/>
+        <policy field="ghiChu" policy="Duplicate"/>
+        <policy field="ObjectID" policy="Duplicate"/>
+        <policy field="Shape_Leng" policy="Duplicate"/>
+        <policy field="Shape_Area" policy="Duplicate"/>
       </duplicatePolicies>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="OBJECTID_1"/>
-        <default expression="" applyOnUpdate="0" field="maTaiSan"/>
-        <default expression="" applyOnUpdate="0" field="tenTaiSan"/>
-        <default expression="" applyOnUpdate="0" field="tenCoQuan"/>
-        <default expression="" applyOnUpdate="0" field="loaiCoQuan"/>
-        <default expression="" applyOnUpdate="0" field="maToThua"/>
-        <default expression="" applyOnUpdate="0" field="maThuaDat"/>
-        <default expression="" applyOnUpdate="0" field="soNha"/>
-        <default expression="" applyOnUpdate="0" field="tenDuong"/>
-        <default expression="" applyOnUpdate="0" field="tenXa"/>
-        <default expression="" applyOnUpdate="0" field="maXa"/>
-        <default expression="" applyOnUpdate="0" field="tenHuyen"/>
-        <default expression="" applyOnUpdate="0" field="maHuyen"/>
-        <default expression="" applyOnUpdate="0" field="tenTinh"/>
-        <default expression="" applyOnUpdate="0" field="loaiNha"/>
-        <default expression="" applyOnUpdate="0" field="dienTichDa"/>
-        <default expression="" applyOnUpdate="0" field="dienTichNh"/>
-        <default expression="" applyOnUpdate="0" field="dienTichKK"/>
-        <default expression="" applyOnUpdate="0" field="tongSoNha"/>
-        <default expression="" applyOnUpdate="0" field="dienTichSa"/>
-        <default expression="" applyOnUpdate="0" field="dienTichCh"/>
-        <default expression="" applyOnUpdate="0" field="dienTichMu"/>
-        <default expression="" applyOnUpdate="0" field="dienTichTh"/>
-        <default expression="" applyOnUpdate="0" field="dienTichO"/>
-        <default expression="" applyOnUpdate="0" field="dienTichLa"/>
-        <default expression="" applyOnUpdate="0" field="dienTichKh"/>
-        <default expression="" applyOnUpdate="0" field="soCoSoNha"/>
-        <default expression="" applyOnUpdate="0" field="nguyenGia"/>
-        <default expression="" applyOnUpdate="0" field="giaHienTai"/>
-        <default expression="" applyOnUpdate="0" field="hosoPhapLy"/>
-        <default expression="" applyOnUpdate="0" field="lienketHS"/>
-        <default expression="" applyOnUpdate="0" field="giaoHS"/>
-        <default expression="" applyOnUpdate="0" field="anhTSC"/>
-        <default expression="" applyOnUpdate="0" field="mucDichSD"/>
-        <default expression="" applyOnUpdate="0" field="tinhtrangH"/>
-        <default expression="" applyOnUpdate="0" field="tinhTrangS"/>
-        <default expression="" applyOnUpdate="0" field="soCoSoCXDN"/>
-        <default expression="" applyOnUpdate="0" field="phanLoai"/>
-        <default expression="" applyOnUpdate="0" field="ngayThuNha"/>
-        <default expression="" applyOnUpdate="0" field="ngayCapNha"/>
-        <default expression="" applyOnUpdate="0" field="ghiChu"/>
-        <default expression="" applyOnUpdate="0" field="ObjectID"/>
-        <default expression="" applyOnUpdate="0" field="Shape_Leng"/>
-        <default expression="" applyOnUpdate="0" field="Shape_Area"/>
+        <default expression="" field="OBJECTID_1" applyOnUpdate="0"/>
+        <default expression="" field="maTaiSan" applyOnUpdate="0"/>
+        <default expression="" field="tenTaiSan" applyOnUpdate="0"/>
+        <default expression="" field="tenCoQuan" applyOnUpdate="0"/>
+        <default expression="" field="loaiCoQuan" applyOnUpdate="0"/>
+        <default expression="" field="maToThua" applyOnUpdate="0"/>
+        <default expression="" field="maThuaDat" applyOnUpdate="0"/>
+        <default expression="" field="soNha" applyOnUpdate="0"/>
+        <default expression="" field="tenDuong" applyOnUpdate="0"/>
+        <default expression="" field="tenXa" applyOnUpdate="0"/>
+        <default expression="" field="maXa" applyOnUpdate="0"/>
+        <default expression="" field="tenHuyen" applyOnUpdate="0"/>
+        <default expression="" field="maHuyen" applyOnUpdate="0"/>
+        <default expression="" field="tenTinh" applyOnUpdate="0"/>
+        <default expression="" field="loaiNha" applyOnUpdate="0"/>
+        <default expression="" field="dienTichDa" applyOnUpdate="0"/>
+        <default expression="" field="dienTichNh" applyOnUpdate="0"/>
+        <default expression="" field="dienTichKK" applyOnUpdate="0"/>
+        <default expression="" field="tongSoNha" applyOnUpdate="0"/>
+        <default expression="" field="dienTichSa" applyOnUpdate="0"/>
+        <default expression="" field="dienTichCh" applyOnUpdate="0"/>
+        <default expression="" field="dienTichMu" applyOnUpdate="0"/>
+        <default expression="" field="dienTichTh" applyOnUpdate="0"/>
+        <default expression="" field="dienTichO" applyOnUpdate="0"/>
+        <default expression="" field="dienTichLa" applyOnUpdate="0"/>
+        <default expression="" field="dienTichKh" applyOnUpdate="0"/>
+        <default expression="" field="soCoSoNha" applyOnUpdate="0"/>
+        <default expression="" field="nguyenGia" applyOnUpdate="0"/>
+        <default expression="" field="giaHienTai" applyOnUpdate="0"/>
+        <default expression="" field="hosoPhapLy" applyOnUpdate="0"/>
+        <default expression="" field="lienketHS" applyOnUpdate="0"/>
+        <default expression="" field="giaoHS" applyOnUpdate="0"/>
+        <default expression="" field="anhTSC" applyOnUpdate="0"/>
+        <default expression="" field="mucDichSD" applyOnUpdate="0"/>
+        <default expression="" field="tinhtrangH" applyOnUpdate="0"/>
+        <default expression="" field="tinhTrangS" applyOnUpdate="0"/>
+        <default expression="" field="soCoSoCXDN" applyOnUpdate="0"/>
+        <default expression="" field="phanLoai" applyOnUpdate="0"/>
+        <default expression="" field="ngayThuNha" applyOnUpdate="0"/>
+        <default expression="" field="ngayCapNha" applyOnUpdate="0"/>
+        <default expression="" field="ghiChu" applyOnUpdate="0"/>
+        <default expression="" field="ObjectID" applyOnUpdate="0"/>
+        <default expression="" field="Shape_Leng" applyOnUpdate="0"/>
+        <default expression="" field="Shape_Area" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="OBJECTID_1"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maTaiSan"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenTaiSan"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenCoQuan"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="loaiCoQuan"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maToThua"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maThuaDat"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="soNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenDuong"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenXa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maXa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenHuyen"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="maHuyen"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tenTinh"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="loaiNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichDa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichNh"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichKK"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tongSoNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichSa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichCh"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichMu"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichTh"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichO"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichLa"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="dienTichKh"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="soCoSoNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="nguyenGia"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="giaHienTai"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="hosoPhapLy"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="lienketHS"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="giaoHS"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="anhTSC"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="mucDichSD"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tinhtrangH"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="tinhTrangS"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="soCoSoCXDN"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="phanLoai"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ngayThuNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ngayCapNha"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ghiChu"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ObjectID"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="Shape_Leng"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="Shape_Area"/>
+        <constraint notnull_strength="0" constraints="0" field="OBJECTID_1" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maTaiSan" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenTaiSan" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenCoQuan" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="loaiCoQuan" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maToThua" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maThuaDat" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="soNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenDuong" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenXa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maXa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenHuyen" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="maHuyen" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tenTinh" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="loaiNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichDa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichNh" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichKK" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tongSoNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichSa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichCh" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichMu" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichTh" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichO" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichLa" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="dienTichKh" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="soCoSoNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="nguyenGia" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="giaHienTai" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="hosoPhapLy" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="lienketHS" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="giaoHS" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="anhTSC" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="mucDichSD" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tinhtrangH" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="tinhTrangS" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="soCoSoCXDN" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="phanLoai" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ngayThuNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ngayCapNha" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ghiChu" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ObjectID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="Shape_Leng" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="Shape_Area" exp_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="OBJECTID_1"/>
-        <constraint exp="" desc="" field="maTaiSan"/>
-        <constraint exp="" desc="" field="tenTaiSan"/>
-        <constraint exp="" desc="" field="tenCoQuan"/>
-        <constraint exp="" desc="" field="loaiCoQuan"/>
-        <constraint exp="" desc="" field="maToThua"/>
-        <constraint exp="" desc="" field="maThuaDat"/>
-        <constraint exp="" desc="" field="soNha"/>
-        <constraint exp="" desc="" field="tenDuong"/>
-        <constraint exp="" desc="" field="tenXa"/>
-        <constraint exp="" desc="" field="maXa"/>
-        <constraint exp="" desc="" field="tenHuyen"/>
-        <constraint exp="" desc="" field="maHuyen"/>
-        <constraint exp="" desc="" field="tenTinh"/>
-        <constraint exp="" desc="" field="loaiNha"/>
-        <constraint exp="" desc="" field="dienTichDa"/>
-        <constraint exp="" desc="" field="dienTichNh"/>
-        <constraint exp="" desc="" field="dienTichKK"/>
-        <constraint exp="" desc="" field="tongSoNha"/>
-        <constraint exp="" desc="" field="dienTichSa"/>
-        <constraint exp="" desc="" field="dienTichCh"/>
-        <constraint exp="" desc="" field="dienTichMu"/>
-        <constraint exp="" desc="" field="dienTichTh"/>
-        <constraint exp="" desc="" field="dienTichO"/>
-        <constraint exp="" desc="" field="dienTichLa"/>
-        <constraint exp="" desc="" field="dienTichKh"/>
-        <constraint exp="" desc="" field="soCoSoNha"/>
-        <constraint exp="" desc="" field="nguyenGia"/>
-        <constraint exp="" desc="" field="giaHienTai"/>
-        <constraint exp="" desc="" field="hosoPhapLy"/>
-        <constraint exp="" desc="" field="lienketHS"/>
-        <constraint exp="" desc="" field="giaoHS"/>
-        <constraint exp="" desc="" field="anhTSC"/>
-        <constraint exp="" desc="" field="mucDichSD"/>
-        <constraint exp="" desc="" field="tinhtrangH"/>
-        <constraint exp="" desc="" field="tinhTrangS"/>
-        <constraint exp="" desc="" field="soCoSoCXDN"/>
-        <constraint exp="" desc="" field="phanLoai"/>
-        <constraint exp="" desc="" field="ngayThuNha"/>
-        <constraint exp="" desc="" field="ngayCapNha"/>
-        <constraint exp="" desc="" field="ghiChu"/>
-        <constraint exp="" desc="" field="ObjectID"/>
-        <constraint exp="" desc="" field="Shape_Leng"/>
-        <constraint exp="" desc="" field="Shape_Area"/>
+        <constraint field="OBJECTID_1" exp="" desc=""/>
+        <constraint field="maTaiSan" exp="" desc=""/>
+        <constraint field="tenTaiSan" exp="" desc=""/>
+        <constraint field="tenCoQuan" exp="" desc=""/>
+        <constraint field="loaiCoQuan" exp="" desc=""/>
+        <constraint field="maToThua" exp="" desc=""/>
+        <constraint field="maThuaDat" exp="" desc=""/>
+        <constraint field="soNha" exp="" desc=""/>
+        <constraint field="tenDuong" exp="" desc=""/>
+        <constraint field="tenXa" exp="" desc=""/>
+        <constraint field="maXa" exp="" desc=""/>
+        <constraint field="tenHuyen" exp="" desc=""/>
+        <constraint field="maHuyen" exp="" desc=""/>
+        <constraint field="tenTinh" exp="" desc=""/>
+        <constraint field="loaiNha" exp="" desc=""/>
+        <constraint field="dienTichDa" exp="" desc=""/>
+        <constraint field="dienTichNh" exp="" desc=""/>
+        <constraint field="dienTichKK" exp="" desc=""/>
+        <constraint field="tongSoNha" exp="" desc=""/>
+        <constraint field="dienTichSa" exp="" desc=""/>
+        <constraint field="dienTichCh" exp="" desc=""/>
+        <constraint field="dienTichMu" exp="" desc=""/>
+        <constraint field="dienTichTh" exp="" desc=""/>
+        <constraint field="dienTichO" exp="" desc=""/>
+        <constraint field="dienTichLa" exp="" desc=""/>
+        <constraint field="dienTichKh" exp="" desc=""/>
+        <constraint field="soCoSoNha" exp="" desc=""/>
+        <constraint field="nguyenGia" exp="" desc=""/>
+        <constraint field="giaHienTai" exp="" desc=""/>
+        <constraint field="hosoPhapLy" exp="" desc=""/>
+        <constraint field="lienketHS" exp="" desc=""/>
+        <constraint field="giaoHS" exp="" desc=""/>
+        <constraint field="anhTSC" exp="" desc=""/>
+        <constraint field="mucDichSD" exp="" desc=""/>
+        <constraint field="tinhtrangH" exp="" desc=""/>
+        <constraint field="tinhTrangS" exp="" desc=""/>
+        <constraint field="soCoSoCXDN" exp="" desc=""/>
+        <constraint field="phanLoai" exp="" desc=""/>
+        <constraint field="ngayThuNha" exp="" desc=""/>
+        <constraint field="ngayCapNha" exp="" desc=""/>
+        <constraint field="ghiChu" exp="" desc=""/>
+        <constraint field="ObjectID" exp="" desc=""/>
+        <constraint field="Shape_Leng" exp="" desc=""/>
+        <constraint field="Shape_Area" exp="" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-        <columns/>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column width="-1" hidden="0" name="OBJECTID_1" type="field"/>
+          <column width="-1" hidden="0" name="maTaiSan" type="field"/>
+          <column width="-1" hidden="0" name="tenTaiSan" type="field"/>
+          <column width="-1" hidden="0" name="tenCoQuan" type="field"/>
+          <column width="-1" hidden="0" name="loaiCoQuan" type="field"/>
+          <column width="-1" hidden="0" name="maToThua" type="field"/>
+          <column width="-1" hidden="0" name="maThuaDat" type="field"/>
+          <column width="-1" hidden="0" name="soNha" type="field"/>
+          <column width="-1" hidden="0" name="tenDuong" type="field"/>
+          <column width="-1" hidden="0" name="tenXa" type="field"/>
+          <column width="-1" hidden="0" name="maXa" type="field"/>
+          <column width="-1" hidden="0" name="tenHuyen" type="field"/>
+          <column width="-1" hidden="0" name="maHuyen" type="field"/>
+          <column width="-1" hidden="0" name="tenTinh" type="field"/>
+          <column width="-1" hidden="0" name="loaiNha" type="field"/>
+          <column width="-1" hidden="0" name="dienTichDa" type="field"/>
+          <column width="-1" hidden="0" name="dienTichNh" type="field"/>
+          <column width="-1" hidden="0" name="dienTichKK" type="field"/>
+          <column width="-1" hidden="0" name="tongSoNha" type="field"/>
+          <column width="-1" hidden="0" name="dienTichSa" type="field"/>
+          <column width="-1" hidden="0" name="dienTichCh" type="field"/>
+          <column width="-1" hidden="0" name="dienTichMu" type="field"/>
+          <column width="-1" hidden="0" name="dienTichTh" type="field"/>
+          <column width="-1" hidden="0" name="dienTichO" type="field"/>
+          <column width="-1" hidden="0" name="dienTichLa" type="field"/>
+          <column width="-1" hidden="0" name="dienTichKh" type="field"/>
+          <column width="-1" hidden="0" name="soCoSoNha" type="field"/>
+          <column width="-1" hidden="0" name="nguyenGia" type="field"/>
+          <column width="-1" hidden="0" name="giaHienTai" type="field"/>
+          <column width="-1" hidden="0" name="hosoPhapLy" type="field"/>
+          <column width="-1" hidden="0" name="lienketHS" type="field"/>
+          <column width="-1" hidden="0" name="giaoHS" type="field"/>
+          <column width="-1" hidden="0" name="anhTSC" type="field"/>
+          <column width="-1" hidden="0" name="mucDichSD" type="field"/>
+          <column width="-1" hidden="0" name="tinhtrangH" type="field"/>
+          <column width="-1" hidden="0" name="tinhTrangS" type="field"/>
+          <column width="-1" hidden="0" name="soCoSoCXDN" type="field"/>
+          <column width="-1" hidden="0" name="phanLoai" type="field"/>
+          <column width="-1" hidden="0" name="ngayThuNha" type="field"/>
+          <column width="-1" hidden="0" name="ngayCapNha" type="field"/>
+          <column width="-1" hidden="0" name="ghiChu" type="field"/>
+          <column width="-1" hidden="0" name="ObjectID" type="field"/>
+          <column width="-1" hidden="0" name="Shape_Leng" type="field"/>
+          <column width="-1" hidden="0" name="Shape_Area" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -1840,18 +2331,169 @@
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <reuseLastValue/>
+      <editable>
+        <field editable="1" name="OBJECTID_1"/>
+        <field editable="1" name="ObjectID"/>
+        <field editable="1" name="Shape_Area"/>
+        <field editable="1" name="Shape_Leng"/>
+        <field editable="1" name="anhTSC"/>
+        <field editable="1" name="dienTichCh"/>
+        <field editable="1" name="dienTichDa"/>
+        <field editable="1" name="dienTichKK"/>
+        <field editable="1" name="dienTichKh"/>
+        <field editable="1" name="dienTichLa"/>
+        <field editable="1" name="dienTichMu"/>
+        <field editable="1" name="dienTichNh"/>
+        <field editable="1" name="dienTichO"/>
+        <field editable="1" name="dienTichSa"/>
+        <field editable="1" name="dienTichTh"/>
+        <field editable="1" name="ghiChu"/>
+        <field editable="1" name="giaHienTai"/>
+        <field editable="1" name="giaoHS"/>
+        <field editable="1" name="hosoPhapLy"/>
+        <field editable="1" name="lienketHS"/>
+        <field editable="1" name="loaiCoQuan"/>
+        <field editable="1" name="loaiNha"/>
+        <field editable="1" name="maHuyen"/>
+        <field editable="1" name="maTaiSan"/>
+        <field editable="1" name="maThuaDat"/>
+        <field editable="1" name="maToThua"/>
+        <field editable="1" name="maXa"/>
+        <field editable="1" name="mucDichSD"/>
+        <field editable="1" name="ngayCapNha"/>
+        <field editable="1" name="ngayThuNha"/>
+        <field editable="1" name="nguyenGia"/>
+        <field editable="1" name="phanLoai"/>
+        <field editable="1" name="soCoSoCXDN"/>
+        <field editable="1" name="soCoSoNha"/>
+        <field editable="1" name="soNha"/>
+        <field editable="1" name="tenCoQuan"/>
+        <field editable="1" name="tenDuong"/>
+        <field editable="1" name="tenHuyen"/>
+        <field editable="1" name="tenTaiSan"/>
+        <field editable="1" name="tenTinh"/>
+        <field editable="1" name="tenXa"/>
+        <field editable="1" name="tinhTrangS"/>
+        <field editable="1" name="tinhtrangH"/>
+        <field editable="1" name="tongSoNha"/>
+      </editable>
+      <labelOnTop>
+        <field name="OBJECTID_1" labelOnTop="0"/>
+        <field name="ObjectID" labelOnTop="0"/>
+        <field name="Shape_Area" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+        <field name="anhTSC" labelOnTop="0"/>
+        <field name="dienTichCh" labelOnTop="0"/>
+        <field name="dienTichDa" labelOnTop="0"/>
+        <field name="dienTichKK" labelOnTop="0"/>
+        <field name="dienTichKh" labelOnTop="0"/>
+        <field name="dienTichLa" labelOnTop="0"/>
+        <field name="dienTichMu" labelOnTop="0"/>
+        <field name="dienTichNh" labelOnTop="0"/>
+        <field name="dienTichO" labelOnTop="0"/>
+        <field name="dienTichSa" labelOnTop="0"/>
+        <field name="dienTichTh" labelOnTop="0"/>
+        <field name="ghiChu" labelOnTop="0"/>
+        <field name="giaHienTai" labelOnTop="0"/>
+        <field name="giaoHS" labelOnTop="0"/>
+        <field name="hosoPhapLy" labelOnTop="0"/>
+        <field name="lienketHS" labelOnTop="0"/>
+        <field name="loaiCoQuan" labelOnTop="0"/>
+        <field name="loaiNha" labelOnTop="0"/>
+        <field name="maHuyen" labelOnTop="0"/>
+        <field name="maTaiSan" labelOnTop="0"/>
+        <field name="maThuaDat" labelOnTop="0"/>
+        <field name="maToThua" labelOnTop="0"/>
+        <field name="maXa" labelOnTop="0"/>
+        <field name="mucDichSD" labelOnTop="0"/>
+        <field name="ngayCapNha" labelOnTop="0"/>
+        <field name="ngayThuNha" labelOnTop="0"/>
+        <field name="nguyenGia" labelOnTop="0"/>
+        <field name="phanLoai" labelOnTop="0"/>
+        <field name="soCoSoCXDN" labelOnTop="0"/>
+        <field name="soCoSoNha" labelOnTop="0"/>
+        <field name="soNha" labelOnTop="0"/>
+        <field name="tenCoQuan" labelOnTop="0"/>
+        <field name="tenDuong" labelOnTop="0"/>
+        <field name="tenHuyen" labelOnTop="0"/>
+        <field name="tenTaiSan" labelOnTop="0"/>
+        <field name="tenTinh" labelOnTop="0"/>
+        <field name="tenXa" labelOnTop="0"/>
+        <field name="tinhTrangS" labelOnTop="0"/>
+        <field name="tinhtrangH" labelOnTop="0"/>
+        <field name="tongSoNha" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="OBJECTID_1" reuseLastValue="0"/>
+        <field name="ObjectID" reuseLastValue="0"/>
+        <field name="Shape_Area" reuseLastValue="0"/>
+        <field name="Shape_Leng" reuseLastValue="0"/>
+        <field name="anhTSC" reuseLastValue="0"/>
+        <field name="dienTichCh" reuseLastValue="0"/>
+        <field name="dienTichDa" reuseLastValue="0"/>
+        <field name="dienTichKK" reuseLastValue="0"/>
+        <field name="dienTichKh" reuseLastValue="0"/>
+        <field name="dienTichLa" reuseLastValue="0"/>
+        <field name="dienTichMu" reuseLastValue="0"/>
+        <field name="dienTichNh" reuseLastValue="0"/>
+        <field name="dienTichO" reuseLastValue="0"/>
+        <field name="dienTichSa" reuseLastValue="0"/>
+        <field name="dienTichTh" reuseLastValue="0"/>
+        <field name="ghiChu" reuseLastValue="0"/>
+        <field name="giaHienTai" reuseLastValue="0"/>
+        <field name="giaoHS" reuseLastValue="0"/>
+        <field name="hosoPhapLy" reuseLastValue="0"/>
+        <field name="lienketHS" reuseLastValue="0"/>
+        <field name="loaiCoQuan" reuseLastValue="0"/>
+        <field name="loaiNha" reuseLastValue="0"/>
+        <field name="maHuyen" reuseLastValue="0"/>
+        <field name="maTaiSan" reuseLastValue="0"/>
+        <field name="maThuaDat" reuseLastValue="0"/>
+        <field name="maToThua" reuseLastValue="0"/>
+        <field name="maXa" reuseLastValue="0"/>
+        <field name="mucDichSD" reuseLastValue="0"/>
+        <field name="ngayCapNha" reuseLastValue="0"/>
+        <field name="ngayThuNha" reuseLastValue="0"/>
+        <field name="nguyenGia" reuseLastValue="0"/>
+        <field name="phanLoai" reuseLastValue="0"/>
+        <field name="soCoSoCXDN" reuseLastValue="0"/>
+        <field name="soCoSoNha" reuseLastValue="0"/>
+        <field name="soNha" reuseLastValue="0"/>
+        <field name="tenCoQuan" reuseLastValue="0"/>
+        <field name="tenDuong" reuseLastValue="0"/>
+        <field name="tenHuyen" reuseLastValue="0"/>
+        <field name="tenTaiSan" reuseLastValue="0"/>
+        <field name="tenTinh" reuseLastValue="0"/>
+        <field name="tenXa" reuseLastValue="0"/>
+        <field name="tinhTrangS" reuseLastValue="0"/>
+        <field name="tinhtrangH" reuseLastValue="0"/>
+        <field name="tongSoNha" reuseLastValue="0"/>
+      </reuseLastValue>
       <dataDefinedFieldProperties/>
       <widgets/>
-      <previewExpression></previewExpression>
+      <previewExpression>"maTaiSan"</previewExpression>
       <mapTip enabled="1"></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" refreshOnNotifyMessage="" maxScale="0" minScale="1e+08" legendPlaceholderImage="" type="raster" autoRefreshTime="0" styleCategories="AllStyleCategories">
+    <maplayer refreshOnNotifyMessage="" maxScale="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" legendPlaceholderImage="" autoRefreshMode="Disabled" hasScaleBasedVisibilityFlag="0" type="raster" styleCategories="AllStyleCategories" minScale="1e+08">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278924763202667</ymin>
@@ -1891,7 +2533,7 @@
         <title>OpenStreetMap tiles</title>
         <abstract>OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.</abstract>
         <links>
-          <link name="Source" mimeType="" size="" url="https://www.openstreetmap.org/" format="" type="WWW:LINK" description=""/>
+          <link description="" name="Source" size="" mimeType="" type="WWW:LINK" format="" url="https://www.openstreetmap.org/"/>
         </links>
         <dates/>
         <fees></fees>
@@ -1913,7 +2555,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial minz="nan" minx="-180" maxx="180" maxz="nan" miny="-85.05112877980660357" maxy="85.05112877980660357" crs="EPSG:4326" dimensions="2"/>
+          <spatial maxy="85.05112877980660357" maxx="180" dimensions="2" minx="-180" minz="nan" maxz="nan" crs="EPSG:4326" miny="-85.05112877980660357"/>
         </extent>
       </resourceMetadata>
       <provider>wms</provider>
@@ -1927,16 +2569,16 @@
       <flags>
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
-        <Searchable>1</Searchable>
+        <Searchable>0</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" bandNumber="1" enabled="0" fetchMode="0">
+      <temporal enabled="0" mode="0" bandNumber="1" fetchMode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation mode="RepresentsElevationSurface" zoffset="0" zscale="1" enabled="0" band="1" symbology="Line">
+      <elevation enabled="0" zscale="1" symbology="Line" band="1" zoffset="0" mode="RepresentsElevationSurface">
         <data-defined-properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1945,7 +2587,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="line" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="line">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1953,7 +2595,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{60dab026-41c5-4046-8640-0dcf3c309831}" class="SimpleLine" pass="0">
+            <layer locked="0" enabled="1" id="{60dab026-41c5-4046-8640-0dcf3c309831}" pass="0" class="SimpleLine">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -1994,7 +2636,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="fill" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2002,7 +2644,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{42de03d9-1754-48d5-bec4-6c796b1f3e7c}" class="SimpleFill" pass="0">
+            <layer locked="0" enabled="1" id="{42de03d9-1754-48d5-bec4-6c796b1f3e7c}" pass="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 <Option name="color" value="183,72,75,255,rgb:0.71764705882352942,0.28235294117647058,0.29411764705882354,1" type="QString"/>
@@ -2042,9 +2684,9 @@
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour"/>
+          <resampling enabled="false" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour"/>
         </provider>
-        <rasterrenderer opacity="1" type="singlebandcolordata" nodataColor="" band="1" alphaBand="-1">
+        <rasterrenderer opacity="1" nodataColor="" band="1" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -2055,14 +2697,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
-        <huesaturation colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" saturation="0" invertColors="0" colorizeStrength="100" colorizeRed="255" colorizeOn="0"/>
+        <brightnesscontrast contrast="0" gamma="1" brightness="0"/>
+        <huesaturation grayscaleMode="0" colorizeRed="255" colorizeGreen="128" invertColors="0" colorizeStrength="100" saturation="0" colorizeOn="0" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer wkbType="Polygon" simplifyDrawingHints="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" symbologyReferenceScale="-1" autoRefreshMode="Disabled" legendPlaceholderImage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" type="vector" labelsEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" minScale="100000000" readOnly="0">
+    <maplayer geometry="Polygon" simplifyLocal="1" symbologyReferenceScale="-1" legendPlaceholderImage="" type="vector" minScale="100000000" simplifyAlgorithm="0" autoRefreshMode="Disabled" maxScale="0" autoRefreshTime="0" simplifyMaxScale="1" wkbType="Polygon" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" refreshOnNotifyMessage="" labelsEnabled="0" simplifyDrawingTol="1" readOnly="0" hasScaleBasedVisibilityFlag="0">
       <id>edit_polygons_9db01458_e15b_4ce3_b4ae_ede7310194c6</id>
       <datasource>service='qwc_geodb' sslmode=disable key='id' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table="qwc_geodb"."edit_polygons" (geom)</datasource>
       <keywordList>
@@ -2116,7 +2758,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial minz="0" minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxz="0" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" crs="EPSG:3857" dimensions="2"/>
+          <spatial maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" dimensions="2" minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" minz="0" maxz="0" crs="EPSG:3857" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368"/>
           <temporal>
             <period>
               <start></start>
@@ -2141,13 +2783,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" startExpression="" limitMode="0" durationUnit="min" accumulate="0" endField="" enabled="0" startField="datetime" fixedDuration="0" durationField="id" endExpression="">
+      <temporal durationField="id" endExpression="" fixedDuration="0" enabled="0" endField="" startExpression="" startField="datetime" accumulate="0" limitMode="0" durationUnit="min" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation zoffset="0" extrusionEnabled="0" zscale="1" extrusion="0" respectLayerSymbol="1" binding="Centroid" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" clamping="Terrain" symbology="Line">
+      <elevation extrusionEnabled="0" extrusion="0" binding="Centroid" zscale="1" clamping="Terrain" symbology="Line" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" type="IndividualFeatures" zoffset="0">
         <data-defined-properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2156,7 +2798,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="line" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="line">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2164,7 +2806,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{3763d8dc-469a-4cc3-99e2-25c33d59d4fe}" class="SimpleLine" pass="0">
+            <layer locked="0" enabled="1" id="{3763d8dc-469a-4cc3-99e2-25c33d59d4fe}" pass="0" class="SimpleLine">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -2205,7 +2847,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="fill" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2213,7 +2855,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{d0ac7261-6032-4aa7-ad9c-a6e4231b6082}" class="SimpleFill" pass="0">
+            <layer locked="0" enabled="1" id="{d0ac7261-6032-4aa7-ad9c-a6e4231b6082}" pass="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 <Option name="color" value="190,207,80,255,rgb:0.74509803921568629,0.81176470588235294,0.31372549019607843,1" type="QString"/>
@@ -2238,7 +2880,7 @@
           </symbol>
         </profileFillSymbol>
         <profileMarkerSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="marker" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="marker">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2246,7 +2888,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{c16837ce-ecc2-4fc5-b820-b4ec5b6a101f}" class="SimpleMarker" pass="0">
+            <layer locked="0" enabled="1" id="{c16837ce-ecc2-4fc5-b820-b4ec5b6a101f}" pass="0" class="SimpleMarker">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -2279,9 +2921,9 @@
           </symbol>
         </profileMarkerSymbol>
       </elevation>
-      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0" referencescale="-1">
+      <renderer-v2 referencescale="-1" symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
         <symbols>
-          <symbol name="0" alpha="1" frame_rate="10" type="fill" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="0" is_animated="0" frame_rate="10" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2289,7 +2931,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{d4a81238-dfff-4396-99c1-e15b6e7c1c54}" class="SimpleFill" pass="0">
+            <layer locked="0" enabled="1" id="{d4a81238-dfff-4396-99c1-e15b6e7c1c54}" pass="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 <Option name="color" value="225,89,137,255,rgb:0.88235294117647056,0.34901960784313724,0.53725490196078429,1" type="QString"/>
@@ -2326,7 +2968,7 @@
       <selection mode="Default">
         <selectionColor invalid="1"/>
         <selectionSymbol>
-          <symbol name="" alpha="1" frame_rate="10" type="fill" clip_to_extent="1" force_rhr="0" is_animated="0">
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2334,7 +2976,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer enabled="1" locked="0" id="{f5e769b2-cdfd-465d-b63d-ec5a4defba3a}" class="SimpleFill" pass="0">
+            <layer locked="0" enabled="1" id="{f5e769b2-cdfd-465d-b63d-ec5a4defba3a}" pass="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 <Option name="color" value="0,0,255,255,rgb:0,0,1,1" type="QString"/>
@@ -2362,19 +3004,19 @@
       <customproperties>
         <Option type="Map">
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option name="variableNames" type="invalid"/>
+          <Option name="variableValues" type="invalid"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory penAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" backgroundAlpha="255" opacity="1" barWidth="5" spacingUnit="MM" spacing="5" labelPlacementMethod="XHeight" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" minimumSize="0" sizeType="MM" rotationOffset="270" direction="0" showAxis="1" sizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" maxScaleDenominator="1e+08" lineSizeType="MM" scaleBasedVisibility="0" penColor="#000000" height="15" enabled="0" penWidth="0" scaleDependency="Area" width="15">
-          <fontProperties bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute colorOpacity="1" color="#000000" label="" field=""/>
+        <DiagramCategory spacingUnitScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" minScaleDenominator="0" width="15" spacing="5" direction="0" labelPlacementMethod="XHeight" enabled="0" scaleBasedVisibility="0" height="15" rotationOffset="270" backgroundColor="#ffffff" penColor="#000000" spacingUnit="MM" opacity="1" penAlpha="255" penWidth="0" sizeType="MM" barWidth="5" backgroundAlpha="255" showAxis="1">
+          <fontProperties bold="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style="" italic="0" underline="0"/>
+          <attribute colorOpacity="1" field="" color="#000000" label=""/>
           <axisSymbol>
-            <symbol name="" alpha="1" frame_rate="10" type="line" clip_to_extent="1" force_rhr="0" is_animated="0">
+            <symbol force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0" frame_rate="10" type="line">
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -2382,7 +3024,7 @@
                   <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
-              <layer enabled="1" locked="0" id="{21ad5de8-ae5f-45cb-a16e-32d3ca3cd9d7}" class="SimpleLine" pass="0">
+              <layer locked="0" enabled="1" id="{21ad5de8-ae5f-45cb-a16e-32d3ca3cd9d7}" pass="0" class="SimpleLine">
                 <Option type="Map">
                   <Option name="align_dash_pattern" value="0" type="QString"/>
                   <Option name="capstyle" value="square" type="QString"/>
@@ -2424,7 +3066,7 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" placement="1" linePlacementFlags="18" showAll="1" dist="0" priority="0">
+      <DiagramLayerSettings showAll="1" priority="0" obstacle="0" linePlacementFlags="18" placement="1" zIndex="0" dist="0">
         <properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2433,13 +3075,13 @@
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration type="Map">
           <Option name="QgsGeometryGapCheck" type="Map">
             <Option name="allowedGapsBuffer" value="0" type="double"/>
             <Option name="allowedGapsEnabled" value="false" type="bool"/>
-            <Option name="allowedGapsLayer" value="" type="QString"/>
+            <Option name="allowedGapsLayer" type="invalid"/>
           </Option>
         </checkConfiguration>
       </geometryOptions>
@@ -2562,94 +3204,94 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="ID" index="0" field="id"/>
-        <alias name="" index="1" field="name"/>
-        <alias name="" index="2" field="description"/>
-        <alias name="" index="3" field="num"/>
-        <alias name="" index="4" field="value"/>
-        <alias name="" index="5" field="type"/>
-        <alias name="" index="6" field="amount"/>
-        <alias name="" index="7" field="validated"/>
-        <alias name="" index="8" field="datetime"/>
-        <alias name="Mã tài sản" index="9" field="mataisan"/>
+        <alias index="0" field="id" name="ID"/>
+        <alias index="1" field="name" name=""/>
+        <alias index="2" field="description" name=""/>
+        <alias index="3" field="num" name=""/>
+        <alias index="4" field="value" name=""/>
+        <alias index="5" field="type" name=""/>
+        <alias index="6" field="amount" name=""/>
+        <alias index="7" field="validated" name=""/>
+        <alias index="8" field="datetime" name=""/>
+        <alias index="9" field="mataisan" name="Mã tài sản"/>
       </aliases>
       <splitPolicies>
-        <policy policy="Duplicate" field="id"/>
-        <policy policy="Duplicate" field="name"/>
-        <policy policy="Duplicate" field="description"/>
-        <policy policy="Duplicate" field="num"/>
-        <policy policy="Duplicate" field="value"/>
-        <policy policy="Duplicate" field="type"/>
-        <policy policy="Duplicate" field="amount"/>
-        <policy policy="Duplicate" field="validated"/>
-        <policy policy="Duplicate" field="datetime"/>
-        <policy policy="Duplicate" field="mataisan"/>
+        <policy field="id" policy="Duplicate"/>
+        <policy field="name" policy="Duplicate"/>
+        <policy field="description" policy="Duplicate"/>
+        <policy field="num" policy="Duplicate"/>
+        <policy field="value" policy="Duplicate"/>
+        <policy field="type" policy="Duplicate"/>
+        <policy field="amount" policy="Duplicate"/>
+        <policy field="validated" policy="Duplicate"/>
+        <policy field="datetime" policy="Duplicate"/>
+        <policy field="mataisan" policy="Duplicate"/>
       </splitPolicies>
       <duplicatePolicies>
-        <policy policy="Duplicate" field="id"/>
-        <policy policy="Duplicate" field="name"/>
-        <policy policy="Duplicate" field="description"/>
-        <policy policy="Duplicate" field="num"/>
-        <policy policy="Duplicate" field="value"/>
-        <policy policy="Duplicate" field="type"/>
-        <policy policy="Duplicate" field="amount"/>
-        <policy policy="Duplicate" field="validated"/>
-        <policy policy="Duplicate" field="datetime"/>
-        <policy policy="Duplicate" field="mataisan"/>
+        <policy field="id" policy="Duplicate"/>
+        <policy field="name" policy="Duplicate"/>
+        <policy field="description" policy="Duplicate"/>
+        <policy field="num" policy="Duplicate"/>
+        <policy field="value" policy="Duplicate"/>
+        <policy field="type" policy="Duplicate"/>
+        <policy field="amount" policy="Duplicate"/>
+        <policy field="validated" policy="Duplicate"/>
+        <policy field="datetime" policy="Duplicate"/>
+        <policy field="mataisan" policy="Duplicate"/>
       </duplicatePolicies>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="id"/>
-        <default expression="" applyOnUpdate="0" field="name"/>
-        <default expression="" applyOnUpdate="0" field="description"/>
-        <default expression="" applyOnUpdate="0" field="num"/>
-        <default expression="" applyOnUpdate="0" field="value"/>
-        <default expression="" applyOnUpdate="0" field="type"/>
-        <default expression="" applyOnUpdate="0" field="amount"/>
-        <default expression="" applyOnUpdate="0" field="validated"/>
-        <default expression="" applyOnUpdate="0" field="datetime"/>
-        <default expression="" applyOnUpdate="0" field="mataisan"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="name" applyOnUpdate="0"/>
+        <default expression="" field="description" applyOnUpdate="0"/>
+        <default expression="" field="num" applyOnUpdate="0"/>
+        <default expression="" field="value" applyOnUpdate="0"/>
+        <default expression="" field="type" applyOnUpdate="0"/>
+        <default expression="" field="amount" applyOnUpdate="0"/>
+        <default expression="" field="validated" applyOnUpdate="0"/>
+        <default expression="" field="datetime" applyOnUpdate="0"/>
+        <default expression="" field="mataisan" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" exp_strength="0" notnull_strength="1" unique_strength="1" field="id"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="name"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="description"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="num"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="value"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="type"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="amount"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="validated"/>
-        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="datetime"/>
-        <constraint constraints="1" exp_strength="0" notnull_strength="1" unique_strength="0" field="mataisan"/>
+        <constraint notnull_strength="1" constraints="3" field="id" exp_strength="0" unique_strength="1"/>
+        <constraint notnull_strength="0" constraints="0" field="name" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="description" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="num" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="value" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="type" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="amount" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="validated" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="datetime" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="1" constraints="1" field="mataisan" exp_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="name"/>
-        <constraint exp="" desc="" field="description"/>
-        <constraint exp="" desc="" field="num"/>
-        <constraint exp="" desc="" field="value"/>
-        <constraint exp="" desc="" field="type"/>
-        <constraint exp="" desc="" field="amount"/>
-        <constraint exp="" desc="" field="validated"/>
-        <constraint exp="" desc="" field="datetime"/>
-        <constraint exp="" desc="" field="mataisan"/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="name" exp="" desc=""/>
+        <constraint field="description" exp="" desc=""/>
+        <constraint field="num" exp="" desc=""/>
+        <constraint field="value" exp="" desc=""/>
+        <constraint field="type" exp="" desc=""/>
+        <constraint field="amount" exp="" desc=""/>
+        <constraint field="validated" exp="" desc=""/>
+        <constraint field="datetime" exp="" desc=""/>
+        <constraint field="mataisan" exp="" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column name="id" hidden="0" width="-1" type="field"/>
-          <column name="name" hidden="0" width="-1" type="field"/>
-          <column name="description" hidden="0" width="-1" type="field"/>
-          <column name="num" hidden="0" width="-1" type="field"/>
-          <column name="value" hidden="0" width="-1" type="field"/>
-          <column name="type" hidden="0" width="-1" type="field"/>
-          <column name="amount" hidden="0" width="-1" type="field"/>
-          <column name="validated" hidden="0" width="-1" type="field"/>
-          <column name="datetime" hidden="0" width="-1" type="field"/>
-          <column name="mataisan" hidden="0" width="-1" type="field"/>
-          <column hidden="1" width="-1" type="actions"/>
+          <column width="-1" hidden="0" name="id" type="field"/>
+          <column width="-1" hidden="0" name="name" type="field"/>
+          <column width="-1" hidden="0" name="description" type="field"/>
+          <column width="-1" hidden="0" name="num" type="field"/>
+          <column width="-1" hidden="0" name="value" type="field"/>
+          <column width="-1" hidden="0" name="type" type="field"/>
+          <column width="-1" hidden="0" name="amount" type="field"/>
+          <column width="-1" hidden="0" name="validated" type="field"/>
+          <column width="-1" hidden="0" name="datetime" type="field"/>
+          <column width="-1" hidden="0" name="mataisan" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -2681,26 +3323,26 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>tablayout</editorlayout>
       <attributeEditorForm>
-        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
-          <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+          <labelFont bold="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style="" italic="0" underline="0"/>
         </labelStyle>
-        <attributeEditorField name="mataisan" verticalStretch="0" index="9" showLabel="1" horizontalStretch="0">
-          <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
-            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <attributeEditorField verticalStretch="0" index="9" name="mataisan" horizontalStretch="0" showLabel="1">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont bold="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style="" italic="0" underline="0"/>
           </labelStyle>
         </attributeEditorField>
       </attributeEditorForm>
       <editable>
-        <field name="amount" editable="1"/>
-        <field name="datetime" editable="1"/>
-        <field name="description" editable="1"/>
-        <field name="id" editable="0"/>
-        <field name="mataisan" editable="1"/>
-        <field name="name" editable="1"/>
-        <field name="num" editable="1"/>
-        <field name="type" editable="1"/>
-        <field name="validated" editable="1"/>
-        <field name="value" editable="1"/>
+        <field editable="1" name="amount"/>
+        <field editable="1" name="datetime"/>
+        <field editable="1" name="description"/>
+        <field editable="0" name="id"/>
+        <field editable="1" name="mataisan"/>
+        <field editable="1" name="name"/>
+        <field editable="1" name="num"/>
+        <field editable="1" name="type"/>
+        <field editable="1" name="validated"/>
+        <field editable="1" name="value"/>
       </editable>
       <labelOnTop>
         <field name="amount" labelOnTop="0"/>
@@ -2791,13 +3433,7 @@ def my_form_open(dialog, layer, feature):
     </SpatialRefSys>
     <WCSLayers type="QStringList"/>
     <WCSUrl type="QString"></WCSUrl>
-    <WFSLayers type="QStringList">
-      <value>DAT_CS_METADATA_be6e3f84_6ea0_404f_af2b_5510c21f5731</value>
-      <value>NHA_CS_METADATA_2e61e0d2_0738_465a_8295_4f618ac8df69</value>
-      <value>edit_lines_8972f997_9141_49ce_8d6d_668aa1001bfd</value>
-      <value>edit_points_6523b205_6924_4f63_8c3e_a04bd4b7bea8</value>
-      <value>edit_polygons_b0466b0a_3607_41c2_a665_c3b95526b9a4</value>
-    </WFSLayers>
+    <WFSLayers type="QStringList"/>
     <WFSLayersPrecision>
       <DAT_CS_METADATA_be6e3f84_6ea0_404f_af2b_5510c21f5731 type="int">8</DAT_CS_METADATA_be6e3f84_6ea0_404f_af2b_5510c21f5731>
       <NHA_CS_METADATA_2e61e0d2_0738_465a_8295_4f618ac8df69 type="int">8</NHA_CS_METADATA_2e61e0d2_0738_465a_8295_4f618ac8df69>
@@ -2806,37 +3442,22 @@ def my_form_open(dialog, layer, feature):
       <edit_polygons_b0466b0a_3607_41c2_a665_c3b95526b9a4 type="int">8</edit_polygons_b0466b0a_3607_41c2_a665_c3b95526b9a4>
     </WFSLayersPrecision>
     <WFSTLayers>
-      <Delete type="QStringList">
-        <value>DAT_CS_METADATA_be6e3f84_6ea0_404f_af2b_5510c21f5731</value>
-        <value>NHA_CS_METADATA_2e61e0d2_0738_465a_8295_4f618ac8df69</value>
-        <value>edit_lines_8972f997_9141_49ce_8d6d_668aa1001bfd</value>
-        <value>edit_points_6523b205_6924_4f63_8c3e_a04bd4b7bea8</value>
-        <value>edit_polygons_b0466b0a_3607_41c2_a665_c3b95526b9a4</value>
-      </Delete>
-      <Insert type="QStringList">
-        <value>DAT_CS_METADATA_be6e3f84_6ea0_404f_af2b_5510c21f5731</value>
-        <value>NHA_CS_METADATA_2e61e0d2_0738_465a_8295_4f618ac8df69</value>
-        <value>edit_lines_8972f997_9141_49ce_8d6d_668aa1001bfd</value>
-        <value>edit_points_6523b205_6924_4f63_8c3e_a04bd4b7bea8</value>
-        <value>edit_polygons_b0466b0a_3607_41c2_a665_c3b95526b9a4</value>
-      </Insert>
-      <Update type="QStringList">
-        <value>DAT_CS_METADATA_be6e3f84_6ea0_404f_af2b_5510c21f5731</value>
-        <value>NHA_CS_METADATA_2e61e0d2_0738_465a_8295_4f618ac8df69</value>
-        <value>edit_lines_8972f997_9141_49ce_8d6d_668aa1001bfd</value>
-        <value>edit_points_6523b205_6924_4f63_8c3e_a04bd4b7bea8</value>
-        <value>edit_polygons_b0466b0a_3607_41c2_a665_c3b95526b9a4</value>
-      </Update>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
     </WFSTLayers>
     <WFSUrl type="QString"></WFSUrl>
     <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
     <WMSAddLayerGroupsLegendGraphic type="bool">false</WMSAddLayerGroupsLegendGraphic>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSAddWktGeometry type="bool">true</WMSAddWktGeometry>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSContactOrganization type="QString"></WMSContactOrganization>
     <WMSContactPerson type="QString"></WMSContactPerson>
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSCrsList type="QStringList">
+      <value>EPSG:3857</value>
+    </WMSCrsList>
     <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
     <WMSFeatureInfoUseAttributeFormSettings type="bool">false</WMSFeatureInfoUseAttributeFormSettings>
     <WMSFees type="QString">conditions unknown</WMSFees>
@@ -2887,7 +3508,7 @@ def my_form_open(dialog, layer, feature):
   </dataDefinedServerProperties>
   <visibility-presets/>
   <transformContext>
-    <srcDest allowFallback="1" coordinateOp="+proj=pipeline +step +inv +proj=webmerc +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +step +proj=push +v_3 +step +proj=cart +ellps=WGS84 +step +inv +proj=helmert +x=-191.90441429 +y=-39.30318279 +z=-111.45032835 +rx=-0.00928836 +ry=0.01975479 +rz=-0.00427372 +s=0.252906278 +convention=coordinate_frame +step +inv +proj=cart +ellps=WGS84 +step +proj=pop +v_3 +step +proj=tmerc +lat_0=0 +lon_0=107.75 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84">
+    <srcDest coordinateOp="+proj=pipeline +step +inv +proj=webmerc +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +step +proj=push +v_3 +step +proj=cart +ellps=WGS84 +step +inv +proj=helmert +x=-191.90441429 +y=-39.30318279 +z=-111.45032835 +rx=-0.00928836 +ry=0.01975479 +rz=-0.00427372 +s=0.252906278 +convention=coordinate_frame +step +inv +proj=cart +ellps=WGS84 +step +proj=pop +v_3 +step +proj=tmerc +lat_0=0 +lon_0=107.75 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84" allowFallback="1">
       <src>
         <spatialrefsys nativeFormat="Wkt">
           <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
@@ -2915,7 +3536,7 @@ def my_form_open(dialog, layer, feature):
         </spatialrefsys>
       </dest>
     </srcDest>
-    <srcDest allowFallback="1" coordinateOp="+proj=pipeline +step +proj=unitconvert +xy_in=deg +xy_out=rad +step +proj=push +v_3 +step +proj=cart +ellps=WGS84 +step +inv +proj=helmert +x=-192.873 +y=-39.382 +z=-111.202 +rx=0.00205 +ry=0.0005 +rz=-0.00335 +s=0.0188 +convention=coordinate_frame +step +inv +proj=cart +ellps=WGS84 +step +proj=pop +v_3 +step +proj=tmerc +lat_0=0 +lon_0=107.75 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84">
+    <srcDest coordinateOp="+proj=pipeline +step +proj=unitconvert +xy_in=deg +xy_out=rad +step +proj=push +v_3 +step +proj=cart +ellps=WGS84 +step +inv +proj=helmert +x=-192.873 +y=-39.382 +z=-111.202 +rx=0.00205 +ry=0.0005 +rz=-0.00335 +s=0.0188 +convention=coordinate_frame +step +inv +proj=cart +ellps=WGS84 +step +proj=pop +v_3 +step +proj=tmerc +lat_0=0 +lon_0=107.75 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84" allowFallback="1">
       <src>
         <spatialrefsys nativeFormat="Wkt">
           <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
@@ -2974,7 +3595,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales/>
-    <DefaultViewExtent xmin="545344.85452958079986274" ymin="1768881.07689228700473905" xmax="547975.53726182854734361" ymax="1770392.12648935662582517">
+    <DefaultViewExtent ymax="1773654.3261525200214237" ymin="1771574.41879833093844354" xmin="548118.51669383444823325" xmax="551739.56022010347805917">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["VN-2000 / UTM zone 48N",BASEGEOGCRS["VN-2000",DATUM["Vietnam 2000",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ID["EPSG",6756]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",107.75,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1,ID["EPSG",9001]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1,ID["EPSG",9001]]]]</wkt>
         <proj4>+proj=tmerc +lat_0=0 +lon_0=107.75 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=-191.90441429,-39.30318279,-111.45032835,0.00928836,-0.01975479,0.00427372,0.252906278 +units=m +no_defs +type=crs</proj4>
@@ -2988,16 +3609,16 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
-  <ProjectStyleSettings projectStyleId="attachment:///KfcDLo_styles.db" DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1">
+  <ProjectStyleSettings RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1" projectStyleId="attachment:///KfcDLo_styles.db">
     <databases/>
   </ProjectStyleSettings>
-  <ProjectTimeSettings totalMovieFrames="100" timeStepUnit="h" cumulativeTemporalRange="0" frameRate="1" timeStep="1"/>
+  <ProjectTimeSettings frameRate="1" totalMovieFrames="100" timeStep="1" cumulativeTemporalRange="0" timeStepUnit="h"/>
   <ElevationProperties FilterInvertSlider="0">
     <terrainProvider type="flat">
       <TerrainProvider offset="0" scale="1"/>
     </terrainProvider>
   </ElevationProperties>
-  <ProjectDisplaySettings CoordinateAxisOrder="Default" CoordinateType="MapCrs">
+  <ProjectDisplaySettings CoordinateType="MapCrs" CoordinateAxisOrder="Default">
     <BearingFormat id="bearing">
       <Option type="Map">
         <Option name="decimal_separator" type="invalid"/>
@@ -3039,7 +3660,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings autoAddTrackVertices="0" destinationLayerSource="service='qwc_geodb' sslmode=disable key='id' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;qwc_geodb&quot;.&quot;edit_polygons&quot; (geom)" destinationFollowsActiveLayer="1" destinationLayer="edit_polygons_9db01458_e15b_4ce3_b4ae_ede7310194c6" autoCommitFeatures="0" destinationLayerName="edit_polygons" destinationLayerProvider="postgres">
+  <ProjectGpsSettings destinationLayerProvider="ogr" destinationFollowsActiveLayer="1" destinationLayer="DAT_CS_METADATA_beb75571_be4c_4796_8e15_82133ff645a9" destinationLayerSource="Q:\1. Project\2. QL Nha_Cong_San\v5\DaNang_PBM_Shpfile\DAT_CS_METADATA.shp|layername=DAT_CS_METADATA" autoAddTrackVertices="0" autoCommitFeatures="0" destinationLayerName="DaNang_PBM_Shpfile — DAT_CS_METADATA">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>

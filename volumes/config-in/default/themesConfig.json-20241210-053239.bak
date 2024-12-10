@@ -100,7 +100,8 @@
           8000,
           6000,
           4000,
-          2000
+          2000,
+          1000
         ],
         "skipEmptyFeatureAttributes": false,
         "backgroundLayers": []

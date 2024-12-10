@@ -74,33 +74,21 @@
         "attributionUrl": "",
         "mapCrs": "EPSG:3857",
         "searchProviders": [
-          "coordinates",
           {
             "provider": "qgis",
             "params": {
-              "title": "Search layer maTaiSan",
+              "title": "Layer MaTaiSan",
               "featureCount": null,
               "resultTitle": null,
               "description": "",
-              "default": true,
+              "default": false,
               "group": "",
               "expression": {
-                "DaNang_PBM_Shpfile \u2014 NHA_CS_METADATA": "\"maTaiSan\" ILIKE '%$TEXT$%'",
-                "DaNang_PBM_Shpfile \u2014 DAT_CS_METADATA": "\"maTaiSan\" ILIKE '%$TEXT$%'"
+                "maTaiSan": "\"maTaiSan\" ILIKE '%$NAME$%'"
               },
-              "fields": null
+              "fields": "maTaiSan"
             }
           }
-        ],
-        "scales": [
-          80000,
-          40000,
-          20000,
-          10000,
-          8000,
-          6000,
-          4000,
-          2000
         ],
         "skipEmptyFeatureAttributes": false,
         "backgroundLayers": []

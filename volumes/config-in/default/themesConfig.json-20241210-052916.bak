@@ -93,13 +93,6 @@
           }
         ],
         "scales": [
-          80000,
-          40000,
-          20000,
-          10000,
-          8000,
-          6000,
-          4000,
           2000
         ],
         "skipEmptyFeatureAttributes": false,

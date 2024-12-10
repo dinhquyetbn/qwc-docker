@@ -85,22 +85,37 @@
               "default": true,
               "group": "",
               "expression": {
-                "DaNang_PBM_Shpfile \u2014 NHA_CS_METADATA": "\"maTaiSan\" ILIKE '%$TEXT$%'",
-                "DaNang_PBM_Shpfile \u2014 DAT_CS_METADATA": "\"maTaiSan\" ILIKE '%$TEXT$%'"
+                "persons": "\"name\" ILIKE '%$NAME$%' AND \"age\" >= $AGE$ AND \"gender\" = '$GENDER$'"
               },
-              "fields": null
+              "fields": {
+                "NAME": {
+                  "label": "Name",
+                  "type": "text"
+                },
+                "AGE": {
+                  "label": "Min. age",
+                  "type": "number",
+                  "options": {
+                    "min": 0
+                  }
+                },
+                "GENDER": {
+                  "label": "Gender",
+                  "type": "select",
+                  "options": [
+                    {
+                      "value": "f",
+                      "label": "Female"
+                    },
+                    {
+                      "value": "m",
+                      "label": "Male"
+                    }
+                  ]
+                }
+              }
             }
           }
-        ],
-        "scales": [
-          80000,
-          40000,
-          20000,
-          10000,
-          8000,
-          6000,
-          4000,
-          2000
         ],
         "skipEmptyFeatureAttributes": false,
         "backgroundLayers": []

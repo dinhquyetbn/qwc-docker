@@ -85,22 +85,13 @@
               "default": true,
               "group": "",
               "expression": {
-                "DaNang_PBM_Shpfile \u2014 NHA_CS_METADATA": "\"maTaiSan\" ILIKE '%$TEXT$%'",
-                "DaNang_PBM_Shpfile \u2014 DAT_CS_METADATA": "\"maTaiSan\" ILIKE '%$TEXT$%'"
+                "maTaiSan": "\"maTaiSan\" ILIKE '%TEXT%'"
               },
-              "fields": null
+              "fields": [
+                "maTaiSan"
+              ]
             }
           }
-        ],
-        "scales": [
-          80000,
-          40000,
-          20000,
-          10000,
-          8000,
-          6000,
-          4000,
-          2000
         ],
         "skipEmptyFeatureAttributes": false,
         "backgroundLayers": []
