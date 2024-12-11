@@ -64,106 +64,106 @@
                   "name": "OBJECTID_1"
                 },
                 {
-                  "name": "maTaiSan"
+                  "name": "Mã tài sản"
                 },
                 {
-                  "name": "tenTaiSan"
+                  "name": "Tên tài sản"
                 },
                 {
-                  "name": "tenCoQuan"
+                  "name": "Tên cơ quan"
                 },
                 {
-                  "name": "loaiCoQuan"
+                  "name": "Loại cơ quan"
                 },
                 {
-                  "name": "maToThua"
+                  "name": "Số tờ"
                 },
                 {
-                  "name": "maThuaDat"
+                  "name": "Số thửa"
                 },
                 {
-                  "name": "soNha"
+                  "name": "Số nhà"
                 },
                 {
-                  "name": "tenDuong"
+                  "name": "Tên đường"
                 },
                 {
-                  "name": "tenXa"
+                  "name": "Phường/Xã"
                 },
                 {
-                  "name": "maXa"
+                  "name": "Mã xã"
                 },
                 {
-                  "name": "tenHuyen"
+                  "name": "Quận/Huyện"
                 },
                 {
-                  "name": "maHuyen"
+                  "name": "Mã huyện"
                 },
                 {
-                  "name": "tenTinh"
+                  "name": "Tỉnh/TP"
                 },
                 {
-                  "name": "dienTichDa"
+                  "name": "Diện tích Da (m2)"
                 },
                 {
-                  "name": "dienTichKK"
+                  "name": "Diện tích KK (m2)"
                 },
                 {
-                  "name": "dienTichMu"
+                  "name": "Diện tích Mu (m2)"
                 },
                 {
-                  "name": "dienTichTh"
+                  "name": "Diện tích Th (m2)"
                 },
                 {
-                  "name": "dienTichO"
+                  "name": "Diện tích O (m2)"
                 },
                 {
-                  "name": "dienTichLa"
+                  "name": "Diện tích La (m2)"
                 },
                 {
-                  "name": "dienTichKh"
+                  "name": "Diện tích Kh (m2)"
                 },
                 {
-                  "name": "soCoSo"
+                  "name": "Số cơ sở"
                 },
                 {
-                  "name": "giaDat"
+                  "name": "Giá đất (VNĐ)"
                 },
                 {
-                  "name": "tinhTrangG"
+                  "name": "Tình trạng G"
                 },
                 {
-                  "name": "hosoPhapLy"
+                  "name": "Hồ sơ pháp lý"
                 },
                 {
-                  "name": "lienketHS"
+                  "name": "Liên kết hồ sơ"
                 },
                 {
-                  "name": "giaoHS"
+                  "name": "Giao hồ sơ"
                 },
                 {
-                  "name": "anhTSC"
+                  "name": "Ảnh tài sản"
                 },
                 {
-                  "name": "mucDichSD"
+                  "name": "Mục đích sử dụng"
                 },
                 {
-                  "name": "tinhtrangH"
+                  "name": "Tình trạng H"
                 },
                 {
-                  "name": "tinhTrangS"
+                  "name": "Tình trang S"
                 },
                 {
-                  "name": "phanLoai"
+                  "name": "Phân loại"
                 },
                 {
-                  "name": "ngayThuNha"
+                  "name": "Ngày thu nhà"
                 },
                 {
-                  "name": "ngayCapNha"
+                  "name": "Ngày cấp nhà"
                 },
                 {
-                  "name": "ghiChu"
+                  "name": "Ghi chú"
                 },
                 {
                   "name": "ObjectID"
@@ -181,7 +181,7 @@
                   "name": "maptip"
                 }
               ],
-              "display_field": "maTaiSan"
+              "display_field": "Mã tài sản"
             },
             {
               "name": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
@@ -191,124 +191,124 @@
                   "name": "OBJECTID_1"
                 },
                 {
-                  "name": "maTaiSan"
+                  "name": "Mã tài sản"
                 },
                 {
-                  "name": "tenTaiSan"
+                  "name": "Tên tài sản"
                 },
                 {
-                  "name": "tenCoQuan"
+                  "name": "Tên cơ quan"
                 },
                 {
-                  "name": "loaiCoQuan"
+                  "name": "Loại cơ quan"
                 },
                 {
-                  "name": "maToThua"
+                  "name": "Số tờ"
                 },
                 {
-                  "name": "maThuaDat"
+                  "name": "Số thửa"
                 },
                 {
-                  "name": "soNha"
+                  "name": "Số nhà"
                 },
                 {
-                  "name": "tenDuong"
+                  "name": "Tên đường"
                 },
                 {
-                  "name": "tenXa"
+                  "name": "Phường/Xã"
                 },
                 {
-                  "name": "maXa"
+                  "name": "Mã xã"
                 },
                 {
-                  "name": "tenHuyen"
+                  "name": "Quận/Huyện"
                 },
                 {
-                  "name": "maHuyen"
+                  "name": "Mã huyện"
                 },
                 {
-                  "name": "tenTinh"
+                  "name": "Tỉnh/TP"
                 },
                 {
-                  "name": "loaiNha"
+                  "name": "Loại nhà"
                 },
                 {
-                  "name": "dienTichDa"
+                  "name": "Diện tích Da (m2)"
                 },
                 {
-                  "name": "dienTichNh"
+                  "name": "Diện tích Nh (m2)"
                 },
                 {
-                  "name": "dienTichKK"
+                  "name": "Diện tích KK (m2)"
                 },
                 {
-                  "name": "tongSoNha"
+                  "name": "Tổng số nhà"
                 },
                 {
-                  "name": "dienTichSa"
+                  "name": "Diện tích Sa (m2)"
                 },
                 {
-                  "name": "dienTichCh"
+                  "name": "Diện tích Ch (m2)"
                 },
                 {
-                  "name": "dienTichMu"
+                  "name": "Diện tích Mu (m2)"
                 },
                 {
-                  "name": "dienTichTh"
+                  "name": "Diện tích Th (m2)"
                 },
                 {
-                  "name": "dienTichO"
+                  "name": "Diện tích ở (m2)"
                 },
                 {
-                  "name": "dienTichLa"
+                  "name": "Diện tích La (m2)"
                 },
                 {
-                  "name": "dienTichKh"
+                  "name": "Diện tích Kh (m2)"
                 },
                 {
-                  "name": "soCoSoNha"
+                  "name": "Số cơ sở nhà"
                 },
                 {
-                  "name": "nguyenGia"
+                  "name": "Nguyên giá"
                 },
                 {
-                  "name": "giaHienTai"
+                  "name": "Giá hiện tại"
                 },
                 {
-                  "name": "hosoPhapLy"
+                  "name": "Hồ sơ pháp lý"
                 },
                 {
-                  "name": "lienketHS"
+                  "name": "Liên kết hồ sơ"
                 },
                 {
-                  "name": "giaoHS"
+                  "name": "Giao hồ sơ"
                 },
                 {
-                  "name": "anhTSC"
+                  "name": "Ảnh tài sản"
                 },
                 {
-                  "name": "mucDichSD"
+                  "name": "Mục đích sử dụng"
                 },
                 {
-                  "name": "tinhtrangH"
+                  "name": "Tình trạng H"
                 },
                 {
-                  "name": "tinhTrangS"
+                  "name": "Tình trạng S"
                 },
                 {
-                  "name": "soCoSoCXDN"
+                  "name": "Số cơ sở CXDN"
                 },
                 {
-                  "name": "phanLoai"
+                  "name": "Phân loại"
                 },
                 {
-                  "name": "ngayThuNha"
+                  "name": "Ngày thu nhà"
                 },
                 {
-                  "name": "ngayCapNha"
+                  "name": "Ngày cấp nhà"
                 },
                 {
-                  "name": "ghiChu"
+                  "name": "Ghi chú"
                 },
                 {
                   "name": "ObjectID"
@@ -326,7 +326,7 @@
                   "name": "maptip"
                 }
               ],
-              "display_field": "maTaiSan"
+              "display_field": "Mã tài sản"
             },
             {
               "name": "OpenStreetMap",

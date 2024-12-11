@@ -877,10 +877,10 @@
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    108.184925,
-                    16.050049,
-                    108.188347,
-                    16.052827
+                    -0.001617,
+                    -0.000765,
+                    0.001617,
+                    0.000765
                   ]
                 },
                 "dimensions": [],
@@ -899,7 +899,7 @@
                   "default": "default"
                 },
                 "style": "default",
-                "displayField": "maTaiSan",
+                "displayField": "Mã tài sản",
                 "opacity": 255,
                 "bbox": {
                   "crs": "EPSG:4326",
@@ -926,7 +926,7 @@
                   "default": "default"
                 },
                 "style": "default",
-                "displayField": "maTaiSan",
+                "displayField": "Mã tài sản",
                 "opacity": 255,
                 "bbox": {
                   "crs": "EPSG:4326",
@@ -1006,7 +1006,7 @@
                 "displayField": "name",
                 "editDataset": "DaNang_PBM_Shpfile_v2.edit_polygons",
                 "geomType": "Polygon",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733849450",
+                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733889492",
                 "fields": [
                   {
                     "id": "id",
@@ -1273,10 +1273,10 @@
                     "bbox": {
                       "crs": "EPSG:4326",
                       "bounds": [
-                        108.184925,
-                        16.050049,
-                        108.188347,
-                        16.052827
+                        -179.999996,
+                        -89.0,
+                        179.999996,
+                        89.0
                       ]
                     },
                     "dimensions": [],
