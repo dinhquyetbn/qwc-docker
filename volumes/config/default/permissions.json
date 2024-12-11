@@ -33,7 +33,7 @@
                   "amount",
                   "validated",
                   "datetime",
-                  "Mã tài sản",
+                  "maTaiSan",
                   "geometry",
                   "maptip"
                 ],
@@ -44,7 +44,7 @@
                 "name": "DaNang_PBM_Shpfile — DAT_CS_METADATA",
                 "attributes": [
                   "OBJECTID_1",
-                  "Mã tài sản",
+                  "maTaiSan",
                   "Tên tài sản",
                   "Tên cơ quan",
                   "Loại cơ quan",
@@ -91,7 +91,7 @@
                 "name": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
                 "attributes": [
                   "OBJECTID_1",
-                  "Mã tài sản",
+                  "maTaiSan",
                   "Tên tài sản",
                   "Tên cơ quan",
                   "Loại cơ quan",

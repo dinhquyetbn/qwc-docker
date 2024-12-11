@@ -864,7 +864,7 @@
             "sublayers": [
               {
                 "name": "edit_polygons",
-                "title": "Vẽ tài sản trên bản đồ",
+                "title": "edit_polygons",
                 "visibility": true,
                 "geometryType": "Polygon",
                 "queryable": true,
@@ -899,7 +899,7 @@
                   "default": "default"
                 },
                 "style": "default",
-                "displayField": "Mã tài sản",
+                "displayField": "maTaiSan",
                 "opacity": 255,
                 "bbox": {
                   "crs": "EPSG:4326",
@@ -926,7 +926,7 @@
                   "default": "default"
                 },
                 "style": "default",
-                "displayField": "Mã tài sản",
+                "displayField": "maTaiSan",
                 "opacity": 255,
                 "bbox": {
                   "crs": "EPSG:4326",
@@ -1006,7 +1006,7 @@
                 "displayField": "name",
                 "editDataset": "DaNang_PBM_Shpfile_v2.edit_polygons",
                 "geomType": "Polygon",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733889492",
+                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733889939",
                 "fields": [
                   {
                     "id": "id",
@@ -1113,7 +1113,7 @@
                   },
                   {
                     "id": "maTaiSan",
-                    "name": "Mã tài sản",
+                    "name": "maTaiSan",
                     "type": "text",
                     "data_type": "text",
                     "constraints": {
@@ -1273,10 +1273,10 @@
                     "bbox": {
                       "crs": "EPSG:4326",
                       "bounds": [
-                        -179.999996,
-                        -89.0,
-                        179.999996,
-                        89.0
+                        108.184925,
+                        16.050049,
+                        108.188347,
+                        16.052827
                       ]
                     },
                     "dimensions": [],

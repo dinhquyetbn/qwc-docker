@@ -15,7 +15,7 @@
           "layers": [
             {
               "name": "edit_polygons",
-              "title": "Vẽ tài sản trên bản đồ",
+              "title": "edit_polygons",
               "attributes": [
                 {
                   "name": "ID"
@@ -45,7 +45,7 @@
                   "name": "datetime"
                 },
                 {
-                  "name": "Mã tài sản"
+                  "name": "maTaiSan"
                 },
                 {
                   "name": "geometry"
@@ -64,7 +64,7 @@
                   "name": "OBJECTID_1"
                 },
                 {
-                  "name": "Mã tài sản"
+                  "name": "maTaiSan"
                 },
                 {
                   "name": "Tên tài sản"
@@ -181,7 +181,7 @@
                   "name": "maptip"
                 }
               ],
-              "display_field": "Mã tài sản"
+              "display_field": "maTaiSan"
             },
             {
               "name": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
@@ -191,7 +191,7 @@
                   "name": "OBJECTID_1"
                 },
                 {
-                  "name": "Mã tài sản"
+                  "name": "maTaiSan"
                 },
                 {
                   "name": "Tên tài sản"
@@ -326,7 +326,7 @@
                   "name": "maptip"
                 }
               ],
-              "display_field": "Mã tài sản"
+              "display_field": "maTaiSan"
             },
             {
               "name": "OpenStreetMap",

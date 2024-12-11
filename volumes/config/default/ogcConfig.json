@@ -19,7 +19,7 @@
           "layers": [
             {
               "name": "edit_polygons",
-              "title": "Vẽ tài sản trên bản đồ",
+              "title": "edit_polygons",
               "attributes": [
                 "ID",
                 "name",
@@ -30,7 +30,7 @@
                 "amount",
                 "validated",
                 "datetime",
-                "Mã tài sản",
+                "maTaiSan",
                 "geometry",
                 "maptip"
               ],
@@ -41,7 +41,7 @@
               "title": "DaNang_PBM_Shpfile — DAT_CS_METADATA",
               "attributes": [
                 "OBJECTID_1",
-                "Mã tài sản",
+                "maTaiSan",
                 "Tên tài sản",
                 "Tên cơ quan",
                 "Loại cơ quan",
@@ -88,7 +88,7 @@
               "title": "DaNang_PBM_Shpfile — NHA_CS_METADATA",
               "attributes": [
                 "OBJECTID_1",
-                "Mã tài sản",
+                "maTaiSan",
                 "Tên tài sản",
                 "Tên cơ quan",
                 "Loại cơ quan",
