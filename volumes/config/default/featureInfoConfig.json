@@ -15,7 +15,7 @@
           "layers": [
             {
               "name": "edit_polygons",
-              "title": "edit_polygons",
+              "title": "Vẽ tài sản trên bản đồ",
               "attributes": [
                 {
                   "name": "ID"
