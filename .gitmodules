@@ -4,16 +4,16 @@
 [submodule "qwc-services/qwc-admin-gui"]
 	path = qwc-services/qwc-admin-gui
 	url = https://github.com/dinhquyetbn/qwc-admin-gui.git
-	branch = develop_dev_2024_lts
+	branch = HC_QuanLyDoThi/develop_dev_2024_lts
 [submodule "qwc-services/qwc2-demo-app"]
 	path = qwc-services/qwc2-demo-app
 	url = https://github.com/dinhquyetbn/qwc2-demo-app.git
-	branch = develop_dev_2024_lts
+	branch = HC_QuanLyDoThi/develop_dev_2024_lts
 [submodule "qwc-services/qwc-db-auth"]
 	path = qwc-services/qwc-db-auth
 	url = https://github.com/dinhquyetbn/qwc-db-auth.git
-	branch = develop_dev_2024_lts
+	branch = HC_QuanLyDoThi/develop_dev_2024_lts
 [submodule "qwc-services/qwc-services-core"]
 	path = qwc-services/qwc-services-core
 	url = https://github.com/dinhquyetbn/qwc-services-core.git
-	branch = develop_dev_2024_lts
+	branch = HC_QuanLyDoThi/develop_dev_2024_lts
