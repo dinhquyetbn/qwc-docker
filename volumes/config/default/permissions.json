@@ -7,6 +7,20 @@
       "roles": [
         "admin"
       ]
+    },
+    {
+      "name": "quyetld",
+      "groups": [],
+      "roles": [
+        "can_bo"
+      ]
+    },
+    {
+      "name": "quyetld1",
+      "groups": [],
+      "roles": [
+        "admin"
+      ]
     }
   ],
   "groups": [],
@@ -20,6 +34,38 @@
             "layers": [
               {
                 "name": "DaNang_PBM_Shpfile_v2"
+              },
+              {
+                "name": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
+                "attributes": [
+                  "FeatureId",
+                  "GUID",
+                  "ParentGUID",
+                  "FeatId001",
+                  "ID",
+                  "THUAID",
+                  "XAID",
+                  "SHBANDO",
+                  "SHTHUA",
+                  "DIENTICH",
+                  "DIENTICHPL",
+                  "MALOAIDAT",
+                  "KHLOAIDAT",
+                  "DIADANH",
+                  "DTSD",
+                  "TENCHU",
+                  "DIACHI",
+                  "MDSD2003",
+                  "KH2003",
+                  "MSCOLOR",
+                  "SHTHUATAM",
+                  "DTTHOCU",
+                  "DaCapGCN",
+                  "geometry",
+                  "maptip"
+                ],
+                "queryable": true,
+                "info_template": true
               },
               {
                 "name": "edit_polygons",
@@ -204,7 +250,7 @@
                   "amount",
                   "validated",
                   "datetime",
-                  "mataisan",
+                  "maTaiSan",
                   "geometry",
                   "maptip"
                 ],
@@ -678,6 +724,23 @@
     },
     {
       "role": "admin",
+      "permissions": {
+        "wms_services": [],
+        "wfs_services": [],
+        "background_layers": [],
+        "data_datasets": [],
+        "viewer_tasks": [],
+        "theme_info_links": [],
+        "plugin_data": [],
+        "dataproducts": [],
+        "document_templates": [],
+        "print_templates": [],
+        "solr_facets": [],
+        "external_links": []
+      }
+    },
+    {
+      "role": "can_bo",
       "permissions": {
         "wms_services": [],
         "wfs_services": [],

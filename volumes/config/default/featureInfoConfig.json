@@ -14,6 +14,88 @@
           "title": "Untitled",
           "layers": [
             {
+              "name": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
+              "title": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
+              "attributes": [
+                {
+                  "name": "FeatureId"
+                },
+                {
+                  "name": "GUID"
+                },
+                {
+                  "name": "ParentGUID"
+                },
+                {
+                  "name": "FeatId001"
+                },
+                {
+                  "name": "ID"
+                },
+                {
+                  "name": "THUAID"
+                },
+                {
+                  "name": "XAID"
+                },
+                {
+                  "name": "SHBANDO"
+                },
+                {
+                  "name": "SHTHUA"
+                },
+                {
+                  "name": "DIENTICH"
+                },
+                {
+                  "name": "DIENTICHPL"
+                },
+                {
+                  "name": "MALOAIDAT"
+                },
+                {
+                  "name": "KHLOAIDAT"
+                },
+                {
+                  "name": "DIADANH"
+                },
+                {
+                  "name": "DTSD"
+                },
+                {
+                  "name": "TENCHU"
+                },
+                {
+                  "name": "DIACHI"
+                },
+                {
+                  "name": "MDSD2003"
+                },
+                {
+                  "name": "KH2003"
+                },
+                {
+                  "name": "MSCOLOR"
+                },
+                {
+                  "name": "SHTHUATAM"
+                },
+                {
+                  "name": "DTTHOCU"
+                },
+                {
+                  "name": "DaCapGCN"
+                },
+                {
+                  "name": "geometry"
+                },
+                {
+                  "name": "maptip"
+                }
+              ],
+              "display_field": "GUID"
+            },
+            {
               "name": "edit_polygons",
               "title": "edit_polygons",
               "attributes": [
@@ -458,7 +540,7 @@
                       "name": "datetime"
                     },
                     {
-                      "name": "mataisan"
+                      "name": "maTaiSan"
                     },
                     {
                       "name": "geometry"

@@ -13,6 +13,9 @@
           "name": "DaNang_PBM_Shpfile_v2",
           "layers": [
             {
+              "name": "DaNang_PBM_Shpfile — Haichau1_Kgiannen"
+            },
+            {
               "name": "edit_polygons"
             },
             {

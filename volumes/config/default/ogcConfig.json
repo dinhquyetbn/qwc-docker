@@ -18,6 +18,38 @@
           "title": "Untitled",
           "layers": [
             {
+              "name": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
+              "title": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
+              "attributes": [
+                "FeatureId",
+                "GUID",
+                "ParentGUID",
+                "FeatId001",
+                "ID",
+                "THUAID",
+                "XAID",
+                "SHBANDO",
+                "SHTHUA",
+                "DIENTICH",
+                "DIENTICHPL",
+                "MALOAIDAT",
+                "KHLOAIDAT",
+                "DIADANH",
+                "DTSD",
+                "TENCHU",
+                "DIACHI",
+                "MDSD2003",
+                "KH2003",
+                "MSCOLOR",
+                "SHTHUATAM",
+                "DTTHOCU",
+                "DaCapGCN",
+                "geometry",
+                "maptip"
+              ],
+              "queryable": true
+            },
+            {
               "name": "edit_polygons",
               "title": "edit_polygons",
               "attributes": [
@@ -209,7 +241,7 @@
                     "amount",
                     "validated",
                     "datetime",
-                    "mataisan",
+                    "maTaiSan",
                     "geometry",
                     "maptip"
                   ],

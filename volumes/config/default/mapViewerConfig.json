@@ -863,6 +863,33 @@
             },
             "sublayers": [
               {
+                "name": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
+                "title": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
+                "visibility": true,
+                "geometryType": "MultiPolygon",
+                "queryable": true,
+                "styles": {
+                  "default": "default"
+                },
+                "style": "default",
+                "displayField": "GUID",
+                "opacity": 255,
+                "bbox": {
+                  "crs": "EPSG:4326",
+                  "bounds": [
+                    108.215109,
+                    16.066921,
+                    108.2251,
+                    16.076943
+                  ]
+                },
+                "dimensions": [],
+                "attribution": {
+                  "Title": null,
+                  "OnlineResource": null
+                }
+              },
+              {
                 "name": "edit_polygons",
                 "title": "edit_polygons",
                 "visibility": true,
@@ -877,10 +904,10 @@
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    -0.001617,
-                    -0.000765,
-                    0.001617,
-                    0.000765
+                    108.186617,
+                    16.052129,
+                    108.187797,
+                    16.053081
                   ]
                 },
                 "dimensions": [],
@@ -975,7 +1002,8 @@
               "OpenStreetMap",
               "DaNang_PBM_Shpfile — NHA_CS_METADATA",
               "DaNang_PBM_Shpfile — DAT_CS_METADATA",
-              "edit_polygons"
+              "edit_polygons",
+              "DaNang_PBM_Shpfile — Haichau1_Kgiannen"
             ],
             "externalLayers": [],
             "backgroundLayers": [],
@@ -1006,7 +1034,7 @@
                 "displayField": "name",
                 "editDataset": "DaNang_PBM_Shpfile_v2.edit_polygons",
                 "geomType": "Polygon",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1733889939",
+                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1736819611",
                 "fields": [
                   {
                     "id": "id",
@@ -1273,10 +1301,10 @@
                     "bbox": {
                       "crs": "EPSG:4326",
                       "bounds": [
-                        108.184925,
-                        16.050049,
-                        108.188347,
-                        16.052827
+                        108.186617,
+                        16.052129,
+                        108.187797,
+                        16.053081
                       ]
                     },
                     "dimensions": [],
