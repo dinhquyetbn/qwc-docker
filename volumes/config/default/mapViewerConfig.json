@@ -863,8 +863,8 @@
             },
             "sublayers": [
               {
-                "name": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
-                "title": "DaNang_PBM_Shpfile — Haichau1_Kgiannen",
+                "name": "DaNang_PBM_Shpfile — HaiChau1_Landvalue2",
+                "title": "DaNang_PBM_Shpfile — HaiChau1_Landvalue2",
                 "visibility": true,
                 "geometryType": "MultiPolygon",
                 "queryable": true,
@@ -872,15 +872,15 @@
                   "default": "default"
                 },
                 "style": "default",
-                "displayField": "GUID",
+                "displayField": "Dist_RoadI",
                 "opacity": 255,
                 "bbox": {
                   "crs": "EPSG:4326",
                   "bounds": [
-                    108.215109,
-                    16.066921,
-                    108.2251,
-                    16.076943
+                    108.217072,
+                    16.06599,
+                    108.225231,
+                    16.075545
                   ]
                 },
                 "dimensions": [],
@@ -906,8 +906,8 @@
                   "bounds": [
                     108.186617,
                     16.052129,
-                    108.187797,
-                    16.053081
+                    108.200351,
+                    16.061446
                   ]
                 },
                 "dimensions": [],
@@ -1003,7 +1003,7 @@
               "DaNang_PBM_Shpfile — NHA_CS_METADATA",
               "DaNang_PBM_Shpfile — DAT_CS_METADATA",
               "edit_polygons",
-              "DaNang_PBM_Shpfile — Haichau1_Kgiannen"
+              "DaNang_PBM_Shpfile — HaiChau1_Landvalue2"
             ],
             "externalLayers": [],
             "backgroundLayers": [],
@@ -1034,7 +1034,7 @@
                 "displayField": "name",
                 "editDataset": "DaNang_PBM_Shpfile_v2.edit_polygons",
                 "geomType": "Polygon",
-                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1736819611",
+                "form": ":/forms/autogen/DaNang_PBM_Shpfile_v2_edit_polygons.ui?v=1737209494",
                 "fields": [
                   {
                     "id": "id",
@@ -1303,8 +1303,8 @@
                       "bounds": [
                         108.186617,
                         16.052129,
-                        108.187797,
-                        16.053081
+                        108.200351,
+                        16.061446
                       ]
                     },
                     "dimensions": [],
